@@ -1,18 +1,78 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="{% static 'style.css' %}" />
 </head>
 <body>
-    <h1>About Us</h1>
-    <p>This is a data science project that aims to provide insights and solutions for various data-related challenges.</p>
-    <p>List of our member</p>
-    <ul>
-        <li>Aqeel</li>
-        <li>Kaffah</li>
-        <li>Rich</li>
-    </ul>
+
+    <navbar>
+        <div class="container md:w-1/2 mx-auto border-b-4 border-blue-900 py-8">
+            <ul class="flex space-x-10 justify-center flex-row">
+                <li>
+                    <a href="{% url 'home' %}" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">Home</a>
+                </li>
+                <li>
+                    <a href="{% url 'about' %}" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">About</a>
+                </li>
+                <li>
+                    <a href="{% url 'dashboard' %}" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+    </navbar>
+
+  <h1 class=" mt-12 text-center text-5xl font-extrabold font-sans">GROUP 2</h1>
+  <p class="mt-4 text-center text-2xl font-bold mb-10 text-violet-900">List of member</p>
+
+  <div class="container mx-auto flex flex-row mt-12 justify-around flex-wrap ">
+
+    <div class="flex flex-col items-center md:mb-0 mb-10">
+      <img src="{% static 'img/aqeel.png' %}" alt="Aqeel" class="w-64 h-64 rounded-full object-cover" />
+      <p class="mt-4 text-lg font-semibold">Aqeel Fazlemawla Faslah</p>
+      <p class=" text-md font-medium">Information System 2023</p>
+      <div class="bg-teal-500 w-32 h-1 mt-4"></div>
+      <p class="mt-4 text-sm w-80 text-center"><strong>Role:</strong> Predictiion of Underperforming Students</p>
+      <p class="text-sm w-80 text-center">Responsible for the views, models, javascript, form, and commands. Also for the template and styling using Tailwindcss. </p>
+      <p class="text-sm w-80 text-center"><strong>Use Case:</strong> Allows lecturers to contact students to offer guidance, such as mentoring or study plans.
+      </p>
+      <p class="text-sm w-80 text-center"><strong>Target User:</strong> Lecturers
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center md:mb-0 mb-10">
+      <img src="{% static 'img/kaffah.png' %}" alt="Kaffah" class="w-64 h-64 rounded-full object-cover" />
+      <p class="mt-4 text-lg font-semibold">Kaffah An Nas</p>
+      <p class=" text-md font-medium ">Information System 2023</p>
+      <div class="bg-orange-500 w-32 h-1 mt-4"></div>
+      <p class="mt-4 text-sm w-80 text-center"><strong>Role:</strong> Predictiion of Underperforming Students</p>
+      <p class="text-sm w-80 text-center">Responsible for the views, models, javascript, form, and commands. Also for the template and styling using Tailwindcss. </p>
+      <p class="text-sm w-80 text-center"><strong>Use Case:</strong> Allows lecturers to contact students to offer guidance, such as mentoring or study plans.
+      </p>
+      <p class="text-sm w-80 text-center"><strong>Target User:</strong> Lecturers
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center md:mb-0 mb-10">
+      <img src="{% static 'img/rich.png' %}" alt="Rich" class="w-64 h-64 rounded-full object-cover" />
+      <p class="mt-4 text-lg font-semibold ">Rich Edrick Anthonios</p>
+      <p class=" text-md font-medium">Information System 2023</p>
+      <div class="bg-rose-600 w-32 h-1 mt-4"></div>
+      <p class="mt-4 text-sm w-80 text-center"><strong>Role:</strong> Predictiion of Underperforming Students</p>
+      <p class="text-sm w-80 text-center">Responsible for the views, models, javascript, form, and commands. Also for the template and styling using Tailwindcss. </p>
+      <p class="text-sm w-80 text-center"><strong>Use Case:</strong> Allows lecturers to contact students to offer guidance, such as mentoring or study plans.
+      </p>
+      <p class="text-sm w-80 text-center"><strong>Target User:</strong> Lecturers
+      </p>
+
+    </div>
+
+
+  </div>
 </body>
 </html>
+
