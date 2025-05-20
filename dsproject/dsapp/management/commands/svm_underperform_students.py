@@ -27,7 +27,7 @@ class Command(BaseCommand):
         report = classification_report(y_test, predictions)
         self.stdout.write(self.style.SUCCESS("Classification report: \n" + report))
 
-        model_filename = 'final_underperform_students.pkl'
+        model_filename = 'final_underperform_students_svm.pkl'
         joblib.dump(model, model_filename)
         self.stdout.write(self.style.SUCCESS(f'Model saved as {model_filename}'))
 
@@ -37,7 +37,9 @@ class Command(BaseCommand):
             model_file=model_filename,
             training_data = 'underperform_student.csv',
             training_date = pd.Timestamp.now(tz='Asia/Jakarta'),
-            model_summary=report
+            model_summary=report,
+            creator = 'Rich',
+            usecase = 'Allows lecturers to contact students to offer guidance, such as mentoring or study plans'
         )
 
         self.stdout.write(self.style.SUCCESS(f'Model info saved to database: ID {model_info}'))
