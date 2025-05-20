@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Welcome to the Data Science Final Projct</h1>
-    <p>Ini nanti keknya kemungkinan ada banyak use cases, target users etc</p>
-</body>
-</html>
+{% extends "about.html" %}
+
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% load static %}
+<h1 class=" mt-14 text-center text-5xl font-bold">Data Science Project</h1>
+
+<div class="container mx-auto justify-center flex mt-10">
+<img src="{% static 'img/pu.png' %}" alt="President University" class="w-64 h-64 rounded object-cover " />
+</div>
+
+<div class="container mx-auto mt-10 flex flex-wrap md:gap-0 gap-6 justify-around  p-8">
+    <div class="w-80 h-48 bg-red-200 flex items-center text-center text-xl font-bold rounded-lg">Personalized Learning Path Recommendation</div>
+    <div class="w-80 h-48 bg-violet-200 flex items-center justify-center text-center text-xl font-bold rounded-lg"> Prediction of Student Grade
+</div>
+    <div class="w-80 h-48 bg-sky-200 flex items-center text-center text-xl font-bold rounded-lg">Prediction of Underperforming Students
+</div>
+</div>
+
+{% endblock %}
