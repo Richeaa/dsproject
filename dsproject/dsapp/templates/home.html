@@ -1,22 +1,110 @@
-{% extends "about.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}About{% endblock %}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="{% static 'style.css' %}" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
 
+    <navbar>
+  <div class="container md:w-1/2 mx-auto border-b-4 border-blue-900 py-8">
+    
+    <div class="md:hidden flex justify-end mb-4 px-4">
+      <button id="menu-btn" class="text-orange-500 text-3xl focus:outline-none">
+        &#9776;
+      </button>
+    </div>
 
-{% block title %}Home{% endblock %}
+    <!-- MENU LIST -->
+    <ul id="menu-list" class="hidden md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-10 justify-center text-center">
+      <li>
+        <a href="{% url 'home' %}" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">Home</a>
+      </li>
+      <li>
+        <a href="{% url 'about' %}" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">About</a>
+      </li>
+      <li>
+        <a href="{% url 'dashboard' %}" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">Dashboard</a>
+      </li>
+      <li>
+        <a href="/admin/" class="text-xl font-bold text-orange-500 hover:text-gray-600 transition duration-500 ease-in-out">Admin</a>
+      </li>
+    </ul>
+    
+  </div>
+</navbar>
 
 {% block content %}
-{% load static %}
-<h1 class=" mt-14 text-center text-5xl font-bold">Data Science Project</h1>
 
-<div class="container mx-auto justify-center flex mt-10">
-<img src="{% static 'img/pu.png' %}" alt="President University" class="w-64 h-64 rounded object-cover " />
+<div class="py-6">
+    <h1 class="mt-2 text-center text-5xl font-bold text-indigo-600">Data Science Project</h1>
+    <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">Exploring student performance analytics and predictive modeling</p>
 </div>
 
-<div class="container mx-auto mt-10 flex flex-wrap md:gap-0 gap-6 justify-around  p-8">
-    <div class="w-80 h-48 bg-red-200 flex items-center text-center text-xl font-bold rounded-lg">Personalized Learning Path Recommendation</div>
-    <div class="w-80 h-48 bg-violet-200 flex items-center justify-center text-center text-xl font-bold rounded-lg"> Prediction of Student Grade
+
+<div class="container mx-auto justify-center flex mt-8  ">
+    <img src="{% static 'img/pu.png' %}" alt="President University" class="w-64 h-64 rounded-xl object-cover " />
 </div>
-    <div class="w-80 h-48 bg-sky-200 flex items-center text-center text-xl font-bold rounded-lg">Prediction of Underperforming Students
-</div>
+
+
+<div class="container mx-auto mt-8 flex flex-wrap md:gap-8 gap-6 justify-around p-8">
+    <div class="w-80 h-48 bg-gradient-to-br from-orange-50 to-orange-100 flex flex-col justify-center items-center rounded-xl shadow-lg border border-orange-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="rounded-full bg-orange-200 p-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+        </div>
+        <p class="mb-2 text-2xl font-bold text-slate-800">Total Students</p>
+        <p class="font-bold text-4xl font-serif text-gray-700">100</p>
+    </div>
+    
+
+    <div class="w-80 h-48 bg-gradient-to-br from-violet-50 to-violet-100 flex flex-col justify-center items-center rounded-xl shadow-lg border border-violet-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="rounded-full bg-violet-200 p-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+            </svg>
+        </div>
+        <p class="mb-2 text-2xl font-bold text-slate-800">Total Courses</p>
+        <p class="font-bold text-4xl font-serif text-gray-700">5</p>
+    </div>
+    
+
+    <div class="w-80 h-48 bg-gradient-to-br from-sky-50 to-sky-100 flex flex-col justify-center items-center rounded-xl shadow-lg border border-sky-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="rounded-full bg-sky-200 p-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+        </div>
+        <p class="mb-2 text-2xl font-bold text-slate-800">Total Activities</p>
+        <p class="font-bold text-4xl font-serif text-gray-700">4</p>
+    </div>
 </div>
 
 {% endblock %}
+
+{% block footer %}
+  <footer class="bg-blue-900 text-white py-8 mt-16">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2025 Data Science Project - Group 2</p>
+      <p class="mt-2 text-orange-300">President University</p>
+    </div>
+  </footer>
+
+  <script>
+  const menuBtn = document.getElementById('menu-btn');
+  const menuList = document.getElementById('menu-list');
+
+  menuBtn.addEventListener('click', () => {
+    menuList.classList.toggle('hidden');
+  });
+</script>
+{% endblock %}
+
+</body>
+</html>

@@ -85,6 +85,5 @@ class ModelInfo3(models.Model):
     def __str__(self):
         return f"{self.model_name} - {self.training_date.strftime('%Y-%m-%d')}"
     
-    class Meta:
-        managed = True
-    
+    class Meta:        
+        managed = True    

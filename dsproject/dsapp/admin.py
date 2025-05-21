@@ -5,7 +5,7 @@ from django.utils.html import format_html
 # Register your models here.
 @admin.register(ModelInfo3)
 class ModelInfo3Admin(admin.ModelAdmin):
-    list_display =('model_name', 'training_date', 'training_data', 'model_summary', 'retrain_button')
+    list_display =('model_name', 'training_date', 'training_data', 'model_summary', 'creator', 'usecase', 'retrain_button')
 
     def short_summary(self, obj):
         return (obj.model_summary[:75] + '...') if obj.model_summary else '-'
