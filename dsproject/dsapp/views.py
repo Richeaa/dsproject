@@ -61,7 +61,7 @@ def predict_status(request):
         course4 = safe_float(data['course4'])
         course5 = safe_float(data['course5'])
 
-        average_grade = (course1 + course2 + course3 + course4 + course5) / 5
+        average_grade =  round((course1 + course2 + course3 + course4 + course5) / 5, 2)
 
         features = np.array([
             course1,
