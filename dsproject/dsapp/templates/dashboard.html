@@ -13,9 +13,10 @@
     
     <div class="cards-container">
         <!-- Left Card -->
-        <div class='card' onclick="location.href='#'">
+        <a href="{% url 'view_learning_path' %}">
+        <div class='card'>
             <div class="card-inner">
-                <h3 class="card-title">Student Data Analysis</h3>
+                <h3 class="card-title">Personalized Learning Path Recommendation</h3>
                 <div class="card-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -24,13 +25,14 @@
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
-                <p class="card-description">View and analyze student demographic data including gender, age distribution, and contact information.</p>
+                <p class="card-description">Recommend optimal learning activities based on student profiles and past performance.
+</p>
                 <div class="card-footer">
-                    <span class="model-badge">Demographics Model</span>
+                    <span class="model-badge">Regression and Association-Rules</span>
                 </div>
             </div>
         </div>
-        
+        </a>
         <!-- Middle Card -->
         <a href="{% url 'predict_cluster' %}">
         <div class="card">

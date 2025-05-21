@@ -1,0 +1,287 @@
+{% extends "about.html" %}
+
+{% block title %}Learning Path Recommendation{% endblock %}
+{% load static %}
+
+{% block content %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Path Recommendation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9fafb;
+            margin: 0;
+            padding: 20px;
+            color: #374151;
+            line-height: 1.5;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+
+        h1 {
+            margin-top: 1%;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0ea5e9;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #4b5563;
+        }
+
+        /* Layout */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .input-section, 
+        .visual-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .input-wrapper,
+        .visualization-wrapper {
+            min-height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* UI Components */
+        .dashboard-item {
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        #association-rules {
+            grid-column: span 2;
+        }
+
+        /* Form Elements */
+        form label {
+            display: block;
+            margin: 0.75rem 0 0.25rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #4b5563;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #d1d5db;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            transition: border-color 0.15s ease-in-out;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #60a5fa;
+            box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.15);
+        }
+
+        button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #0ea5e9;
+            color: white;
+            border: none;
+            border-radius: 0.375rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.15s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #0284c7;
+        }
+
+        /* Tab Navigation */
+        .tab-buttons {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .tab-buttons button {
+            margin: 0 0.25rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+        }
+
+        /* Status Box */
+        #statusBox {
+            text-align: center;
+            padding: 0.75rem;
+            margin-bottom: 1.5rem;
+            background-color: #eff6ff;
+            border-radius: 0.375rem;
+            border: 1px solid #bfdbfe;
+            color: #1e40af;
+        }
+
+        /* Charts and Visualizations */
+        .chart-container {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        canvas {
+            width: 100%;
+            max-height: 300px;
+        }
+        
+        #radarChart {
+            max-height: 400px; /* Make radar/spider chart bigger */
+        }
+
+        /* Rules Display */
+        .rule-item {
+            margin: 0.75rem 0;
+            padding: 0.75rem;
+            background-color: #f0f9ff;
+            border-radius: 0.375rem;
+            border-left: 4px solid #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Learning Path Recommendation</h1>
+
+    <!-- Tab Navigation -->
+    <div class="tab-buttons">
+        <button onclick="showTab('existing')">Use Existing Student</button>
+        <button onclick="showTab('manual')">Manual Input</button>
+    </div>
+
+    <!-- Status Box -->
+    <div id="statusBox">Select a student or enter data.</div>
+
+    <!-- Dashboard Layout -->
+    <div class="dashboard-grid">
+        <!-- Input Section (Left Column) -->
+        <div class="input-section">
+            <!-- Tab 1: Select Existing Student -->
+            <div class="dashboard-item input-wrapper">
+                <div class="tab-content" id="tab-existing">
+                    <h3>Select Student by ID</h3>
+                    <form id="existingStudentForm">
+                        <label>Student ID:
+                            <input type="number" name="student_id" value="5" required>
+                        </label>
+                        <label>Select Model:
+                            <select name="model" required>
+                                <option value="xgboost" selected>XGBoost</option>
+                                <option value="random_forest">Random Forest</option>
+                            </select>
+                        </label>
+                        <button type="submit">Load</button>
+                    </form>
+                </div>
+
+                <!-- Tab 2: Manual Input -->
+                <div class="tab-content" id="tab-manual" style="display:none;">
+                    <h3>Manual Input</h3>
+                    <form id="predictionForm">
+                        <label>Age: 
+                            <input type="number" name="age" required>
+                        </label>
+                        <label>Gender:
+                            <select name="gender" required>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </label>
+                        <label>Select Model:
+                            <select name="model" required>
+                                <option value="xgboost" selected>XGBoost</option>
+                                <option value="random_forest">Random Forest</option>
+                            </select>
+                        </label>
+                        <label>Time on Quiz: 
+                            <input type="number" name="time_Quiz" value="0">
+                        </label>
+                        <label>Time on Individual Assignment: 
+                            <input type="number" name="time_IndividualAssignment" value="0">
+                        </label>
+                        <label>Time on Group Assignment: 
+                            <input type="number" name="time_GroupAssignment" value="0">
+                        </label>
+                        <label>Time on Forum: 
+                            <input type="number" name="time_Forum" value="0">
+                        </label>
+                        <button type="submit">Predict</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visualization Section (Right Column) -->
+        <div class="dashboard-item visualization-wrapper">
+            <div>
+                <h3>Activity Performance Prediction</h3>
+                <div class="chart-container">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+            <div>
+                <h3>Time Distribution</h3>
+                <div class="chart-container">
+                    <canvas id="timeDistributionChart"></canvas>
+                </div>
+            </div>
+            <div>
+                <h3>Grade Comparison</h3>
+                <div class="chart-container">
+                    <canvas id="gradeChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Width: Recommendations -->
+        <div class="dashboard-item" id="association-rules">
+            <h3>Recommended Activity Sequences</h3>
+            <div id="rulesContainer"></div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/learning_path_chart.js' %}"></script>
+    <script>
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.style.display = 'none';
+            });
+            
+            // Show the selected tab
+            document.getElementById('tab-' + tabName).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+{% endblock %}
+{% block footer %}
+{% endblock %}

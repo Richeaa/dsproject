@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='ActivityType',
             fields=[
                 ('type_id', models.AutoField(primary_key=True, serialize=False)),
-                ('type_name', models.CharField(max_length=50)),
+                ('type_name', models.CharField(max_length=100)),
             ],
             options={
                 'db_table': 'activity_type',
@@ -38,8 +38,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('activity_id', models.AutoField(primary_key=True, serialize=False)),
                 ('activity_name', models.CharField(max_length=100)),
-                ('activity_start_date', models.DateTimeField()),
-                ('activity_end_date', models.DateTimeField()),
+                ('activity_start_date', models.DateField()),
+                ('activity_end_date', models.DateField()),
             ],
             options={
                 'db_table': 'course_activity',
@@ -50,7 +50,7 @@ class Migration(migrations.Migration):
             name='Enrollment',
             fields=[
                 ('enroll_id', models.AutoField(primary_key=True, serialize=False)),
-                ('grade', models.IntegerField()),
+                ('grade', models.FloatField(blank=True, null=True)),
             ],
             options={
                 'db_table': 'enrollment',
@@ -62,7 +62,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('stu_id', models.AutoField(primary_key=True, serialize=False)),
                 ('name', models.CharField(max_length=100)),
-                ('email', models.CharField(max_length=100)),
+                ('email', models.EmailField(max_length=254)),
                 ('gender', models.CharField(max_length=10)),
                 ('dob', models.DateField()),
             ],
@@ -90,7 +90,7 @@ class Migration(migrations.Migration):
                 ('model_name', models.CharField(max_length=100)),
                 ('model_file', models.CharField(max_length=255)),
                 ('training_data', models.CharField(max_length=255)),
-                ('training_date', models.DateTimeField()),
+                ('training_date', models.DateTimeField(auto_now_add=True)),
                 ('model_summary', models.TextField()),
                 ('creator', models.TextField()),
                 ('usecase', models.TextField()),

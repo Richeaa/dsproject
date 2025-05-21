@@ -3,7 +3,7 @@ from .models import ModelInfo3
 from django.utils.html import format_html
 
 # Register your models here.
-@admin.register(ModelInfo3)
+@admin.register(ModelInfo3) 
 class ModelInfo3Admin(admin.ModelAdmin):
     list_display =('model_name', 'training_date', 'training_data', 'model_summary', 'creator', 'usecase', 'retrain_button')
 

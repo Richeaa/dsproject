@@ -1,0 +1,63 @@
+{% extends "about.html" %}
+
+{% block title %}Student Data{% endblock %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/view_data.css' %}">
+
+
+<div class="dashboard-container">
+    <h2 class="dashboard-title">Student Overview</h2>
+    
+    <table class="student-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Date of Birth</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in students %}
+            <tr>
+                <td>{{ student.stu_id }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.gender }}</td>
+                <td>{{ student.email }}</td>
+                <td>{{ student.age }}</td>
+                <td>{{ student.dob }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {# Add pagination controls #}
+    {% if students.paginator.num_pages > 1 %}
+    <div class="pagination">
+        {% if students.has_previous %}
+            <a href="?page={{ students.previous_page_number }}">&laquo; Previous</a>
+        {% else %}
+            <span class="disabled">&laquo; Previous</span>
+        {% endif %}
+
+        {% for i in students.paginator.page_range %}
+            {% if students.number == i %}
+                <span class="current">{{ i }}</span>
+            {% else %}
+                <a href="?page={{ i }}">{{ i }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if students.has_next %}
+            <a href="?page={{ students.next_page_number }}">Next &raquo;</a>
+        {% else %}
+            <span class="disabled">Next &raquo;</span>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
