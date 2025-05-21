@@ -1,0 +1,32 @@
+{% extends "about.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static '/css/style.css' %}" />
+<div class="search-page">
+  <div class="container">
+    <center><p><strong>Prediction Results</strong> </p></center>
+    <p><strong>Predicted Cluster:</strong> <span id="cluster">{{ cluster }}</span></p>
+    <p><strong>Student ID:</strong> {{ student_id }}</p>
+    <p><strong>Total Study Time:</strong> <span id="total-study">{{ total_study_time }}</span> hours</p>
+    <p><strong>Average Study Time:</strong> {{ avg_study_time }} hours</p>
+    <p><strong>PCA Coordinates:</strong> ({{ pca_x }}, {{ pca_y }})</p>
+    <img src="/{{ plot_path }}" alt="Cluster Visualization" class="img-fluid mt-3">
+    <div class="action-buttons">
+      
+      <a href="{% url 'predict_cluster' %}" class="btn btn-primary">Make Another Prediction</a>
+    </div>
+    
+    <div class="cluster-description">
+      <h3>Cluster Analysis</h3>
+      <p>
+        {{analysis}}
+      </p>
+      <div id="recommendation-box" class="p-4 border rounded bg-blue-50 mt-6 shadow-md">
+  <h3 class="text-lg font-semibold text-blue-800">Learning Recommendation</h3>
+  <p id="recommendation-text" class="mt-2 text-blue-700">{{recommendation}}</p>
+</div>
+    </div>
+  </div>
+</div>
+{% endblock %}

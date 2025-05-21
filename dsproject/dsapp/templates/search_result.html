@@ -1,0 +1,43 @@
+{% extends "about.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static '/css/style.css' %}" />
+<div class="search-page">
+  <div class="container">
+  <h2>Search Results</h2>
+  <form method="get" action="{% url 'search_cluster' %}">
+      <input type="text" name="student_id" placeholder="Enter Student ID" required>
+      <button type="submit" class="btn">Search</button>
+  </form>
+
+
+  {% if result %}
+    <div class="profile-box">
+      <p><strong>Student ID:</strong> {{ result.student_id }}</p>
+      <p><strong>Total Study Time:</strong><span id="total-study">{{ result.total_study_time }}</span> hours</p>
+      <p><strong>Average Study Time:</strong> {{ result.avg_study_time }} hours</p>
+      <p><strong>Activity Count:</strong><span id="activity-count">{{ result.activity_count }}</p>
+      <p><strong>Active Days:</strong> {{ result.active_days }}</p>
+      <p><strong>Cluster:</strong> <span id="cluster">{{ result.cluster }}</span></p>
+      <img src="/static/cluster_plot.png" alt="Cluster Visualization" class="img-fluid">
+    </div>
+
+    <div class="cluster-description">
+      <h3>Cluster Analysis</h3>
+      <p>
+        {{analysis}}
+      </p>
+      <div id="recommendation-box" class="p-4 border rounded bg-blue-50 mt-6 shadow-md">
+  <h3 class="text-lg font-semibold text-blue-800">Learning Recommendation</h3>
+  <p id="recommendation-text" class="mt-2 text-blue-700">{{recommendation}}</p>
+</div>
+    </div>
+  {% elif query %}
+    <div class="alert alert-warning">
+      <p>No student found with that ID.</p>
+    </div>
+    {% endif %}
+    </div>
+  </div>
+{% endblock %}

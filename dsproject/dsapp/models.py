@@ -72,18 +72,34 @@ class StudentActivityLog(models.Model):
         managed = False
         db_table = 'student_activity_log'
 
+from django.db import models
 
 class ModelInfo3(models.Model):
     model_name = models.CharField(max_length=100)
-    model_file = models.CharField(max_length=255)
+    model_file = models.CharField(max_length=255)  # you can use FileField if you're uploading .pkl files
     training_data = models.CharField(max_length=255)
     training_date = models.DateTimeField()
-    model_summary = models.TextField(blank=False)
+    model_summary = models.TextField()
     creator = models.TextField()
     usecase = models.TextField()
 
     def __str__(self):
         return f"{self.model_name} - {self.training_date.strftime('%Y-%m-%d')}"
-    
-    class Meta:        
-        managed = True    
+
+    class Meta:
+        managed = True
+
+
+class PredictionResult(models.Model):
+    student_id = models.CharField(max_length=20)
+    total_study_time = models.FloatField()
+    avg_study_time = models.FloatField()
+    activity_count = models.FloatField()
+    active_days = models.FloatField()
+    cluster = models.IntegerField()
+    pca_x = models.FloatField()
+    pca_y = models.FloatField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Cluster {self.cluster} at {self.created_at.strftime('%Y-%m-%d %H:%M')}"

@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if (myChart) myChart.destroy();
                 if (myChart2) myChart2.destroy();
-              
+        
                 myChart = new Chart(chart1, {
                     type: "line",
                     data: {

@@ -1,0 +1,238 @@
+/* ========== PREDICTION FORM SPECIFIC STYLES ========== */
+.prediction-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.prediction-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.form-container {
+    background: #f9fafb;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+.prediction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #374151;
+}
+
+.form-group input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus {
+    border-color: #4361ee;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+}
+
+.form-hint {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #4361ee;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3a0ca3;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #374151;
+    border: 1px solid #d1d5db;
+}
+
+.btn-secondary:hover {
+    background-color: #f3f4f6;
+}
+
+.alternative-action {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.search-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .prediction-container {
+        padding: 1.5rem;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        justify-content: center;
+    }
+}
+
+/* Animation for form interaction */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ========== SEARCH & RESULT PAGE STYLES ========== */
+.search-page {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+.search-page h2,
+.search-page h3 {
+    color: #1e3a8a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.search-page form {
+    margin-bottom: 30px;
+}
+
+.search-page input[type="text"] {
+    padding: 8px 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.search-page .btn {
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.search-page .btn:hover {
+    background-color: #1d4ed8;
+}
+
+.search-page .profile-box {
+    background-color: #eef2ff;
+    border: 1px solid #c7d2fe;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.search-page .profile-box p {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.search-page .cluster-description {
+    background-color: #e0f2fe;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 6px solid #0284c7;
+    margin-top: 30px;
+}
+
+.search-page #recommendation-box {
+    margin-top: 20px;
+    background-color: #f0f9ff;
+    padding: 16px;
+    border-left: 6px solid #3b82f6;
+    border-radius: 6px;
+}
+
+.search-page .alert {
+    background-color: #fef3c7;
+    padding: 12px;
+    border-left: 4px solid #facc15;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.search-page img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.search-page .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

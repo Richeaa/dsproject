@@ -32,9 +32,10 @@
         </div>
         
         <!-- Middle Card -->
-        <div class="card" onclick="location.href='#'">
+        <a href="{% url 'predict_cluster' %}">
+        <div class="card">
             <div class="card-inner">
-                <h3 class="card-title">Performance Metrics</h3>
+                <h3 class="card-title">Clustering Student Learning Behavior</h3>
                 <div class="card-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="18" y1="20" x2="18" y2="10"></line>
@@ -42,13 +43,13 @@
                         <line x1="6" y1="20" x2="6" y2="14"></line>
                     </svg>
                 </div>
-                <p class="card-description">Analyze student performance metrics, including grades, attendance, and progress over time.</p>
+                <p class="card-description">Use Clustering to find out which groups of students have a tendency to learn actively or passively</p>
                 <div class="card-footer">
-                    <span class="model-badge">Performance Model</span>
+                    <span class="model-badge">Clustering Model</span>
                 </div>
             </div>
         </div>
-        
+        </a>
         <!-- Right Card -->
         <a href="{% url 'underperform_students' %}">
         <div class="card" >
@@ -62,7 +63,7 @@
                 </div>
                 <p class="card-description">Use machine learning to predict whether the average grades of all students' courses is achieved or not.</p>
                 <div class="card-footer">
-                    <span class="model-badge">Prediction Model</span>
+                    <span class="model-badge">Classification Model</span>
                 </div>
             </div>
         </div>
