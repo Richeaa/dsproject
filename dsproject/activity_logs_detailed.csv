@@ -1,0 +1,2484 @@
+student_id,type_name,day,hour,minute,day_of_week,duration,is_weekend,is_morning,is_afternoon,is_evening,is_peak,minutes_since_midnight,duration_category,is_early_morning,is_peak_or_weekend,daily_activity_count
+2,Individual Assignment,Thursday,21,27,4,8.0,0,0,0,1,1,1287,short,0,1,1
+2,Individual Assignment,Thursday,21,33,4,30.0,0,0,0,1,1,1293,medium,0,1,2
+2,Individual Assignment,Sunday,7,23,7,17.0,1,1,0,0,0,443,medium,0,1,1
+2,Individual Assignment,Sunday,7,17,7,29.0,1,1,0,0,0,437,medium,0,1,2
+2,Group Assignment,Wednesday,6,35,3,6.0,0,1,0,0,0,395,short,0,0,1
+2,Group Assignment,Wednesday,6,25,3,18.0,0,1,0,0,0,385,medium,0,0,2
+2,Quiz,Monday,15,27,1,30.0,0,0,1,0,0,927,medium,0,0,1
+2,Quiz,Monday,15,26,1,19.0,0,0,1,0,0,926,medium,0,0,2
+2,Forum,Saturday,20,39,6,6.0,1,0,0,1,1,1239,short,0,1,1
+2,Group Assignment,Monday,23,4,1,9.0,0,0,0,0,0,1384,short,0,0,3
+2,Group Assignment,Monday,23,7,1,10.0,0,0,0,0,0,1387,short,0,0,4
+2,Group Assignment,Monday,15,32,1,16.0,0,0,1,0,0,932,medium,0,0,1
+2,Group Assignment,Monday,15,38,1,11.0,0,0,1,0,0,938,medium,0,0,2
+2,Forum,Sunday,11,23,7,16.0,1,1,0,0,0,683,medium,0,1,1
+2,Individual Assignment,Wednesday,5,33,3,13.0,0,0,0,0,0,333,medium,1,0,1
+2,Individual Assignment,Wednesday,5,34,3,9.0,0,0,0,0,0,334,short,1,0,2
+2,Group Assignment,Sunday,2,33,7,8.0,1,0,0,0,0,153,short,1,1,3
+2,Group Assignment,Sunday,2,37,7,17.0,1,0,0,0,0,157,medium,1,1,4
+2,Group Assignment,Sunday,2,32,7,20.0,1,0,0,0,0,152,medium,1,1,5
+2,Forum,Friday,16,3,5,17.0,0,0,1,0,0,963,medium,0,0,1
+2,Forum,Friday,16,8,5,12.0,0,0,1,0,0,968,medium,0,0,2
+2,Individual Assignment,Tuesday,0,52,2,27.0,0,0,0,0,0,52,medium,1,0,1
+2,Individual Assignment,Tuesday,0,47,2,8.0,0,0,0,0,0,47,short,1,0,2
+2,Group Assignment,Thursday,19,11,4,14.0,0,0,0,1,1,1151,medium,0,1,3
+2,Group Assignment,Thursday,19,4,4,10.0,0,0,0,1,1,1144,short,0,1,4
+2,Group Assignment,Thursday,19,3,4,8.0,0,0,0,1,1,1143,short,0,1,5
+2,Group Assignment,Friday,18,46,5,17.0,0,0,0,1,0,1126,medium,0,0,1
+2,Individual Assignment,Friday,23,48,5,7.0,0,0,0,0,0,1428,short,0,0,1
+2,Individual Assignment,Friday,23,38,5,22.0,0,0,0,0,0,1418,medium,0,0,2
+5,Individual Assignment,Thursday,21,24,4,9.0,0,0,0,1,1,1284,short,0,1,1
+5,Individual Assignment,Thursday,21,31,4,29.0,0,0,0,1,1,1291,medium,0,1,2
+5,Individual Assignment,Thursday,21,29,4,21.0,0,0,0,1,1,1289,medium,0,1,3
+5,Individual Assignment,Sunday,7,19,7,18.0,1,1,0,0,0,439,medium,0,1,1
+5,Group Assignment,Wednesday,6,27,3,9.0,0,1,0,0,0,387,short,0,0,1
+5,Group Assignment,Wednesday,6,28,3,18.0,0,1,0,0,0,388,medium,0,0,2
+5,Quiz,Monday,15,29,1,9.0,0,0,1,0,0,929,short,0,0,1
+5,Quiz,Monday,15,32,1,5.0,0,0,1,0,0,932,short,0,0,2
+5,Forum,Saturday,20,33,6,16.0,1,0,0,1,1,1233,medium,0,1,1
+5,Forum,Saturday,20,31,6,26.0,1,0,0,1,1,1231,medium,0,1,2
+5,Group Assignment,Monday,23,9,1,8.0,0,0,0,0,0,1389,short,0,0,3
+5,Group Assignment,Monday,23,10,1,13.0,0,0,0,0,0,1390,medium,0,0,4
+5,Group Assignment,Monday,15,34,1,25.0,0,0,1,0,0,934,medium,0,0,1
+5,Group Assignment,Monday,15,39,1,19.0,0,0,1,0,0,939,medium,0,0,2
+5,Forum,Sunday,11,30,7,30.0,1,1,0,0,0,690,medium,0,1,1
+5,Forum,Sunday,11,31,7,14.0,1,1,0,0,0,691,medium,0,1,2
+5,Individual Assignment,Wednesday,5,37,3,15.0,0,0,0,0,0,337,medium,1,0,1
+5,Individual Assignment,Wednesday,5,40,3,17.0,0,0,0,0,0,340,medium,1,0,2
+5,Individual Assignment,Wednesday,5,30,3,25.0,0,0,0,0,0,330,medium,1,0,3
+5,Group Assignment,Sunday,2,34,7,16.0,1,0,0,0,0,154,medium,1,1,2
+5,Group Assignment,Sunday,2,37,7,19.0,1,0,0,0,0,157,medium,1,1,3
+5,Forum,Friday,16,10,5,14.0,0,0,1,0,0,970,medium,0,0,1
+5,Forum,Friday,16,7,5,19.0,0,0,1,0,0,967,medium,0,0,2
+5,Individual Assignment,Tuesday,0,50,2,14.0,0,0,0,0,0,50,medium,1,0,1
+5,Group Assignment,Thursday,19,6,4,12.0,0,0,0,1,1,1146,medium,0,1,4
+5,Group Assignment,Thursday,19,10,4,27.0,0,0,0,1,1,1150,medium,0,1,5
+5,Group Assignment,Friday,18,54,5,6.0,0,0,0,1,0,1134,short,0,0,1
+5,Individual Assignment,Friday,23,45,5,27.0,0,0,0,0,0,1425,medium,0,0,1
+5,Individual Assignment,Friday,23,38,5,18.0,0,0,0,0,0,1418,medium,0,0,2
+6,Individual Assignment,Thursday,21,32,4,24.0,0,0,0,1,1,1292,medium,0,1,1
+6,Individual Assignment,Sunday,7,24,7,8.0,1,1,0,0,0,444,short,0,1,1
+6,Group Assignment,Wednesday,6,30,3,12.0,0,1,0,0,0,390,medium,0,0,1
+6,Quiz,Monday,15,33,1,13.0,0,0,1,0,0,933,medium,0,0,1
+6,Quiz,Monday,15,32,1,21.0,0,0,1,0,0,932,medium,0,0,2
+6,Forum,Saturday,20,38,6,21.0,1,0,0,1,1,1238,medium,0,1,1
+6,Forum,Saturday,20,37,6,24.0,1,0,0,1,1,1237,medium,0,1,2
+6,Group Assignment,Monday,23,6,1,6.0,0,0,0,0,0,1386,short,0,0,3
+6,Group Assignment,Monday,23,3,1,14.0,0,0,0,0,0,1383,medium,0,0,4
+6,Group Assignment,Monday,23,10,1,14.0,0,0,0,0,0,1390,medium,0,0,5
+6,Group Assignment,Monday,15,38,1,28.0,0,0,1,0,0,938,medium,0,0,1
+6,Group Assignment,Monday,15,31,1,8.0,0,0,1,0,0,931,short,0,0,2
+6,Group Assignment,Monday,15,33,1,25.0,0,0,1,0,0,933,medium,0,0,3
+6,Forum,Sunday,11,27,7,25.0,1,1,0,0,0,687,medium,0,1,1
+6,Individual Assignment,Wednesday,5,30,3,27.0,0,0,0,0,0,330,medium,1,0,1
+6,Individual Assignment,Wednesday,5,39,3,30.0,0,0,0,0,0,339,medium,1,0,2
+6,Group Assignment,Sunday,2,29,7,9.0,1,0,0,0,0,149,short,1,1,2
+6,Group Assignment,Sunday,2,32,7,15.0,1,0,0,0,0,152,medium,1,1,3
+6,Forum,Friday,16,9,5,15.0,0,0,1,0,0,969,medium,0,0,1
+6,Individual Assignment,Tuesday,0,49,2,6.0,0,0,0,0,0,49,short,1,0,1
+6,Group Assignment,Thursday,19,5,4,20.0,0,0,0,1,1,1145,medium,0,1,2
+6,Group Assignment,Thursday,19,6,4,10.0,0,0,0,1,1,1146,short,0,1,3
+6,Group Assignment,Thursday,19,11,4,14.0,0,0,0,1,1,1151,medium,0,1,4
+6,Group Assignment,Friday,18,48,5,16.0,0,0,0,1,0,1128,medium,0,0,1
+6,Group Assignment,Friday,18,46,5,24.0,0,0,0,1,0,1126,medium,0,0,2
+6,Group Assignment,Friday,18,50,5,29.0,0,0,0,1,0,1130,medium,0,0,3
+6,Individual Assignment,Friday,23,46,5,10.0,0,0,0,0,0,1426,short,0,0,1
+7,Individual Assignment,Thursday,21,29,4,21.0,0,0,0,1,1,1289,medium,0,1,1
+7,Individual Assignment,Thursday,21,32,4,5.0,0,0,0,1,1,1292,short,0,1,2
+7,Individual Assignment,Sunday,7,18,7,14.0,1,1,0,0,0,438,medium,0,1,1
+7,Group Assignment,Wednesday,6,25,3,14.0,0,1,0,0,0,385,medium,0,0,1
+7,Group Assignment,Wednesday,6,28,3,13.0,0,1,0,0,0,388,medium,0,0,2
+7,Quiz,Monday,15,36,1,20.0,0,0,1,0,0,936,medium,0,0,1
+7,Quiz,Monday,15,28,1,7.0,0,0,1,0,0,928,short,0,0,2
+7,Forum,Saturday,20,34,6,9.0,1,0,0,1,1,1234,short,0,1,1
+7,Group Assignment,Monday,23,0,1,13.0,0,0,0,0,0,1380,medium,0,0,3
+7,Group Assignment,Monday,15,36,1,24.0,0,0,1,0,0,936,medium,0,0,1
+7,Group Assignment,Monday,15,31,1,16.0,0,0,1,0,0,931,medium,0,0,2
+7,Forum,Sunday,11,25,7,8.0,1,1,0,0,0,685,short,0,1,1
+7,Forum,Sunday,11,23,7,25.0,1,1,0,0,0,683,medium,0,1,2
+7,Individual Assignment,Wednesday,5,34,3,13.0,0,0,0,0,0,334,medium,1,0,1
+7,Group Assignment,Sunday,2,38,7,30.0,1,0,0,0,0,158,medium,1,1,2
+7,Group Assignment,Sunday,2,39,7,12.0,1,0,0,0,0,159,medium,1,1,3
+7,Forum,Friday,16,6,5,21.0,0,0,1,0,0,966,medium,0,0,1
+7,Individual Assignment,Tuesday,0,45,2,8.0,0,0,0,0,0,45,short,1,0,1
+7,Individual Assignment,Tuesday,0,43,2,9.0,0,0,0,0,0,43,short,1,0,2
+7,Group Assignment,Thursday,19,6,4,17.0,0,0,0,1,1,1146,medium,0,1,3
+7,Group Assignment,Thursday,19,10,4,8.0,0,0,0,1,1,1150,short,0,1,4
+7,Group Assignment,Friday,18,48,5,30.0,0,0,0,1,0,1128,medium,0,0,1
+7,Group Assignment,Friday,18,50,5,15.0,0,0,0,1,0,1130,medium,0,0,2
+7,Individual Assignment,Friday,23,45,5,13.0,0,0,0,0,0,1425,medium,0,0,1
+7,Individual Assignment,Friday,23,47,5,8.0,0,0,0,0,0,1427,short,0,0,2
+8,Individual Assignment,Thursday,21,29,4,12.0,0,0,0,1,1,1289,medium,0,1,1
+8,Individual Assignment,Thursday,21,25,4,9.0,0,0,0,1,1,1285,short,0,1,2
+8,Individual Assignment,Thursday,21,24,4,29.0,0,0,0,1,1,1284,medium,0,1,3
+8,Individual Assignment,Sunday,7,22,7,22.0,1,1,0,0,0,442,medium,0,1,1
+8,Individual Assignment,Sunday,7,18,7,20.0,1,1,0,0,0,438,medium,0,1,2
+8,Individual Assignment,Sunday,7,21,7,8.0,1,1,0,0,0,441,short,0,1,3
+8,Group Assignment,Wednesday,6,29,3,6.0,0,1,0,0,0,389,short,0,0,1
+8,Group Assignment,Wednesday,6,32,3,28.0,0,1,0,0,0,392,medium,0,0,2
+8,Group Assignment,Wednesday,6,28,3,29.0,0,1,0,0,0,388,medium,0,0,3
+8,Quiz,Monday,15,33,1,23.0,0,0,1,0,0,933,medium,0,0,1
+8,Quiz,Monday,15,34,1,11.0,0,0,1,0,0,934,medium,0,0,2
+8,Forum,Saturday,20,37,6,8.0,1,0,0,1,1,1237,short,0,1,1
+8,Forum,Saturday,20,39,6,24.0,1,0,0,1,1,1239,medium,0,1,2
+8,Group Assignment,Monday,23,4,1,8.0,0,0,0,0,0,1384,short,0,0,3
+8,Group Assignment,Monday,23,2,1,22.0,0,0,0,0,0,1382,medium,0,0,4
+8,Group Assignment,Monday,15,40,1,15.0,0,0,1,0,0,940,medium,0,0,1
+8,Group Assignment,Monday,15,37,1,26.0,0,0,1,0,0,937,medium,0,0,2
+8,Forum,Sunday,11,32,7,10.0,1,1,0,0,0,692,short,0,1,1
+8,Forum,Sunday,11,28,7,29.0,1,1,0,0,0,688,medium,0,1,2
+8,Forum,Sunday,11,26,7,25.0,1,1,0,0,0,686,medium,0,1,3
+8,Individual Assignment,Wednesday,5,38,3,30.0,0,0,0,0,0,338,medium,1,0,1
+8,Group Assignment,Sunday,2,31,7,12.0,1,0,0,0,0,151,medium,1,1,4
+8,Group Assignment,Sunday,2,29,7,23.0,1,0,0,0,0,149,medium,1,1,5
+8,Forum,Friday,16,3,5,24.0,0,0,1,0,0,963,medium,0,0,1
+8,Forum,Friday,16,4,5,30.0,0,0,1,0,0,964,medium,0,0,2
+8,Individual Assignment,Tuesday,0,42,2,15.0,0,0,0,0,0,42,medium,1,0,1
+8,Group Assignment,Thursday,19,5,4,25.0,0,0,0,1,1,1145,medium,0,1,4
+8,Group Assignment,Friday,18,46,5,6.0,0,0,0,1,0,1126,short,0,0,1
+8,Group Assignment,Friday,18,54,5,29.0,0,0,0,1,0,1134,medium,0,0,2
+8,Group Assignment,Friday,18,51,5,11.0,0,0,0,1,0,1131,medium,0,0,3
+8,Individual Assignment,Friday,23,39,5,26.0,0,0,0,0,0,1419,medium,0,0,1
+8,Individual Assignment,Friday,23,44,5,6.0,0,0,0,0,0,1424,short,0,0,2
+9,Individual Assignment,Thursday,21,32,4,6.0,0,0,0,1,1,1292,short,0,1,1
+9,Individual Assignment,Thursday,21,34,4,23.0,0,0,0,1,1,1294,medium,0,1,2
+9,Individual Assignment,Sunday,7,25,7,28.0,1,1,0,0,0,445,medium,0,1,1
+9,Group Assignment,Wednesday,6,27,3,8.0,0,1,0,0,0,387,short,0,0,1
+9,Group Assignment,Wednesday,6,35,3,15.0,0,1,0,0,0,395,medium,0,0,2
+9,Group Assignment,Wednesday,6,31,3,28.0,0,1,0,0,0,391,medium,0,0,3
+9,Quiz,Monday,15,30,1,25.0,0,0,1,0,0,930,medium,0,0,1
+9,Forum,Saturday,20,33,6,18.0,1,0,0,1,1,1233,medium,0,1,1
+9,Group Assignment,Monday,23,2,1,21.0,0,0,0,0,0,1382,medium,0,0,2
+9,Group Assignment,Monday,23,8,1,30.0,0,0,0,0,0,1388,medium,0,0,3
+9,Group Assignment,Monday,23,10,1,17.0,0,0,0,0,0,1390,medium,0,0,4
+9,Group Assignment,Monday,15,41,1,12.0,0,0,1,0,0,941,medium,0,0,1
+9,Group Assignment,Monday,15,40,1,28.0,0,0,1,0,0,940,medium,0,0,2
+9,Forum,Sunday,11,24,7,14.0,1,1,0,0,0,684,medium,0,1,1
+9,Forum,Sunday,11,30,7,21.0,1,1,0,0,0,690,medium,0,1,2
+9,Individual Assignment,Wednesday,5,38,3,17.0,0,0,0,0,0,338,medium,1,0,1
+9,Individual Assignment,Wednesday,5,36,3,13.0,0,0,0,0,0,336,medium,1,0,2
+9,Individual Assignment,Wednesday,5,35,3,6.0,0,0,0,0,0,335,short,1,0,3
+9,Group Assignment,Sunday,2,35,7,25.0,1,0,0,0,0,155,medium,1,1,2
+9,Group Assignment,Sunday,2,37,7,28.0,1,0,0,0,0,157,medium,1,1,3
+9,Group Assignment,Sunday,2,32,7,9.0,1,0,0,0,0,152,short,1,1,4
+9,Forum,Friday,16,0,5,28.0,0,0,1,0,0,960,medium,0,0,1
+9,Individual Assignment,Tuesday,0,42,2,24.0,0,0,0,0,0,42,medium,1,0,1
+9,Individual Assignment,Tuesday,0,43,2,10.0,0,0,0,0,0,43,short,1,0,2
+9,Group Assignment,Thursday,19,4,4,26.0,0,0,0,1,1,1144,medium,0,1,3
+9,Group Assignment,Thursday,19,12,4,7.0,0,0,0,1,1,1152,short,0,1,4
+9,Group Assignment,Friday,18,48,5,22.0,0,0,0,1,0,1128,medium,0,0,1
+9,Group Assignment,Friday,18,47,5,11.0,0,0,0,1,0,1127,medium,0,0,2
+9,Individual Assignment,Friday,23,43,5,12.0,0,0,0,0,0,1423,medium,0,0,1
+10,Individual Assignment,Thursday,21,30,4,8.0,0,0,0,1,1,1290,short,0,1,1
+10,Individual Assignment,Sunday,7,22,7,6.0,1,1,0,0,0,442,short,0,1,1
+10,Individual Assignment,Sunday,7,16,7,19.0,1,1,0,0,0,436,medium,0,1,2
+10,Group Assignment,Wednesday,6,32,3,27.0,0,1,0,0,0,392,medium,0,0,1
+10,Quiz,Monday,15,35,1,7.0,0,0,1,0,0,935,short,0,0,1
+10,Quiz,Monday,15,33,1,22.0,0,0,1,0,0,933,medium,0,0,2
+10,Forum,Saturday,20,37,6,10.0,1,0,0,1,1,1237,short,0,1,1
+10,Forum,Saturday,20,39,6,10.0,1,0,0,1,1,1239,short,0,1,2
+10,Group Assignment,Monday,23,5,1,13.0,0,0,0,0,0,1385,medium,0,0,3
+10,Group Assignment,Monday,23,10,1,16.0,0,0,0,0,0,1390,medium,0,0,4
+10,Group Assignment,Monday,15,41,1,27.0,0,0,1,0,0,941,medium,0,0,1
+10,Group Assignment,Monday,15,34,1,25.0,0,0,1,0,0,934,medium,0,0,2
+10,Group Assignment,Monday,15,32,1,12.0,0,0,1,0,0,932,medium,0,0,3
+10,Forum,Sunday,11,29,7,30.0,1,1,0,0,0,689,medium,0,1,1
+10,Forum,Sunday,11,32,7,19.0,1,1,0,0,0,692,medium,0,1,2
+10,Individual Assignment,Wednesday,5,31,3,26.0,0,0,0,0,0,331,medium,1,0,1
+10,Group Assignment,Sunday,2,30,7,23.0,1,0,0,0,0,150,medium,1,1,3
+10,Group Assignment,Sunday,2,38,7,12.0,1,0,0,0,0,158,medium,1,1,4
+10,Group Assignment,Sunday,2,29,7,13.0,1,0,0,0,0,149,medium,1,1,5
+10,Forum,Friday,16,6,5,30.0,0,0,1,0,0,966,medium,0,0,1
+10,Forum,Friday,16,7,5,8.0,0,0,1,0,0,967,short,0,0,2
+10,Individual Assignment,Tuesday,0,44,2,26.0,0,0,0,0,0,44,medium,1,0,1
+10,Individual Assignment,Tuesday,0,48,2,28.0,0,0,0,0,0,48,medium,1,0,2
+10,Group Assignment,Thursday,19,11,4,6.0,0,0,0,1,1,1151,short,0,1,2
+10,Group Assignment,Thursday,19,10,4,18.0,0,0,0,1,1,1150,medium,0,1,3
+10,Group Assignment,Thursday,19,4,4,28.0,0,0,0,1,1,1144,medium,0,1,4
+10,Group Assignment,Friday,18,55,5,13.0,0,0,0,1,0,1135,medium,0,0,1
+10,Group Assignment,Friday,18,49,5,16.0,0,0,0,1,0,1129,medium,0,0,2
+10,Individual Assignment,Friday,23,44,5,19.0,0,0,0,0,0,1424,medium,0,0,1
+11,Individual Assignment,Thursday,21,34,4,9.0,0,0,0,1,1,1294,short,0,1,1
+11,Individual Assignment,Sunday,7,25,7,11.0,1,1,0,0,0,445,medium,0,1,1
+11,Group Assignment,Wednesday,6,26,3,25.0,0,1,0,0,0,386,medium,0,0,1
+11,Group Assignment,Wednesday,6,28,3,27.0,0,1,0,0,0,388,medium,0,0,2
+11,Group Assignment,Wednesday,6,30,3,19.0,0,1,0,0,0,390,medium,0,0,3
+11,Quiz,Monday,15,27,1,8.0,0,0,1,0,0,927,short,0,0,1
+11,Forum,Saturday,20,32,6,25.0,1,0,0,1,1,1232,medium,0,1,1
+11,Group Assignment,Monday,23,6,1,28.0,0,0,0,0,0,1386,medium,0,0,2
+11,Group Assignment,Monday,23,4,1,26.0,0,0,0,0,0,1384,medium,0,0,3
+11,Group Assignment,Monday,15,39,1,22.0,0,0,1,0,0,939,medium,0,0,1
+11,Forum,Sunday,11,27,7,28.0,1,1,0,0,0,687,medium,0,1,1
+11,Individual Assignment,Wednesday,5,32,3,21.0,0,0,0,0,0,332,medium,1,0,1
+11,Group Assignment,Sunday,2,39,7,28.0,1,0,0,0,0,159,medium,1,1,2
+11,Group Assignment,Sunday,2,34,7,15.0,1,0,0,0,0,154,medium,1,1,3
+11,Forum,Friday,16,1,5,15.0,0,0,1,0,0,961,medium,0,0,1
+11,Forum,Friday,16,2,5,21.0,0,0,1,0,0,962,medium,0,0,2
+11,Individual Assignment,Tuesday,0,43,2,22.0,0,0,0,0,0,43,medium,1,0,1
+11,Individual Assignment,Tuesday,0,44,2,8.0,0,0,0,0,0,44,short,1,0,2
+11,Group Assignment,Thursday,19,7,4,29.0,0,0,0,1,1,1147,medium,0,1,2
+11,Group Assignment,Thursday,19,3,4,18.0,0,0,0,1,1,1143,medium,0,1,3
+11,Group Assignment,Friday,18,55,5,12.0,0,0,0,1,0,1135,medium,0,0,1
+11,Individual Assignment,Friday,23,41,5,12.0,0,0,0,0,0,1421,medium,0,0,1
+11,Individual Assignment,Friday,23,39,5,21.0,0,0,0,0,0,1419,medium,0,0,2
+12,Individual Assignment,Thursday,21,32,4,5.0,0,0,0,1,1,1292,short,0,1,1
+12,Individual Assignment,Thursday,21,27,4,23.0,0,0,0,1,1,1287,medium,0,1,2
+12,Individual Assignment,Sunday,7,24,7,7.0,1,1,0,0,0,444,short,0,1,1
+12,Individual Assignment,Sunday,7,22,7,16.0,1,1,0,0,0,442,medium,0,1,2
+12,Group Assignment,Wednesday,6,26,3,12.0,0,1,0,0,0,386,medium,0,0,1
+12,Quiz,Monday,15,31,1,22.0,0,0,1,0,0,931,medium,0,0,1
+12,Forum,Saturday,20,39,6,27.0,1,0,0,1,1,1239,medium,0,1,1
+12,Forum,Saturday,20,35,6,17.0,1,0,0,1,1,1235,medium,0,1,2
+12,Forum,Saturday,20,38,6,20.0,1,0,0,1,1,1238,medium,0,1,3
+12,Group Assignment,Monday,23,8,1,26.0,0,0,0,0,0,1388,medium,0,0,2
+12,Group Assignment,Monday,23,1,1,15.0,0,0,0,0,0,1381,medium,0,0,3
+12,Group Assignment,Monday,15,39,1,29.0,0,0,1,0,0,939,medium,0,0,1
+12,Group Assignment,Monday,15,38,1,24.0,0,0,1,0,0,938,medium,0,0,2
+12,Group Assignment,Monday,15,40,1,29.0,0,0,1,0,0,940,medium,0,0,3
+12,Forum,Sunday,11,33,7,6.0,1,1,0,0,0,693,short,0,1,1
+12,Forum,Sunday,11,24,7,12.0,1,1,0,0,0,684,medium,0,1,2
+12,Individual Assignment,Wednesday,5,38,3,11.0,0,0,0,0,0,338,medium,1,0,1
+12,Group Assignment,Sunday,2,30,7,19.0,1,0,0,0,0,150,medium,1,1,3
+12,Group Assignment,Sunday,2,35,7,21.0,1,0,0,0,0,155,medium,1,1,4
+12,Group Assignment,Sunday,2,36,7,19.0,1,0,0,0,0,156,medium,1,1,5
+12,Forum,Friday,16,4,5,8.0,0,0,1,0,0,964,short,0,0,1
+12,Forum,Friday,16,3,5,25.0,0,0,1,0,0,963,medium,0,0,2
+12,Individual Assignment,Tuesday,0,42,2,18.0,0,0,0,0,0,42,medium,1,0,1
+12,Individual Assignment,Tuesday,0,49,2,8.0,0,0,0,0,0,49,short,1,0,2
+12,Group Assignment,Thursday,19,8,4,10.0,0,0,0,1,1,1148,short,0,1,3
+12,Group Assignment,Thursday,19,7,4,19.0,0,0,0,1,1,1147,medium,0,1,4
+12,Group Assignment,Friday,18,48,5,19.0,0,0,0,1,0,1128,medium,0,0,1
+12,Individual Assignment,Friday,23,44,5,26.0,0,0,0,0,0,1424,medium,0,0,1
+12,Individual Assignment,Friday,23,48,5,9.0,0,0,0,0,0,1428,short,0,0,2
+12,Individual Assignment,Friday,23,43,5,15.0,0,0,0,0,0,1423,medium,0,0,3
+13,Individual Assignment,Thursday,21,30,4,21.0,0,0,0,1,1,1290,medium,0,1,1
+13,Individual Assignment,Sunday,7,16,7,16.0,1,1,0,0,0,436,medium,0,1,1
+13,Group Assignment,Wednesday,6,30,3,8.0,0,1,0,0,0,390,short,0,0,1
+13,Group Assignment,Wednesday,6,32,3,22.0,0,1,0,0,0,392,medium,0,0,2
+13,Quiz,Monday,15,28,1,5.0,0,0,1,0,0,928,short,0,0,1
+13,Quiz,Monday,15,27,1,30.0,0,0,1,0,0,927,medium,0,0,2
+13,Quiz,Monday,15,35,1,23.0,0,0,1,0,0,935,medium,0,0,3
+13,Forum,Saturday,20,41,6,27.0,1,0,0,1,1,1241,medium,0,1,1
+13,Forum,Saturday,20,40,6,23.0,1,0,0,1,1,1240,medium,0,1,2
+13,Group Assignment,Monday,23,2,1,19.0,0,0,0,0,0,1382,medium,0,0,4
+13,Group Assignment,Monday,15,36,1,29.0,0,0,1,0,0,936,medium,0,0,1
+13,Forum,Sunday,11,25,7,9.0,1,1,0,0,0,685,short,0,1,1
+13,Forum,Sunday,11,23,7,21.0,1,1,0,0,0,683,medium,0,1,2
+13,Individual Assignment,Wednesday,5,39,3,29.0,0,0,0,0,0,339,medium,1,0,1
+13,Individual Assignment,Wednesday,5,30,3,10.0,0,0,0,0,0,330,short,1,0,2
+13,Individual Assignment,Wednesday,5,37,3,8.0,0,0,0,0,0,337,short,1,0,3
+13,Group Assignment,Sunday,2,35,7,6.0,1,0,0,0,0,155,short,1,1,2
+13,Forum,Friday,16,1,5,20.0,0,0,1,0,0,961,medium,0,0,1
+13,Individual Assignment,Tuesday,0,48,2,23.0,0,0,0,0,0,48,medium,1,0,1
+13,Individual Assignment,Tuesday,0,44,2,15.0,0,0,0,0,0,44,medium,1,0,2
+13,Group Assignment,Thursday,19,4,4,8.0,0,0,0,1,1,1144,short,0,1,2
+13,Group Assignment,Thursday,19,12,4,29.0,0,0,0,1,1,1152,medium,0,1,3
+13,Group Assignment,Thursday,19,8,4,29.0,0,0,0,1,1,1148,medium,0,1,4
+13,Group Assignment,Friday,18,46,5,26.0,0,0,0,1,0,1126,medium,0,0,1
+13,Group Assignment,Friday,18,47,5,14.0,0,0,0,1,0,1127,medium,0,0,2
+13,Individual Assignment,Friday,23,41,5,5.0,0,0,0,0,0,1421,short,0,0,1
+13,Individual Assignment,Friday,23,42,5,27.0,0,0,0,0,0,1422,medium,0,0,2
+13,Individual Assignment,Friday,23,39,5,22.0,0,0,0,0,0,1419,medium,0,0,3
+15,Individual Assignment,Thursday,21,33,4,8.0,0,0,0,1,1,1293,short,0,1,1
+15,Individual Assignment,Thursday,21,24,4,30.0,0,0,0,1,1,1284,medium,0,1,2
+15,Individual Assignment,Sunday,7,23,7,10.0,1,1,0,0,0,443,short,0,1,1
+15,Group Assignment,Wednesday,6,29,3,6.0,0,1,0,0,0,389,short,0,0,1
+15,Group Assignment,Wednesday,6,32,3,6.0,0,1,0,0,0,392,short,0,0,2
+15,Quiz,Monday,15,30,1,21.0,0,0,1,0,0,930,medium,0,0,1
+15,Quiz,Monday,15,36,1,24.0,0,0,1,0,0,936,medium,0,0,2
+15,Forum,Saturday,20,37,6,30.0,1,0,0,1,1,1237,medium,0,1,1
+15,Forum,Saturday,20,40,6,10.0,1,0,0,1,1,1240,short,0,1,2
+15,Group Assignment,Monday,23,3,1,6.0,0,0,0,0,0,1383,short,0,0,3
+15,Group Assignment,Monday,23,5,1,17.0,0,0,0,0,0,1385,medium,0,0,4
+15,Group Assignment,Monday,15,39,1,18.0,0,0,1,0,0,939,medium,0,0,1
+15,Group Assignment,Monday,15,36,1,29.0,0,0,1,0,0,936,medium,0,0,2
+15,Forum,Sunday,11,26,7,6.0,1,1,0,0,0,686,short,0,1,1
+15,Forum,Sunday,11,25,7,17.0,1,1,0,0,0,685,medium,0,1,2
+15,Individual Assignment,Wednesday,5,34,3,19.0,0,0,0,0,0,334,medium,1,0,1
+15,Individual Assignment,Wednesday,5,31,3,13.0,0,0,0,0,0,331,medium,1,0,2
+15,Individual Assignment,Wednesday,5,39,3,13.0,0,0,0,0,0,339,medium,1,0,3
+15,Group Assignment,Sunday,2,32,7,9.0,1,0,0,0,0,152,short,1,1,2
+15,Forum,Friday,16,6,5,21.0,0,0,1,0,0,966,medium,0,0,1
+15,Forum,Friday,16,10,5,24.0,0,0,1,0,0,970,medium,0,0,2
+15,Forum,Friday,16,2,5,30.0,0,0,1,0,0,962,medium,0,0,3
+15,Individual Assignment,Tuesday,0,43,2,25.0,0,0,0,0,0,43,medium,1,0,1
+15,Individual Assignment,Tuesday,0,46,2,12.0,0,0,0,0,0,46,medium,1,0,2
+15,Individual Assignment,Tuesday,0,42,2,19.0,0,0,0,0,0,42,medium,1,0,3
+15,Group Assignment,Thursday,19,13,4,26.0,0,0,0,1,1,1153,medium,0,1,3
+15,Group Assignment,Thursday,19,8,4,8.0,0,0,0,1,1,1148,short,0,1,4
+15,Group Assignment,Friday,18,48,5,26.0,0,0,0,1,0,1128,medium,0,0,1
+15,Individual Assignment,Friday,23,46,5,9.0,0,0,0,0,0,1426,short,0,0,1
+15,Individual Assignment,Friday,23,40,5,19.0,0,0,0,0,0,1420,medium,0,0,2
+15,Individual Assignment,Friday,23,39,5,19.0,0,0,0,0,0,1419,medium,0,0,3
+16,Individual Assignment,Thursday,21,25,4,16.0,0,0,0,1,1,1285,medium,0,1,1
+16,Individual Assignment,Sunday,7,21,7,5.0,1,1,0,0,0,441,short,0,1,1
+16,Individual Assignment,Sunday,7,22,7,17.0,1,1,0,0,0,442,medium,0,1,2
+16,Group Assignment,Wednesday,6,32,3,14.0,0,1,0,0,0,392,medium,0,0,1
+16,Group Assignment,Wednesday,6,31,3,17.0,0,1,0,0,0,391,medium,0,0,2
+16,Group Assignment,Wednesday,6,34,3,13.0,0,1,0,0,0,394,medium,0,0,3
+16,Quiz,Monday,15,35,1,28.0,0,0,1,0,0,935,medium,0,0,1
+16,Quiz,Monday,15,33,1,12.0,0,0,1,0,0,933,medium,0,0,2
+16,Quiz,Monday,15,36,1,26.0,0,0,1,0,0,936,medium,0,0,3
+16,Forum,Saturday,20,39,6,19.0,1,0,0,1,1,1239,medium,0,1,1
+16,Group Assignment,Monday,23,7,1,9.0,0,0,0,0,0,1387,short,0,0,4
+16,Group Assignment,Monday,23,0,1,12.0,0,0,0,0,0,1380,medium,0,0,5
+16,Group Assignment,Monday,23,10,1,29.0,0,0,0,0,0,1390,medium,0,0,6
+16,Group Assignment,Monday,15,34,1,21.0,0,0,1,0,0,934,medium,0,0,1
+16,Group Assignment,Monday,15,36,1,29.0,0,0,1,0,0,936,medium,0,0,2
+16,Forum,Sunday,11,31,7,11.0,1,1,0,0,0,691,medium,0,1,1
+16,Forum,Sunday,11,29,7,19.0,1,1,0,0,0,689,medium,0,1,2
+16,Forum,Sunday,11,27,7,10.0,1,1,0,0,0,687,short,0,1,3
+16,Individual Assignment,Wednesday,5,35,3,7.0,0,0,0,0,0,335,short,1,0,1
+16,Individual Assignment,Wednesday,5,32,3,19.0,0,0,0,0,0,332,medium,1,0,2
+16,Individual Assignment,Wednesday,5,38,3,7.0,0,0,0,0,0,338,short,1,0,3
+16,Group Assignment,Sunday,2,33,7,6.0,1,0,0,0,0,153,short,1,1,3
+16,Forum,Friday,16,7,5,19.0,0,0,1,0,0,967,medium,0,0,1
+16,Forum,Friday,16,5,5,7.0,0,0,1,0,0,965,short,0,0,2
+16,Individual Assignment,Tuesday,0,42,2,11.0,0,0,0,0,0,42,medium,1,0,1
+16,Individual Assignment,Tuesday,0,51,2,25.0,0,0,0,0,0,51,medium,1,0,2
+16,Group Assignment,Thursday,19,10,4,9.0,0,0,0,1,1,1150,short,0,1,2
+16,Group Assignment,Thursday,19,12,4,14.0,0,0,0,1,1,1152,medium,0,1,3
+16,Group Assignment,Friday,18,49,5,14.0,0,0,0,1,0,1129,medium,0,0,1
+16,Group Assignment,Friday,18,48,5,23.0,0,0,0,1,0,1128,medium,0,0,2
+16,Individual Assignment,Friday,23,45,5,7.0,0,0,0,0,0,1425,short,0,0,1
+16,Individual Assignment,Friday,23,39,5,13.0,0,0,0,0,0,1419,medium,0,0,2
+17,Individual Assignment,Thursday,21,28,4,10.0,0,0,0,1,1,1288,short,0,1,1
+17,Individual Assignment,Thursday,21,31,4,27.0,0,0,0,1,1,1291,medium,0,1,2
+17,Individual Assignment,Thursday,21,34,4,23.0,0,0,0,1,1,1294,medium,0,1,3
+17,Individual Assignment,Sunday,7,24,7,23.0,1,1,0,0,0,444,medium,0,1,1
+17,Individual Assignment,Sunday,7,21,7,7.0,1,1,0,0,0,441,short,0,1,2
+17,Group Assignment,Wednesday,6,32,3,8.0,0,1,0,0,0,392,short,0,0,1
+17,Group Assignment,Wednesday,6,25,3,20.0,0,1,0,0,0,385,medium,0,0,2
+17,Quiz,Monday,15,32,1,6.0,0,0,1,0,0,932,short,0,0,1
+17,Forum,Saturday,20,36,6,28.0,1,0,0,1,1,1236,medium,0,1,1
+17,Forum,Saturday,20,40,6,30.0,1,0,0,1,1,1240,medium,0,1,2
+17,Group Assignment,Monday,23,3,1,27.0,0,0,0,0,0,1383,medium,0,0,2
+17,Group Assignment,Monday,23,5,1,29.0,0,0,0,0,0,1385,medium,0,0,3
+17,Group Assignment,Monday,15,41,1,8.0,0,0,1,0,0,941,short,0,0,1
+17,Group Assignment,Monday,15,32,1,16.0,0,0,1,0,0,932,medium,0,0,2
+17,Forum,Sunday,11,28,7,12.0,1,1,0,0,0,688,medium,0,1,1
+17,Forum,Sunday,11,25,7,8.0,1,1,0,0,0,685,short,0,1,2
+17,Individual Assignment,Wednesday,5,36,3,7.0,0,0,0,0,0,336,short,1,0,1
+17,Individual Assignment,Wednesday,5,35,3,20.0,0,0,0,0,0,335,medium,1,0,2
+17,Group Assignment,Sunday,2,39,7,17.0,1,0,0,0,0,159,medium,1,1,3
+17,Group Assignment,Sunday,2,31,7,20.0,1,0,0,0,0,151,medium,1,1,4
+17,Group Assignment,Sunday,2,36,7,15.0,1,0,0,0,0,156,medium,1,1,5
+17,Forum,Friday,16,6,5,18.0,0,0,1,0,0,966,medium,0,0,1
+17,Forum,Friday,16,0,5,30.0,0,0,1,0,0,960,medium,0,0,2
+17,Forum,Friday,16,9,5,14.0,0,0,1,0,0,969,medium,0,0,3
+17,Individual Assignment,Tuesday,0,51,2,28.0,0,0,0,0,0,51,medium,1,0,1
+17,Group Assignment,Thursday,19,11,4,15.0,0,0,0,1,1,1151,medium,0,1,4
+17,Group Assignment,Friday,18,49,5,21.0,0,0,0,1,0,1129,medium,0,0,1
+17,Group Assignment,Friday,18,51,5,30.0,0,0,0,1,0,1131,medium,0,0,2
+17,Individual Assignment,Friday,23,40,5,22.0,0,0,0,0,0,1420,medium,0,0,1
+18,Individual Assignment,Thursday,21,34,4,18.0,0,0,0,1,1,1294,medium,0,1,1
+18,Individual Assignment,Thursday,21,29,4,18.0,0,0,0,1,1,1289,medium,0,1,2
+18,Individual Assignment,Sunday,7,23,7,12.0,1,1,0,0,0,443,medium,0,1,1
+18,Group Assignment,Wednesday,6,28,3,14.0,0,1,0,0,0,388,medium,0,0,1
+18,Group Assignment,Wednesday,6,35,3,5.0,0,1,0,0,0,395,short,0,0,2
+18,Group Assignment,Wednesday,6,33,3,9.0,0,1,0,0,0,393,short,0,0,3
+18,Quiz,Monday,15,28,1,26.0,0,0,1,0,0,928,medium,0,0,1
+18,Forum,Saturday,20,35,6,24.0,1,0,0,1,1,1235,medium,0,1,1
+18,Forum,Saturday,20,31,6,16.0,1,0,0,1,1,1231,medium,0,1,2
+18,Forum,Saturday,20,34,6,26.0,1,0,0,1,1,1234,medium,0,1,3
+18,Group Assignment,Monday,23,7,1,27.0,0,0,0,0,0,1387,medium,0,0,2
+18,Group Assignment,Monday,23,6,1,11.0,0,0,0,0,0,1386,medium,0,0,3
+18,Group Assignment,Monday,15,31,1,24.0,0,0,1,0,0,931,medium,0,0,1
+18,Group Assignment,Monday,15,36,1,22.0,0,0,1,0,0,936,medium,0,0,2
+18,Forum,Sunday,11,29,7,16.0,1,1,0,0,0,689,medium,0,1,1
+18,Forum,Sunday,11,25,7,7.0,1,1,0,0,0,685,short,0,1,2
+18,Forum,Sunday,11,30,7,28.0,1,1,0,0,0,690,medium,0,1,3
+18,Individual Assignment,Wednesday,5,33,3,23.0,0,0,0,0,0,333,medium,1,0,1
+18,Individual Assignment,Wednesday,5,36,3,14.0,0,0,0,0,0,336,medium,1,0,2
+18,Group Assignment,Sunday,2,35,7,28.0,1,0,0,0,0,155,medium,1,1,2
+18,Group Assignment,Sunday,2,31,7,6.0,1,0,0,0,0,151,short,1,1,3
+18,Forum,Friday,16,9,5,9.0,0,0,1,0,0,969,short,0,0,1
+18,Forum,Friday,16,4,5,19.0,0,0,1,0,0,964,medium,0,0,2
+18,Individual Assignment,Tuesday,0,44,2,16.0,0,0,0,0,0,44,medium,1,0,1
+18,Individual Assignment,Tuesday,0,50,2,23.0,0,0,0,0,0,50,medium,1,0,2
+18,Group Assignment,Thursday,19,3,4,27.0,0,0,0,1,1,1143,medium,0,1,3
+18,Group Assignment,Thursday,19,12,4,15.0,0,0,0,1,1,1152,medium,0,1,4
+18,Group Assignment,Friday,18,53,5,6.0,0,0,0,1,0,1133,short,0,0,1
+18,Group Assignment,Friday,18,55,5,17.0,0,0,0,1,0,1135,medium,0,0,2
+18,Individual Assignment,Friday,23,42,5,17.0,0,0,0,0,0,1422,medium,0,0,1
+19,Individual Assignment,Thursday,21,31,4,30.0,0,0,0,1,1,1291,medium,0,1,1
+19,Individual Assignment,Sunday,7,25,7,9.0,1,1,0,0,0,445,short,0,1,1
+19,Individual Assignment,Sunday,7,16,7,18.0,1,1,0,0,0,436,medium,0,1,2
+19,Group Assignment,Wednesday,6,34,3,14.0,0,1,0,0,0,394,medium,0,0,1
+19,Group Assignment,Wednesday,6,31,3,24.0,0,1,0,0,0,391,medium,0,0,2
+19,Quiz,Monday,15,29,1,17.0,0,0,1,0,0,929,medium,0,0,1
+19,Forum,Saturday,20,40,6,22.0,1,0,0,1,1,1240,medium,0,1,1
+19,Forum,Saturday,20,36,6,26.0,1,0,0,1,1,1236,medium,0,1,2
+19,Group Assignment,Monday,23,5,1,18.0,0,0,0,0,0,1385,medium,0,0,2
+19,Group Assignment,Monday,23,1,1,18.0,0,0,0,0,0,1381,medium,0,0,3
+19,Group Assignment,Monday,15,39,1,14.0,0,0,1,0,0,939,medium,0,0,1
+19,Group Assignment,Monday,15,35,1,9.0,0,0,1,0,0,935,short,0,0,2
+19,Forum,Sunday,11,24,7,6.0,1,1,0,0,0,684,short,0,1,1
+19,Forum,Sunday,11,33,7,16.0,1,1,0,0,0,693,medium,0,1,2
+19,Individual Assignment,Wednesday,5,32,3,25.0,0,0,0,0,0,332,medium,1,0,1
+19,Individual Assignment,Wednesday,5,38,3,10.0,0,0,0,0,0,338,short,1,0,2
+19,Group Assignment,Sunday,2,32,7,27.0,1,0,0,0,0,152,medium,1,1,3
+19,Group Assignment,Sunday,2,31,7,21.0,1,0,0,0,0,151,medium,1,1,4
+19,Group Assignment,Sunday,2,35,7,17.0,1,0,0,0,0,155,medium,1,1,5
+19,Forum,Friday,16,1,5,13.0,0,0,1,0,0,961,medium,0,0,1
+19,Individual Assignment,Tuesday,0,49,2,15.0,0,0,0,0,0,49,medium,1,0,1
+19,Group Assignment,Thursday,19,7,4,21.0,0,0,0,1,1,1147,medium,0,1,2
+19,Group Assignment,Friday,18,48,5,16.0,0,0,0,1,0,1128,medium,0,0,1
+19,Group Assignment,Friday,18,45,5,17.0,0,0,0,1,0,1125,medium,0,0,2
+19,Individual Assignment,Friday,23,45,5,10.0,0,0,0,0,0,1425,short,0,0,1
+19,Individual Assignment,Friday,23,42,5,7.0,0,0,0,0,0,1422,short,0,0,2
+19,Individual Assignment,Friday,23,47,5,22.0,0,0,0,0,0,1427,medium,0,0,3
+20,Individual Assignment,Thursday,21,26,4,21.0,0,0,0,1,1,1286,medium,0,1,1
+20,Individual Assignment,Thursday,21,28,4,23.0,0,0,0,1,1,1288,medium,0,1,2
+20,Individual Assignment,Sunday,7,17,7,25.0,1,1,0,0,0,437,medium,0,1,1
+20,Group Assignment,Wednesday,6,27,3,13.0,0,1,0,0,0,387,medium,0,0,1
+20,Quiz,Monday,15,35,1,17.0,0,0,1,0,0,935,medium,0,0,1
+20,Quiz,Monday,15,33,1,14.0,0,0,1,0,0,933,medium,0,0,2
+20,Forum,Saturday,20,37,6,24.0,1,0,0,1,1,1237,medium,0,1,1
+20,Group Assignment,Monday,23,2,1,27.0,0,0,0,0,0,1382,medium,0,0,3
+20,Group Assignment,Monday,23,4,1,8.0,0,0,0,0,0,1384,short,0,0,4
+20,Group Assignment,Monday,15,39,1,10.0,0,0,1,0,0,939,short,0,0,1
+20,Group Assignment,Monday,15,31,1,28.0,0,0,1,0,0,931,medium,0,0,2
+20,Group Assignment,Monday,15,36,1,13.0,0,0,1,0,0,936,medium,0,0,3
+20,Forum,Sunday,11,30,7,25.0,1,1,0,0,0,690,medium,0,1,1
+20,Forum,Sunday,11,28,7,14.0,1,1,0,0,0,688,medium,0,1,2
+20,Individual Assignment,Wednesday,5,35,3,17.0,0,0,0,0,0,335,medium,1,0,1
+20,Individual Assignment,Wednesday,5,36,3,13.0,0,0,0,0,0,336,medium,1,0,2
+20,Individual Assignment,Wednesday,5,33,3,16.0,0,0,0,0,0,333,medium,1,0,3
+20,Group Assignment,Sunday,2,35,7,28.0,1,0,0,0,0,155,medium,1,1,2
+20,Forum,Friday,16,8,5,20.0,0,0,1,0,0,968,medium,0,0,1
+20,Forum,Friday,16,4,5,30.0,0,0,1,0,0,964,medium,0,0,2
+20,Individual Assignment,Tuesday,0,47,2,29.0,0,0,0,0,0,47,medium,1,0,1
+20,Individual Assignment,Tuesday,0,42,2,18.0,0,0,0,0,0,42,medium,1,0,2
+20,Group Assignment,Thursday,19,5,4,24.0,0,0,0,1,1,1145,medium,0,1,3
+20,Group Assignment,Thursday,19,3,4,16.0,0,0,0,1,1,1143,medium,0,1,4
+20,Group Assignment,Friday,18,50,5,16.0,0,0,0,1,0,1130,medium,0,0,1
+20,Individual Assignment,Friday,23,45,5,15.0,0,0,0,0,0,1425,medium,0,0,1
+21,Individual Assignment,Thursday,21,27,4,21.0,0,0,0,1,1,1287,medium,0,1,1
+21,Individual Assignment,Sunday,7,22,7,27.0,1,1,0,0,0,442,medium,0,1,1
+21,Individual Assignment,Sunday,7,18,7,25.0,1,1,0,0,0,438,medium,0,1,2
+21,Group Assignment,Wednesday,6,25,3,22.0,0,1,0,0,0,385,medium,0,0,1
+21,Group Assignment,Wednesday,6,29,3,9.0,0,1,0,0,0,389,short,0,0,2
+21,Quiz,Monday,15,27,1,21.0,0,0,1,0,0,927,medium,0,0,1
+21,Forum,Saturday,20,32,6,20.0,1,0,0,1,1,1232,medium,0,1,1
+21,Group Assignment,Monday,23,4,1,15.0,0,0,0,0,0,1384,medium,0,0,2
+21,Group Assignment,Monday,23,1,1,28.0,0,0,0,0,0,1381,medium,0,0,3
+21,Group Assignment,Monday,23,7,1,12.0,0,0,0,0,0,1387,medium,0,0,4
+21,Group Assignment,Monday,15,35,1,25.0,0,0,1,0,0,935,medium,0,0,1
+21,Group Assignment,Monday,15,33,1,26.0,0,0,1,0,0,933,medium,0,0,2
+21,Forum,Sunday,11,32,7,9.0,1,1,0,0,0,692,short,0,1,1
+21,Forum,Sunday,11,30,7,27.0,1,1,0,0,0,690,medium,0,1,2
+21,Individual Assignment,Wednesday,5,30,3,5.0,0,0,0,0,0,330,short,1,0,1
+21,Individual Assignment,Wednesday,5,39,3,10.0,0,0,0,0,0,339,short,1,0,2
+21,Individual Assignment,Wednesday,5,35,3,27.0,0,0,0,0,0,335,medium,1,0,3
+21,Group Assignment,Sunday,2,33,7,28.0,1,0,0,0,0,153,medium,1,1,3
+21,Forum,Friday,16,7,5,15.0,0,0,1,0,0,967,medium,0,0,1
+21,Individual Assignment,Tuesday,0,50,2,11.0,0,0,0,0,0,50,medium,1,0,1
+21,Individual Assignment,Tuesday,0,51,2,6.0,0,0,0,0,0,51,short,1,0,2
+21,Group Assignment,Thursday,19,11,4,6.0,0,0,0,1,1,1151,short,0,1,2
+21,Group Assignment,Thursday,19,13,4,24.0,0,0,0,1,1,1153,medium,0,1,3
+21,Group Assignment,Thursday,19,5,4,26.0,0,0,0,1,1,1145,medium,0,1,4
+21,Group Assignment,Friday,18,51,5,26.0,0,0,0,1,0,1131,medium,0,0,1
+21,Individual Assignment,Friday,23,47,5,22.0,0,0,0,0,0,1427,medium,0,0,1
+22,Individual Assignment,Thursday,21,30,4,12.0,0,0,0,1,1,1290,medium,0,1,1
+22,Individual Assignment,Sunday,7,25,7,15.0,1,1,0,0,0,445,medium,0,1,1
+22,Individual Assignment,Sunday,7,20,7,20.0,1,1,0,0,0,440,medium,0,1,2
+22,Group Assignment,Wednesday,6,26,3,14.0,0,1,0,0,0,386,medium,0,0,1
+22,Group Assignment,Wednesday,6,25,3,8.0,0,1,0,0,0,385,short,0,0,2
+22,Group Assignment,Wednesday,6,35,3,13.0,0,1,0,0,0,395,medium,0,0,3
+22,Quiz,Monday,15,33,1,16.0,0,0,1,0,0,933,medium,0,0,1
+22,Quiz,Monday,15,28,1,21.0,0,0,1,0,0,928,medium,0,0,2
+22,Forum,Saturday,20,36,6,5.0,1,0,0,1,1,1236,short,0,1,1
+22,Forum,Saturday,20,35,6,19.0,1,0,0,1,1,1235,medium,0,1,2
+22,Forum,Saturday,20,34,6,27.0,1,0,0,1,1,1234,medium,0,1,3
+22,Group Assignment,Monday,23,8,1,25.0,0,0,0,0,0,1388,medium,0,0,3
+22,Group Assignment,Monday,15,38,1,11.0,0,0,1,0,0,938,medium,0,0,1
+22,Group Assignment,Monday,15,35,1,28.0,0,0,1,0,0,935,medium,0,0,2
+22,Forum,Sunday,11,28,7,10.0,1,1,0,0,0,688,short,0,1,1
+22,Forum,Sunday,11,24,7,18.0,1,1,0,0,0,684,medium,0,1,2
+22,Forum,Sunday,11,30,7,6.0,1,1,0,0,0,690,short,0,1,3
+22,Individual Assignment,Wednesday,5,37,3,12.0,0,0,0,0,0,337,medium,1,0,1
+22,Group Assignment,Sunday,2,38,7,17.0,1,0,0,0,0,158,medium,1,1,3
+22,Forum,Friday,16,9,5,24.0,0,0,1,0,0,969,medium,0,0,1
+22,Individual Assignment,Tuesday,0,42,2,7.0,0,0,0,0,0,42,short,1,0,1
+22,Group Assignment,Thursday,19,10,4,21.0,0,0,0,1,1,1150,medium,0,1,2
+22,Group Assignment,Friday,18,51,5,7.0,0,0,0,1,0,1131,short,0,0,1
+22,Group Assignment,Friday,18,45,5,10.0,0,0,0,1,0,1125,short,0,0,2
+22,Individual Assignment,Friday,23,45,5,20.0,0,0,0,0,0,1425,medium,0,0,1
+22,Individual Assignment,Friday,23,38,5,10.0,0,0,0,0,0,1418,short,0,0,2
+22,Individual Assignment,Friday,23,42,5,15.0,0,0,0,0,0,1422,medium,0,0,3
+23,Individual Assignment,Thursday,21,24,4,5.0,0,0,0,1,1,1284,short,0,1,1
+23,Individual Assignment,Thursday,21,25,4,8.0,0,0,0,1,1,1285,short,0,1,2
+23,Individual Assignment,Thursday,21,30,4,12.0,0,0,0,1,1,1290,medium,0,1,3
+23,Individual Assignment,Sunday,7,22,7,6.0,1,1,0,0,0,442,short,0,1,1
+23,Individual Assignment,Sunday,7,24,7,8.0,1,1,0,0,0,444,short,0,1,2
+23,Group Assignment,Wednesday,6,32,3,9.0,0,1,0,0,0,392,short,0,0,1
+23,Group Assignment,Wednesday,6,35,3,18.0,0,1,0,0,0,395,medium,0,0,2
+23,Group Assignment,Wednesday,6,33,3,8.0,0,1,0,0,0,393,short,0,0,3
+23,Quiz,Monday,15,36,1,19.0,0,0,1,0,0,936,medium,0,0,1
+23,Forum,Saturday,20,33,6,15.0,1,0,0,1,1,1233,medium,0,1,1
+23,Group Assignment,Monday,23,7,1,26.0,0,0,0,0,0,1387,medium,0,0,2
+23,Group Assignment,Monday,23,1,1,19.0,0,0,0,0,0,1381,medium,0,0,3
+23,Group Assignment,Monday,15,39,1,9.0,0,0,1,0,0,939,short,0,0,1
+23,Forum,Sunday,11,24,7,8.0,1,1,0,0,0,684,short,0,1,1
+23,Forum,Sunday,11,27,7,21.0,1,1,0,0,0,687,medium,0,1,2
+23,Individual Assignment,Wednesday,5,40,3,13.0,0,0,0,0,0,340,medium,1,0,1
+23,Individual Assignment,Wednesday,5,37,3,22.0,0,0,0,0,0,337,medium,1,0,2
+23,Group Assignment,Sunday,2,36,7,15.0,1,0,0,0,0,156,medium,1,1,3
+23,Group Assignment,Sunday,2,39,7,16.0,1,0,0,0,0,159,medium,1,1,4
+23,Forum,Friday,16,4,5,9.0,0,0,1,0,0,964,short,0,0,1
+23,Individual Assignment,Tuesday,0,42,2,8.0,0,0,0,0,0,42,short,1,0,1
+23,Group Assignment,Thursday,19,12,4,27.0,0,0,0,1,1,1152,medium,0,1,4
+23,Group Assignment,Thursday,19,8,4,22.0,0,0,0,1,1,1148,medium,0,1,5
+23,Group Assignment,Thursday,19,7,4,10.0,0,0,0,1,1,1147,short,0,1,6
+23,Group Assignment,Friday,18,51,5,26.0,0,0,0,1,0,1131,medium,0,0,1
+23,Individual Assignment,Friday,23,45,5,5.0,0,0,0,0,0,1425,short,0,0,1
+24,Individual Assignment,Thursday,21,26,4,30.0,0,0,0,1,1,1286,medium,0,1,1
+24,Individual Assignment,Sunday,7,24,7,27.0,1,1,0,0,0,444,medium,0,1,1
+24,Group Assignment,Wednesday,6,34,3,16.0,0,1,0,0,0,394,medium,0,0,1
+24,Group Assignment,Wednesday,6,25,3,12.0,0,1,0,0,0,385,medium,0,0,2
+24,Quiz,Monday,15,30,1,20.0,0,0,1,0,0,930,medium,0,0,1
+24,Forum,Saturday,20,35,6,7.0,1,0,0,1,1,1235,short,0,1,1
+24,Group Assignment,Monday,23,8,1,8.0,0,0,0,0,0,1388,short,0,0,2
+24,Group Assignment,Monday,23,6,1,10.0,0,0,0,0,0,1386,short,0,0,3
+24,Group Assignment,Monday,23,1,1,24.0,0,0,0,0,0,1381,medium,0,0,4
+24,Group Assignment,Monday,15,32,1,22.0,0,0,1,0,0,932,medium,0,0,1
+24,Group Assignment,Monday,15,40,1,25.0,0,0,1,0,0,940,medium,0,0,2
+24,Forum,Sunday,11,33,7,25.0,1,1,0,0,0,693,medium,0,1,1
+24,Forum,Sunday,11,28,7,23.0,1,1,0,0,0,688,medium,0,1,2
+24,Forum,Sunday,11,29,7,8.0,1,1,0,0,0,689,short,0,1,3
+24,Individual Assignment,Wednesday,5,32,3,23.0,0,0,0,0,0,332,medium,1,0,1
+24,Individual Assignment,Wednesday,5,36,3,16.0,0,0,0,0,0,336,medium,1,0,2
+24,Individual Assignment,Wednesday,5,35,3,5.0,0,0,0,0,0,335,short,1,0,3
+24,Group Assignment,Sunday,2,34,7,17.0,1,0,0,0,0,154,medium,1,1,2
+24,Forum,Friday,16,7,5,5.0,0,0,1,0,0,967,short,0,0,1
+24,Forum,Friday,16,3,5,16.0,0,0,1,0,0,963,medium,0,0,2
+24,Individual Assignment,Tuesday,0,44,2,19.0,0,0,0,0,0,44,medium,1,0,1
+24,Individual Assignment,Tuesday,0,42,2,23.0,0,0,0,0,0,42,medium,1,0,2
+24,Group Assignment,Thursday,19,8,4,6.0,0,0,0,1,1,1148,short,0,1,2
+24,Group Assignment,Friday,18,46,5,9.0,0,0,0,1,0,1126,short,0,0,1
+24,Group Assignment,Friday,18,51,5,21.0,0,0,0,1,0,1131,medium,0,0,2
+24,Individual Assignment,Friday,23,42,5,16.0,0,0,0,0,0,1422,medium,0,0,1
+26,Individual Assignment,Thursday,21,31,4,5.0,0,0,0,1,1,1291,short,0,1,1
+26,Individual Assignment,Sunday,7,21,7,11.0,1,1,0,0,0,441,medium,0,1,1
+26,Individual Assignment,Sunday,7,23,7,16.0,1,1,0,0,0,443,medium,0,1,2
+26,Group Assignment,Wednesday,6,29,3,24.0,0,1,0,0,0,389,medium,0,0,1
+26,Group Assignment,Wednesday,6,28,3,15.0,0,1,0,0,0,388,medium,0,0,2
+26,Group Assignment,Wednesday,6,32,3,9.0,0,1,0,0,0,392,short,0,0,3
+26,Quiz,Monday,15,35,1,9.0,0,0,1,0,0,935,short,0,0,1
+26,Quiz,Monday,15,27,1,15.0,0,0,1,0,0,927,medium,0,0,2
+26,Forum,Saturday,20,31,6,25.0,1,0,0,1,1,1231,medium,0,1,1
+26,Forum,Saturday,20,39,6,6.0,1,0,0,1,1,1239,short,0,1,2
+26,Group Assignment,Monday,23,9,1,11.0,0,0,0,0,0,1389,medium,0,0,3
+26,Group Assignment,Monday,15,41,1,20.0,0,0,1,0,0,941,medium,0,0,1
+26,Group Assignment,Monday,15,31,1,5.0,0,0,1,0,0,931,short,0,0,2
+26,Group Assignment,Monday,15,39,1,15.0,0,0,1,0,0,939,medium,0,0,3
+26,Forum,Sunday,11,29,7,30.0,1,1,0,0,0,689,medium,0,1,1
+26,Individual Assignment,Wednesday,5,35,3,26.0,0,0,0,0,0,335,medium,1,0,1
+26,Individual Assignment,Wednesday,5,33,3,14.0,0,0,0,0,0,333,medium,1,0,2
+26,Individual Assignment,Wednesday,5,36,3,18.0,0,0,0,0,0,336,medium,1,0,3
+26,Group Assignment,Sunday,2,31,7,30.0,1,0,0,0,0,151,medium,1,1,3
+26,Group Assignment,Sunday,2,38,7,25.0,1,0,0,0,0,158,medium,1,1,4
+26,Group Assignment,Sunday,2,34,7,6.0,1,0,0,0,0,154,short,1,1,5
+26,Forum,Friday,16,1,5,5.0,0,0,1,0,0,961,short,0,0,1
+26,Forum,Friday,16,8,5,6.0,0,0,1,0,0,968,short,0,0,2
+26,Forum,Friday,16,9,5,9.0,0,0,1,0,0,969,short,0,0,3
+26,Individual Assignment,Tuesday,0,42,2,23.0,0,0,0,0,0,42,medium,1,0,1
+26,Individual Assignment,Tuesday,0,44,2,22.0,0,0,0,0,0,44,medium,1,0,2
+26,Group Assignment,Thursday,19,10,4,7.0,0,0,0,1,1,1150,short,0,1,2
+26,Group Assignment,Friday,18,48,5,17.0,0,0,0,1,0,1128,medium,0,0,1
+26,Individual Assignment,Friday,23,43,5,6.0,0,0,0,0,0,1423,short,0,0,1
+27,Individual Assignment,Thursday,21,29,4,12.0,0,0,0,1,1,1289,medium,0,1,1
+27,Individual Assignment,Thursday,21,24,4,8.0,0,0,0,1,1,1284,short,0,1,2
+27,Individual Assignment,Thursday,21,34,4,12.0,0,0,0,1,1,1294,medium,0,1,3
+27,Individual Assignment,Sunday,7,20,7,26.0,1,1,0,0,0,440,medium,0,1,1
+27,Individual Assignment,Sunday,7,25,7,26.0,1,1,0,0,0,445,medium,0,1,2
+27,Group Assignment,Wednesday,6,25,3,22.0,0,1,0,0,0,385,medium,0,0,1
+27,Group Assignment,Wednesday,6,28,3,7.0,0,1,0,0,0,388,short,0,0,2
+27,Quiz,Monday,15,32,1,28.0,0,0,1,0,0,932,medium,0,0,1
+27,Quiz,Monday,15,33,1,6.0,0,0,1,0,0,933,short,0,0,2
+27,Forum,Saturday,20,36,6,14.0,1,0,0,1,1,1236,medium,0,1,1
+27,Forum,Saturday,20,33,6,6.0,1,0,0,1,1,1233,short,0,1,2
+27,Group Assignment,Monday,23,5,1,11.0,0,0,0,0,0,1385,medium,0,0,3
+27,Group Assignment,Monday,23,7,1,15.0,0,0,0,0,0,1387,medium,0,0,4
+27,Group Assignment,Monday,15,34,1,27.0,0,0,1,0,0,934,medium,0,0,1
+27,Forum,Sunday,11,27,7,14.0,1,1,0,0,0,687,medium,0,1,1
+27,Forum,Sunday,11,29,7,13.0,1,1,0,0,0,689,medium,0,1,2
+27,Forum,Sunday,11,32,7,14.0,1,1,0,0,0,692,medium,0,1,3
+27,Individual Assignment,Wednesday,5,34,3,15.0,0,0,0,0,0,334,medium,1,0,1
+27,Individual Assignment,Wednesday,5,35,3,29.0,0,0,0,0,0,335,medium,1,0,2
+27,Group Assignment,Sunday,2,34,7,11.0,1,0,0,0,0,154,medium,1,1,3
+27,Group Assignment,Sunday,2,33,7,12.0,1,0,0,0,0,153,medium,1,1,4
+27,Forum,Friday,16,1,5,27.0,0,0,1,0,0,961,medium,0,0,1
+27,Forum,Friday,16,0,5,16.0,0,0,1,0,0,960,medium,0,0,2
+27,Individual Assignment,Tuesday,0,51,2,30.0,0,0,0,0,0,51,medium,1,0,1
+27,Individual Assignment,Tuesday,0,45,2,19.0,0,0,0,0,0,45,medium,1,0,2
+27,Group Assignment,Thursday,19,10,4,13.0,0,0,0,1,1,1150,medium,0,1,4
+27,Group Assignment,Thursday,19,5,4,10.0,0,0,0,1,1,1145,short,0,1,5
+27,Group Assignment,Friday,18,47,5,15.0,0,0,0,1,0,1127,medium,0,0,1
+27,Group Assignment,Friday,18,52,5,6.0,0,0,0,1,0,1132,short,0,0,2
+27,Individual Assignment,Friday,23,39,5,14.0,0,0,0,0,0,1419,medium,0,0,1
+27,Individual Assignment,Friday,23,46,5,5.0,0,0,0,0,0,1426,short,0,0,2
+27,Individual Assignment,Friday,23,43,5,14.0,0,0,0,0,0,1423,medium,0,0,3
+28,Individual Assignment,Thursday,21,34,4,17.0,0,0,0,1,1,1294,medium,0,1,1
+28,Individual Assignment,Thursday,21,30,4,16.0,0,0,0,1,1,1290,medium,0,1,2
+28,Individual Assignment,Thursday,21,32,4,29.0,0,0,0,1,1,1292,medium,0,1,3
+28,Individual Assignment,Sunday,7,17,7,15.0,1,1,0,0,0,437,medium,0,1,1
+28,Group Assignment,Wednesday,6,34,3,22.0,0,1,0,0,0,394,medium,0,0,1
+28,Group Assignment,Wednesday,6,26,3,10.0,0,1,0,0,0,386,short,0,0,2
+28,Quiz,Monday,15,30,1,30.0,0,0,1,0,0,930,medium,0,0,1
+28,Forum,Saturday,20,33,6,8.0,1,0,0,1,1,1233,short,0,1,1
+28,Forum,Saturday,20,41,6,27.0,1,0,0,1,1,1241,medium,0,1,2
+28,Forum,Saturday,20,40,6,9.0,1,0,0,1,1,1240,short,0,1,3
+28,Group Assignment,Monday,23,4,1,15.0,0,0,0,0,0,1384,medium,0,0,2
+28,Group Assignment,Monday,23,3,1,8.0,0,0,0,0,0,1383,short,0,0,3
+28,Group Assignment,Monday,23,8,1,17.0,0,0,0,0,0,1388,medium,0,0,4
+28,Group Assignment,Monday,15,36,1,9.0,0,0,1,0,0,936,short,0,0,1
+28,Forum,Sunday,11,23,7,19.0,1,1,0,0,0,683,medium,0,1,1
+28,Individual Assignment,Wednesday,5,36,3,7.0,0,0,0,0,0,336,short,1,0,1
+28,Individual Assignment,Wednesday,5,30,3,5.0,0,0,0,0,0,330,short,1,0,2
+28,Group Assignment,Sunday,2,34,7,15.0,1,0,0,0,0,154,medium,1,1,2
+28,Group Assignment,Sunday,2,33,7,12.0,1,0,0,0,0,153,medium,1,1,3
+28,Group Assignment,Sunday,2,39,7,12.0,1,0,0,0,0,159,medium,1,1,4
+28,Forum,Friday,16,1,5,11.0,0,0,1,0,0,961,medium,0,0,1
+28,Forum,Friday,16,5,5,21.0,0,0,1,0,0,965,medium,0,0,2
+28,Individual Assignment,Tuesday,0,46,2,10.0,0,0,0,0,0,46,short,1,0,1
+28,Individual Assignment,Tuesday,0,49,2,30.0,0,0,0,0,0,49,medium,1,0,2
+28,Individual Assignment,Tuesday,0,50,2,8.0,0,0,0,0,0,50,short,1,0,3
+28,Group Assignment,Thursday,19,12,4,27.0,0,0,0,1,1,1152,medium,0,1,4
+28,Group Assignment,Thursday,19,7,4,9.0,0,0,0,1,1,1147,short,0,1,5
+28,Group Assignment,Friday,18,53,5,26.0,0,0,0,1,0,1133,medium,0,0,1
+28,Individual Assignment,Friday,23,38,5,19.0,0,0,0,0,0,1418,medium,0,0,1
+28,Individual Assignment,Friday,23,48,5,23.0,0,0,0,0,0,1428,medium,0,0,2
+30,Individual Assignment,Thursday,21,31,4,6.0,0,0,0,1,1,1291,short,0,1,1
+30,Individual Assignment,Thursday,21,25,4,30.0,0,0,0,1,1,1285,medium,0,1,2
+30,Individual Assignment,Sunday,7,15,7,13.0,1,1,0,0,0,435,medium,0,1,1
+30,Individual Assignment,Sunday,7,25,7,7.0,1,1,0,0,0,445,short,0,1,2
+30,Individual Assignment,Sunday,7,24,7,23.0,1,1,0,0,0,444,medium,0,1,3
+30,Group Assignment,Wednesday,6,25,3,28.0,0,1,0,0,0,385,medium,0,0,1
+30,Quiz,Monday,15,32,1,9.0,0,0,1,0,0,932,short,0,0,1
+30,Quiz,Monday,15,30,1,8.0,0,0,1,0,0,930,short,0,0,2
+30,Forum,Saturday,20,32,6,9.0,1,0,0,1,1,1232,short,0,1,1
+30,Forum,Saturday,20,36,6,14.0,1,0,0,1,1,1236,medium,0,1,2
+30,Group Assignment,Monday,23,2,1,25.0,0,0,0,0,0,1382,medium,0,0,3
+30,Group Assignment,Monday,23,4,1,19.0,0,0,0,0,0,1384,medium,0,0,4
+30,Group Assignment,Monday,23,9,1,6.0,0,0,0,0,0,1389,short,0,0,5
+30,Group Assignment,Monday,15,37,1,8.0,0,0,1,0,0,937,short,0,0,1
+30,Group Assignment,Monday,15,38,1,23.0,0,0,1,0,0,938,medium,0,0,2
+30,Forum,Sunday,11,24,7,19.0,1,1,0,0,0,684,medium,0,1,1
+30,Forum,Sunday,11,33,7,25.0,1,1,0,0,0,693,medium,0,1,2
+30,Individual Assignment,Wednesday,5,40,3,17.0,0,0,0,0,0,340,medium,1,0,1
+30,Individual Assignment,Wednesday,5,30,3,5.0,0,0,0,0,0,330,short,1,0,2
+30,Group Assignment,Sunday,2,33,7,6.0,1,0,0,0,0,153,short,1,1,4
+30,Group Assignment,Sunday,2,38,7,29.0,1,0,0,0,0,158,medium,1,1,5
+30,Forum,Friday,16,0,5,19.0,0,0,1,0,0,960,medium,0,0,1
+30,Forum,Friday,16,9,5,18.0,0,0,1,0,0,969,medium,0,0,2
+30,Forum,Friday,16,7,5,20.0,0,0,1,0,0,967,medium,0,0,3
+30,Individual Assignment,Tuesday,0,50,2,30.0,0,0,0,0,0,50,medium,1,0,1
+30,Group Assignment,Thursday,19,8,4,9.0,0,0,0,1,1,1148,short,0,1,3
+30,Group Assignment,Friday,18,55,5,13.0,0,0,0,1,0,1135,medium,0,0,1
+30,Group Assignment,Friday,18,53,5,6.0,0,0,0,1,0,1133,short,0,0,2
+30,Individual Assignment,Friday,23,46,5,12.0,0,0,0,0,0,1426,medium,0,0,1
+30,Individual Assignment,Friday,23,43,5,16.0,0,0,0,0,0,1423,medium,0,0,2
+31,Individual Assignment,Thursday,21,30,4,7.0,0,0,0,1,1,1290,short,0,1,1
+31,Individual Assignment,Sunday,7,25,7,29.0,1,1,0,0,0,445,medium,0,1,1
+31,Group Assignment,Wednesday,6,26,3,10.0,0,1,0,0,0,386,short,0,0,1
+31,Group Assignment,Wednesday,6,27,3,29.0,0,1,0,0,0,387,medium,0,0,2
+31,Group Assignment,Wednesday,6,32,3,29.0,0,1,0,0,0,392,medium,0,0,3
+31,Quiz,Monday,15,29,1,29.0,0,0,1,0,0,929,medium,0,0,1
+31,Quiz,Monday,15,36,1,28.0,0,0,1,0,0,936,medium,0,0,2
+31,Quiz,Monday,15,35,1,24.0,0,0,1,0,0,935,medium,0,0,3
+31,Forum,Saturday,20,33,6,26.0,1,0,0,1,1,1233,medium,0,1,1
+31,Forum,Saturday,20,40,6,27.0,1,0,0,1,1,1240,medium,0,1,2
+31,Group Assignment,Monday,23,3,1,14.0,0,0,0,0,0,1383,medium,0,0,4
+31,Group Assignment,Monday,15,34,1,26.0,0,0,1,0,0,934,medium,0,0,1
+31,Group Assignment,Monday,15,39,1,16.0,0,0,1,0,0,939,medium,0,0,2
+31,Forum,Sunday,11,24,7,20.0,1,1,0,0,0,684,medium,0,1,1
+31,Forum,Sunday,11,30,7,30.0,1,1,0,0,0,690,medium,0,1,2
+31,Forum,Sunday,11,23,7,23.0,1,1,0,0,0,683,medium,0,1,3
+31,Individual Assignment,Wednesday,5,38,3,25.0,0,0,0,0,0,338,medium,1,0,1
+31,Group Assignment,Sunday,2,39,7,5.0,1,0,0,0,0,159,short,1,1,2
+31,Group Assignment,Sunday,2,30,7,29.0,1,0,0,0,0,150,medium,1,1,3
+31,Forum,Friday,16,2,5,23.0,0,0,1,0,0,962,medium,0,0,1
+31,Individual Assignment,Tuesday,0,42,2,11.0,0,0,0,0,0,42,medium,1,0,1
+31,Individual Assignment,Tuesday,0,52,2,13.0,0,0,0,0,0,52,medium,1,0,2
+31,Group Assignment,Thursday,19,9,4,22.0,0,0,0,1,1,1149,medium,0,1,2
+31,Group Assignment,Thursday,19,12,4,21.0,0,0,0,1,1,1152,medium,0,1,3
+31,Group Assignment,Friday,18,47,5,27.0,0,0,0,1,0,1127,medium,0,0,1
+31,Individual Assignment,Friday,23,45,5,19.0,0,0,0,0,0,1425,medium,0,0,1
+31,Individual Assignment,Friday,23,41,5,17.0,0,0,0,0,0,1421,medium,0,0,2
+32,Individual Assignment,Thursday,21,31,4,24.0,0,0,0,1,1,1291,medium,0,1,1
+32,Individual Assignment,Thursday,21,28,4,29.0,0,0,0,1,1,1288,medium,0,1,2
+32,Individual Assignment,Sunday,7,19,7,8.0,1,1,0,0,0,439,short,0,1,1
+32,Individual Assignment,Sunday,7,24,7,28.0,1,1,0,0,0,444,medium,0,1,2
+32,Group Assignment,Wednesday,6,26,3,14.0,0,1,0,0,0,386,medium,0,0,1
+32,Group Assignment,Wednesday,6,35,3,17.0,0,1,0,0,0,395,medium,0,0,2
+32,Group Assignment,Wednesday,6,31,3,16.0,0,1,0,0,0,391,medium,0,0,3
+32,Quiz,Monday,15,29,1,27.0,0,0,1,0,0,929,medium,0,0,1
+32,Forum,Saturday,20,38,6,27.0,1,0,0,1,1,1238,medium,0,1,1
+32,Forum,Saturday,20,33,6,17.0,1,0,0,1,1,1233,medium,0,1,2
+32,Group Assignment,Monday,23,4,1,15.0,0,0,0,0,0,1384,medium,0,0,2
+32,Group Assignment,Monday,23,10,1,30.0,0,0,0,0,0,1390,medium,0,0,3
+32,Group Assignment,Monday,15,37,1,9.0,0,0,1,0,0,937,short,0,0,1
+32,Group Assignment,Monday,15,40,1,21.0,0,0,1,0,0,940,medium,0,0,2
+32,Forum,Sunday,11,27,7,22.0,1,1,0,0,0,687,medium,0,1,1
+32,Forum,Sunday,11,33,7,16.0,1,1,0,0,0,693,medium,0,1,2
+32,Individual Assignment,Wednesday,5,32,3,29.0,0,0,0,0,0,332,medium,1,0,1
+32,Group Assignment,Sunday,2,31,7,21.0,1,0,0,0,0,151,medium,1,1,3
+32,Group Assignment,Sunday,2,39,7,29.0,1,0,0,0,0,159,medium,1,1,4
+32,Forum,Friday,16,1,5,29.0,0,0,1,0,0,961,medium,0,0,1
+32,Individual Assignment,Tuesday,0,45,2,11.0,0,0,0,0,0,45,medium,1,0,1
+32,Individual Assignment,Tuesday,0,51,2,7.0,0,0,0,0,0,51,short,1,0,2
+32,Group Assignment,Thursday,19,7,4,26.0,0,0,0,1,1,1147,medium,0,1,3
+32,Group Assignment,Thursday,19,4,4,28.0,0,0,0,1,1,1144,medium,0,1,4
+32,Group Assignment,Friday,18,52,5,5.0,0,0,0,1,0,1132,short,0,0,1
+32,Group Assignment,Friday,18,51,5,21.0,0,0,0,1,0,1131,medium,0,0,2
+32,Individual Assignment,Friday,23,44,5,29.0,0,0,0,0,0,1424,medium,0,0,1
+32,Individual Assignment,Friday,23,39,5,12.0,0,0,0,0,0,1419,medium,0,0,2
+32,Individual Assignment,Friday,23,40,5,14.0,0,0,0,0,0,1420,medium,0,0,3
+33,Individual Assignment,Thursday,21,26,4,29.0,0,0,0,1,1,1286,medium,0,1,1
+33,Individual Assignment,Thursday,21,32,4,9.0,0,0,0,1,1,1292,short,0,1,2
+33,Individual Assignment,Thursday,21,29,4,28.0,0,0,0,1,1,1289,medium,0,1,3
+33,Individual Assignment,Sunday,7,15,7,15.0,1,1,0,0,0,435,medium,0,1,1
+33,Individual Assignment,Sunday,7,19,7,29.0,1,1,0,0,0,439,medium,0,1,2
+33,Group Assignment,Wednesday,6,28,3,18.0,0,1,0,0,0,388,medium,0,0,1
+33,Quiz,Monday,15,29,1,15.0,0,0,1,0,0,929,medium,0,0,1
+33,Quiz,Monday,15,30,1,8.0,0,0,1,0,0,930,short,0,0,2
+33,Forum,Saturday,20,33,6,30.0,1,0,0,1,1,1233,medium,0,1,1
+33,Forum,Saturday,20,36,6,18.0,1,0,0,1,1,1236,medium,0,1,2
+33,Forum,Saturday,20,37,6,10.0,1,0,0,1,1,1237,short,0,1,3
+33,Group Assignment,Monday,23,2,1,14.0,0,0,0,0,0,1382,medium,0,0,3
+33,Group Assignment,Monday,15,35,1,24.0,0,0,1,0,0,935,medium,0,0,1
+33,Forum,Sunday,11,23,7,11.0,1,1,0,0,0,683,medium,0,1,1
+33,Individual Assignment,Wednesday,5,33,3,7.0,0,0,0,0,0,333,short,1,0,1
+33,Group Assignment,Sunday,2,33,7,30.0,1,0,0,0,0,153,medium,1,1,3
+33,Group Assignment,Sunday,2,32,7,25.0,1,0,0,0,0,152,medium,1,1,4
+33,Group Assignment,Sunday,2,29,7,7.0,1,0,0,0,0,149,short,1,1,5
+33,Forum,Friday,16,8,5,30.0,0,0,1,0,0,968,medium,0,0,1
+33,Individual Assignment,Tuesday,0,48,2,13.0,0,0,0,0,0,48,medium,1,0,1
+33,Group Assignment,Thursday,19,7,4,19.0,0,0,0,1,1,1147,medium,0,1,4
+33,Group Assignment,Thursday,19,6,4,10.0,0,0,0,1,1,1146,short,0,1,5
+33,Group Assignment,Thursday,19,9,4,11.0,0,0,0,1,1,1149,medium,0,1,6
+33,Group Assignment,Friday,18,55,5,22.0,0,0,0,1,0,1135,medium,0,0,1
+33,Group Assignment,Friday,18,50,5,23.0,0,0,0,1,0,1130,medium,0,0,2
+33,Individual Assignment,Friday,23,45,5,18.0,0,0,0,0,0,1425,medium,0,0,1
+34,Individual Assignment,Thursday,21,30,4,12.0,0,0,0,1,1,1290,medium,0,1,1
+34,Individual Assignment,Thursday,21,25,4,8.0,0,0,0,1,1,1285,short,0,1,2
+34,Individual Assignment,Thursday,21,32,4,14.0,0,0,0,1,1,1292,medium,0,1,3
+34,Individual Assignment,Sunday,7,17,7,6.0,1,1,0,0,0,437,short,0,1,1
+34,Individual Assignment,Sunday,7,23,7,29.0,1,1,0,0,0,443,medium,0,1,2
+34,Group Assignment,Wednesday,6,32,3,25.0,0,1,0,0,0,392,medium,0,0,1
+34,Group Assignment,Wednesday,6,26,3,14.0,0,1,0,0,0,386,medium,0,0,2
+34,Group Assignment,Wednesday,6,25,3,7.0,0,1,0,0,0,385,short,0,0,3
+34,Quiz,Monday,15,27,1,26.0,0,0,1,0,0,927,medium,0,0,1
+34,Quiz,Monday,15,28,1,28.0,0,0,1,0,0,928,medium,0,0,2
+34,Forum,Saturday,20,36,6,8.0,1,0,0,1,1,1236,short,0,1,1
+34,Forum,Saturday,20,41,6,24.0,1,0,0,1,1,1241,medium,0,1,2
+34,Group Assignment,Monday,23,0,1,26.0,0,0,0,0,0,1380,medium,0,0,3
+34,Group Assignment,Monday,23,9,1,7.0,0,0,0,0,0,1389,short,0,0,4
+34,Group Assignment,Monday,23,6,1,21.0,0,0,0,0,0,1386,medium,0,0,5
+34,Group Assignment,Monday,15,31,1,26.0,0,0,1,0,0,931,medium,0,0,1
+34,Group Assignment,Monday,15,37,1,12.0,0,0,1,0,0,937,medium,0,0,2
+34,Forum,Sunday,11,26,7,30.0,1,1,0,0,0,686,medium,0,1,1
+34,Forum,Sunday,11,23,7,5.0,1,1,0,0,0,683,short,0,1,2
+34,Forum,Sunday,11,33,7,13.0,1,1,0,0,0,693,medium,0,1,3
+34,Individual Assignment,Wednesday,5,36,3,24.0,0,0,0,0,0,336,medium,1,0,1
+34,Group Assignment,Sunday,2,37,7,13.0,1,0,0,0,0,157,medium,1,1,3
+34,Group Assignment,Sunday,2,30,7,26.0,1,0,0,0,0,150,medium,1,1,4
+34,Forum,Friday,16,7,5,28.0,0,0,1,0,0,967,medium,0,0,1
+34,Forum,Friday,16,2,5,28.0,0,0,1,0,0,962,medium,0,0,2
+34,Individual Assignment,Tuesday,0,45,2,12.0,0,0,0,0,0,45,medium,1,0,1
+34,Individual Assignment,Tuesday,0,47,2,25.0,0,0,0,0,0,47,medium,1,0,2
+34,Individual Assignment,Tuesday,0,50,2,24.0,0,0,0,0,0,50,medium,1,0,3
+34,Group Assignment,Thursday,19,7,4,23.0,0,0,0,1,1,1147,medium,0,1,4
+34,Group Assignment,Thursday,19,9,4,22.0,0,0,0,1,1,1149,medium,0,1,5
+34,Group Assignment,Friday,18,49,5,25.0,0,0,0,1,0,1129,medium,0,0,1
+34,Group Assignment,Friday,18,45,5,17.0,0,0,0,1,0,1125,medium,0,0,2
+34,Individual Assignment,Friday,23,46,5,9.0,0,0,0,0,0,1426,short,0,0,1
+35,Individual Assignment,Thursday,21,28,4,27.0,0,0,0,1,1,1288,medium,0,1,1
+35,Individual Assignment,Thursday,21,26,4,15.0,0,0,0,1,1,1286,medium,0,1,2
+35,Individual Assignment,Sunday,7,19,7,22.0,1,1,0,0,0,439,medium,0,1,1
+35,Individual Assignment,Sunday,7,23,7,27.0,1,1,0,0,0,443,medium,0,1,2
+35,Group Assignment,Wednesday,6,35,3,21.0,0,1,0,0,0,395,medium,0,0,1
+35,Quiz,Monday,15,29,1,8.0,0,0,1,0,0,929,short,0,0,1
+35,Quiz,Monday,15,33,1,24.0,0,0,1,0,0,933,medium,0,0,2
+35,Forum,Saturday,20,38,6,8.0,1,0,0,1,1,1238,short,0,1,1
+35,Forum,Saturday,20,31,6,13.0,1,0,0,1,1,1231,medium,0,1,2
+35,Forum,Saturday,20,37,6,14.0,1,0,0,1,1,1237,medium,0,1,3
+35,Group Assignment,Monday,23,5,1,20.0,0,0,0,0,0,1385,medium,0,0,3
+35,Group Assignment,Monday,23,6,1,11.0,0,0,0,0,0,1386,medium,0,0,4
+35,Group Assignment,Monday,23,10,1,21.0,0,0,0,0,0,1390,medium,0,0,5
+35,Group Assignment,Monday,15,36,1,15.0,0,0,1,0,0,936,medium,0,0,1
+35,Forum,Sunday,11,26,7,10.0,1,1,0,0,0,686,short,0,1,1
+35,Forum,Sunday,11,24,7,29.0,1,1,0,0,0,684,medium,0,1,2
+35,Individual Assignment,Wednesday,5,36,3,22.0,0,0,0,0,0,336,medium,1,0,1
+35,Individual Assignment,Wednesday,5,39,3,11.0,0,0,0,0,0,339,medium,1,0,2
+35,Group Assignment,Sunday,2,33,7,22.0,1,0,0,0,0,153,medium,1,1,3
+35,Forum,Friday,16,7,5,24.0,0,0,1,0,0,967,medium,0,0,1
+35,Individual Assignment,Tuesday,0,48,2,8.0,0,0,0,0,0,48,short,1,0,1
+35,Group Assignment,Thursday,19,13,4,26.0,0,0,0,1,1,1153,medium,0,1,3
+35,Group Assignment,Thursday,19,3,4,23.0,0,0,0,1,1,1143,medium,0,1,4
+35,Group Assignment,Friday,18,47,5,25.0,0,0,0,1,0,1127,medium,0,0,1
+35,Individual Assignment,Friday,23,41,5,30.0,0,0,0,0,0,1421,medium,0,0,1
+35,Individual Assignment,Friday,23,43,5,24.0,0,0,0,0,0,1423,medium,0,0,2
+36,Individual Assignment,Thursday,21,29,4,7.0,0,0,0,1,1,1289,short,0,1,1
+36,Individual Assignment,Thursday,21,32,4,11.0,0,0,0,1,1,1292,medium,0,1,2
+36,Individual Assignment,Sunday,7,25,7,20.0,1,1,0,0,0,445,medium,0,1,1
+36,Group Assignment,Wednesday,6,26,3,28.0,0,1,0,0,0,386,medium,0,0,1
+36,Group Assignment,Wednesday,6,29,3,16.0,0,1,0,0,0,389,medium,0,0,2
+36,Quiz,Monday,15,31,1,7.0,0,0,1,0,0,931,short,0,0,1
+36,Quiz,Monday,15,28,1,10.0,0,0,1,0,0,928,short,0,0,2
+36,Forum,Saturday,20,39,6,26.0,1,0,0,1,1,1239,medium,0,1,1
+36,Forum,Saturday,20,32,6,30.0,1,0,0,1,1,1232,medium,0,1,2
+36,Group Assignment,Monday,23,7,1,8.0,0,0,0,0,0,1387,short,0,0,3
+36,Group Assignment,Monday,23,9,1,5.0,0,0,0,0,0,1389,short,0,0,4
+36,Group Assignment,Monday,15,33,1,5.0,0,0,1,0,0,933,short,0,0,1
+36,Group Assignment,Monday,15,32,1,29.0,0,0,1,0,0,932,medium,0,0,2
+36,Group Assignment,Monday,15,36,1,8.0,0,0,1,0,0,936,short,0,0,3
+36,Forum,Sunday,11,26,7,21.0,1,1,0,0,0,686,medium,0,1,1
+36,Forum,Sunday,11,28,7,26.0,1,1,0,0,0,688,medium,0,1,2
+36,Individual Assignment,Wednesday,5,38,3,14.0,0,0,0,0,0,338,medium,1,0,1
+36,Group Assignment,Sunday,2,38,7,19.0,1,0,0,0,0,158,medium,1,1,2
+36,Group Assignment,Sunday,2,36,7,22.0,1,0,0,0,0,156,medium,1,1,3
+36,Forum,Friday,16,8,5,24.0,0,0,1,0,0,968,medium,0,0,1
+36,Forum,Friday,16,0,5,21.0,0,0,1,0,0,960,medium,0,0,2
+36,Individual Assignment,Tuesday,0,47,2,29.0,0,0,0,0,0,47,medium,1,0,1
+36,Group Assignment,Thursday,19,7,4,21.0,0,0,0,1,1,1147,medium,0,1,3
+36,Group Assignment,Thursday,19,10,4,16.0,0,0,0,1,1,1150,medium,0,1,4
+36,Group Assignment,Friday,18,47,5,19.0,0,0,0,1,0,1127,medium,0,0,1
+36,Group Assignment,Friday,18,52,5,10.0,0,0,0,1,0,1132,short,0,0,2
+36,Individual Assignment,Friday,23,43,5,23.0,0,0,0,0,0,1423,medium,0,0,1
+37,Individual Assignment,Thursday,21,26,4,18.0,0,0,0,1,1,1286,medium,0,1,1
+37,Individual Assignment,Thursday,21,25,4,10.0,0,0,0,1,1,1285,short,0,1,2
+37,Individual Assignment,Thursday,21,27,4,17.0,0,0,0,1,1,1287,medium,0,1,3
+37,Individual Assignment,Sunday,7,18,7,25.0,1,1,0,0,0,438,medium,0,1,1
+37,Individual Assignment,Sunday,7,24,7,30.0,1,1,0,0,0,444,medium,0,1,2
+37,Group Assignment,Wednesday,6,25,3,16.0,0,1,0,0,0,385,medium,0,0,1
+37,Group Assignment,Wednesday,6,30,3,17.0,0,1,0,0,0,390,medium,0,0,2
+37,Group Assignment,Wednesday,6,26,3,11.0,0,1,0,0,0,386,medium,0,0,3
+37,Quiz,Monday,15,28,1,18.0,0,0,1,0,0,928,medium,0,0,1
+37,Forum,Saturday,20,35,6,21.0,1,0,0,1,1,1235,medium,0,1,1
+37,Group Assignment,Monday,23,9,1,24.0,0,0,0,0,0,1389,medium,0,0,2
+37,Group Assignment,Monday,15,38,1,13.0,0,0,1,0,0,938,medium,0,0,1
+37,Forum,Sunday,11,28,7,18.0,1,1,0,0,0,688,medium,0,1,1
+37,Individual Assignment,Wednesday,5,35,3,11.0,0,0,0,0,0,335,medium,1,0,1
+37,Individual Assignment,Wednesday,5,31,3,17.0,0,0,0,0,0,331,medium,1,0,2
+37,Group Assignment,Sunday,2,31,7,10.0,1,0,0,0,0,151,short,1,1,3
+37,Forum,Friday,16,6,5,8.0,0,0,1,0,0,966,short,0,0,1
+37,Forum,Friday,16,9,5,30.0,0,0,1,0,0,969,medium,0,0,2
+37,Individual Assignment,Tuesday,0,51,2,11.0,0,0,0,0,0,51,medium,1,0,1
+37,Group Assignment,Thursday,19,8,4,17.0,0,0,0,1,1,1148,medium,0,1,4
+37,Group Assignment,Thursday,19,7,4,16.0,0,0,0,1,1,1147,medium,0,1,5
+37,Group Assignment,Friday,18,51,5,8.0,0,0,0,1,0,1131,short,0,0,1
+37,Group Assignment,Friday,18,46,5,11.0,0,0,0,1,0,1126,medium,0,0,2
+37,Individual Assignment,Friday,23,45,5,16.0,0,0,0,0,0,1425,medium,0,0,1
+37,Individual Assignment,Friday,23,46,5,7.0,0,0,0,0,0,1426,short,0,0,2
+37,Individual Assignment,Friday,23,41,5,17.0,0,0,0,0,0,1421,medium,0,0,3
+38,Individual Assignment,Thursday,21,32,4,16.0,0,0,0,1,1,1292,medium,0,1,1
+38,Individual Assignment,Sunday,7,23,7,18.0,1,1,0,0,0,443,medium,0,1,1
+38,Individual Assignment,Sunday,7,21,7,28.0,1,1,0,0,0,441,medium,0,1,2
+38,Group Assignment,Wednesday,6,26,3,6.0,0,1,0,0,0,386,short,0,0,1
+38,Group Assignment,Wednesday,6,27,3,24.0,0,1,0,0,0,387,medium,0,0,2
+38,Quiz,Monday,15,34,1,20.0,0,0,1,0,0,934,medium,0,0,1
+38,Forum,Saturday,20,39,6,6.0,1,0,0,1,1,1239,short,0,1,1
+38,Forum,Saturday,20,36,6,26.0,1,0,0,1,1,1236,medium,0,1,2
+38,Group Assignment,Monday,23,3,1,20.0,0,0,0,0,0,1383,medium,0,0,2
+38,Group Assignment,Monday,23,0,1,10.0,0,0,0,0,0,1380,short,0,0,3
+38,Group Assignment,Monday,15,38,1,23.0,0,0,1,0,0,938,medium,0,0,1
+38,Group Assignment,Monday,15,40,1,10.0,0,0,1,0,0,940,short,0,0,2
+38,Forum,Sunday,11,29,7,29.0,1,1,0,0,0,689,medium,0,1,1
+38,Forum,Sunday,11,26,7,11.0,1,1,0,0,0,686,medium,0,1,2
+38,Individual Assignment,Wednesday,5,30,3,25.0,0,0,0,0,0,330,medium,1,0,1
+38,Individual Assignment,Wednesday,5,40,3,16.0,0,0,0,0,0,340,medium,1,0,2
+38,Individual Assignment,Wednesday,5,38,3,18.0,0,0,0,0,0,338,medium,1,0,3
+38,Group Assignment,Sunday,2,34,7,19.0,1,0,0,0,0,154,medium,1,1,3
+38,Group Assignment,Sunday,2,35,7,28.0,1,0,0,0,0,155,medium,1,1,4
+38,Group Assignment,Sunday,2,29,7,28.0,1,0,0,0,0,149,medium,1,1,5
+38,Forum,Friday,16,10,5,27.0,0,0,1,0,0,970,medium,0,0,1
+38,Forum,Friday,16,3,5,7.0,0,0,1,0,0,963,short,0,0,2
+38,Individual Assignment,Tuesday,0,44,2,21.0,0,0,0,0,0,44,medium,1,0,1
+38,Individual Assignment,Tuesday,0,45,2,22.0,0,0,0,0,0,45,medium,1,0,2
+38,Group Assignment,Thursday,19,3,4,11.0,0,0,0,1,1,1143,medium,0,1,2
+38,Group Assignment,Thursday,19,6,4,5.0,0,0,0,1,1,1146,short,0,1,3
+38,Group Assignment,Thursday,19,7,4,29.0,0,0,0,1,1,1147,medium,0,1,4
+38,Group Assignment,Friday,18,51,5,5.0,0,0,0,1,0,1131,short,0,0,1
+38,Group Assignment,Friday,18,50,5,22.0,0,0,0,1,0,1130,medium,0,0,2
+38,Individual Assignment,Friday,23,48,5,8.0,0,0,0,0,0,1428,short,0,0,1
+39,Individual Assignment,Thursday,21,31,4,22.0,0,0,0,1,1,1291,medium,0,1,1
+39,Individual Assignment,Thursday,21,24,4,8.0,0,0,0,1,1,1284,short,0,1,2
+39,Individual Assignment,Sunday,7,18,7,19.0,1,1,0,0,0,438,medium,0,1,1
+39,Group Assignment,Wednesday,6,34,3,9.0,0,1,0,0,0,394,short,0,0,1
+39,Group Assignment,Wednesday,6,31,3,27.0,0,1,0,0,0,391,medium,0,0,2
+39,Group Assignment,Wednesday,6,25,3,11.0,0,1,0,0,0,385,medium,0,0,3
+39,Quiz,Monday,15,36,1,6.0,0,0,1,0,0,936,short,0,0,1
+39,Quiz,Monday,15,35,1,18.0,0,0,1,0,0,935,medium,0,0,2
+39,Forum,Saturday,20,35,6,29.0,1,0,0,1,1,1235,medium,0,1,1
+39,Forum,Saturday,20,34,6,15.0,1,0,0,1,1,1234,medium,0,1,2
+39,Forum,Saturday,20,41,6,18.0,1,0,0,1,1,1241,medium,0,1,3
+39,Group Assignment,Monday,23,9,1,25.0,0,0,0,0,0,1389,medium,0,0,3
+39,Group Assignment,Monday,23,6,1,7.0,0,0,0,0,0,1386,short,0,0,4
+39,Group Assignment,Monday,23,1,1,25.0,0,0,0,0,0,1381,medium,0,0,5
+39,Group Assignment,Monday,15,39,1,12.0,0,0,1,0,0,939,medium,0,0,1
+39,Group Assignment,Monday,15,36,1,14.0,0,0,1,0,0,936,medium,0,0,2
+39,Group Assignment,Monday,15,34,1,11.0,0,0,1,0,0,934,medium,0,0,3
+39,Forum,Sunday,11,31,7,8.0,1,1,0,0,0,691,short,0,1,1
+39,Forum,Sunday,11,26,7,5.0,1,1,0,0,0,686,short,0,1,2
+39,Forum,Sunday,11,24,7,13.0,1,1,0,0,0,684,medium,0,1,3
+39,Individual Assignment,Wednesday,5,31,3,28.0,0,0,0,0,0,331,medium,1,0,1
+39,Individual Assignment,Wednesday,5,34,3,30.0,0,0,0,0,0,334,medium,1,0,2
+39,Group Assignment,Sunday,2,34,7,11.0,1,0,0,0,0,154,medium,1,1,2
+39,Forum,Friday,16,1,5,13.0,0,0,1,0,0,961,medium,0,0,1
+39,Forum,Friday,16,2,5,11.0,0,0,1,0,0,962,medium,0,0,2
+39,Individual Assignment,Tuesday,0,47,2,30.0,0,0,0,0,0,47,medium,1,0,1
+39,Individual Assignment,Tuesday,0,51,2,22.0,0,0,0,0,0,51,medium,1,0,2
+39,Individual Assignment,Tuesday,0,48,2,27.0,0,0,0,0,0,48,medium,1,0,3
+39,Group Assignment,Thursday,19,10,4,11.0,0,0,0,1,1,1150,medium,0,1,3
+39,Group Assignment,Friday,18,48,5,25.0,0,0,0,1,0,1128,medium,0,0,1
+39,Group Assignment,Friday,18,51,5,5.0,0,0,0,1,0,1131,short,0,0,2
+39,Group Assignment,Friday,18,49,5,6.0,0,0,0,1,0,1129,short,0,0,3
+39,Individual Assignment,Friday,23,48,5,29.0,0,0,0,0,0,1428,medium,0,0,1
+39,Individual Assignment,Friday,23,41,5,23.0,0,0,0,0,0,1421,medium,0,0,2
+41,Individual Assignment,Thursday,21,31,4,25.0,0,0,0,1,1,1291,medium,0,1,1
+41,Individual Assignment,Thursday,21,33,4,10.0,0,0,0,1,1,1293,short,0,1,2
+41,Individual Assignment,Sunday,7,15,7,5.0,1,1,0,0,0,435,short,0,1,1
+41,Individual Assignment,Sunday,7,19,7,9.0,1,1,0,0,0,439,short,0,1,2
+41,Individual Assignment,Sunday,7,20,7,11.0,1,1,0,0,0,440,medium,0,1,3
+41,Group Assignment,Wednesday,6,28,3,7.0,0,1,0,0,0,388,short,0,0,1
+41,Quiz,Monday,15,36,1,18.0,0,0,1,0,0,936,medium,0,0,1
+41,Forum,Saturday,20,38,6,7.0,1,0,0,1,1,1238,short,0,1,1
+41,Forum,Saturday,20,39,6,28.0,1,0,0,1,1,1239,medium,0,1,2
+41,Group Assignment,Monday,23,3,1,12.0,0,0,0,0,0,1383,medium,0,0,2
+41,Group Assignment,Monday,23,7,1,26.0,0,0,0,0,0,1387,medium,0,0,3
+41,Group Assignment,Monday,15,33,1,7.0,0,0,1,0,0,933,short,0,0,1
+41,Group Assignment,Monday,15,35,1,22.0,0,0,1,0,0,935,medium,0,0,2
+41,Group Assignment,Monday,15,34,1,18.0,0,0,1,0,0,934,medium,0,0,3
+41,Forum,Sunday,11,31,7,9.0,1,1,0,0,0,691,short,0,1,1
+41,Forum,Sunday,11,27,7,19.0,1,1,0,0,0,687,medium,0,1,2
+41,Individual Assignment,Wednesday,5,32,3,24.0,0,0,0,0,0,332,medium,1,0,1
+41,Individual Assignment,Wednesday,5,36,3,9.0,0,0,0,0,0,336,short,1,0,2
+41,Group Assignment,Sunday,2,39,7,19.0,1,0,0,0,0,159,medium,1,1,4
+41,Group Assignment,Sunday,2,33,7,21.0,1,0,0,0,0,153,medium,1,1,5
+41,Forum,Friday,16,9,5,19.0,0,0,1,0,0,969,medium,0,0,1
+41,Forum,Friday,16,6,5,5.0,0,0,1,0,0,966,short,0,0,2
+41,Forum,Friday,16,4,5,18.0,0,0,1,0,0,964,medium,0,0,3
+41,Individual Assignment,Tuesday,0,45,2,8.0,0,0,0,0,0,45,short,1,0,1
+41,Group Assignment,Thursday,19,9,4,8.0,0,0,0,1,1,1149,short,0,1,3
+41,Group Assignment,Friday,18,45,5,19.0,0,0,0,1,0,1125,medium,0,0,1
+41,Group Assignment,Friday,18,47,5,24.0,0,0,0,1,0,1127,medium,0,0,2
+41,Individual Assignment,Friday,23,43,5,21.0,0,0,0,0,0,1423,medium,0,0,1
+42,Individual Assignment,Thursday,21,31,4,23.0,0,0,0,1,1,1291,medium,0,1,1
+42,Individual Assignment,Sunday,7,19,7,10.0,1,1,0,0,0,439,short,0,1,1
+42,Group Assignment,Wednesday,6,27,3,22.0,0,1,0,0,0,387,medium,0,0,1
+42,Group Assignment,Wednesday,6,25,3,23.0,0,1,0,0,0,385,medium,0,0,2
+42,Group Assignment,Wednesday,6,32,3,20.0,0,1,0,0,0,392,medium,0,0,3
+42,Quiz,Monday,15,30,1,10.0,0,0,1,0,0,930,short,0,0,1
+42,Quiz,Monday,15,29,1,15.0,0,0,1,0,0,929,medium,0,0,2
+42,Quiz,Monday,15,27,1,18.0,0,0,1,0,0,927,medium,0,0,3
+42,Forum,Saturday,20,40,6,11.0,1,0,0,1,1,1240,medium,0,1,1
+42,Group Assignment,Monday,23,7,1,9.0,0,0,0,0,0,1387,short,0,0,4
+42,Group Assignment,Monday,15,37,1,13.0,0,0,1,0,0,937,medium,0,0,1
+42,Group Assignment,Monday,15,36,1,15.0,0,0,1,0,0,936,medium,0,0,2
+42,Forum,Sunday,11,30,7,24.0,1,1,0,0,0,690,medium,0,1,1
+42,Forum,Sunday,11,32,7,24.0,1,1,0,0,0,692,medium,0,1,2
+42,Individual Assignment,Wednesday,5,39,3,12.0,0,0,0,0,0,339,medium,1,0,1
+42,Individual Assignment,Wednesday,5,30,3,12.0,0,0,0,0,0,330,medium,1,0,2
+42,Group Assignment,Sunday,2,35,7,12.0,1,0,0,0,0,155,medium,1,1,2
+42,Forum,Friday,16,0,5,24.0,0,0,1,0,0,960,medium,0,0,1
+42,Forum,Friday,16,7,5,25.0,0,0,1,0,0,967,medium,0,0,2
+42,Forum,Friday,16,9,5,15.0,0,0,1,0,0,969,medium,0,0,3
+42,Individual Assignment,Tuesday,0,48,2,19.0,0,0,0,0,0,48,medium,1,0,1
+42,Group Assignment,Thursday,19,3,4,13.0,0,0,0,1,1,1143,medium,0,1,2
+42,Group Assignment,Friday,18,49,5,19.0,0,0,0,1,0,1129,medium,0,0,1
+42,Group Assignment,Friday,18,55,5,22.0,0,0,0,1,0,1135,medium,0,0,2
+42,Individual Assignment,Friday,23,44,5,24.0,0,0,0,0,0,1424,medium,0,0,1
+45,Individual Assignment,Thursday,21,29,4,19.0,0,0,0,1,1,1289,medium,0,1,1
+45,Individual Assignment,Sunday,7,20,7,14.0,1,1,0,0,0,440,medium,0,1,1
+45,Group Assignment,Wednesday,6,30,3,21.0,0,1,0,0,0,390,medium,0,0,1
+45,Quiz,Monday,15,36,1,23.0,0,0,1,0,0,936,medium,0,0,1
+45,Forum,Saturday,20,41,6,23.0,1,0,0,1,1,1241,medium,0,1,1
+45,Group Assignment,Monday,23,1,1,29.0,0,0,0,0,0,1381,medium,0,0,2
+45,Group Assignment,Monday,23,10,1,28.0,0,0,0,0,0,1390,medium,0,0,3
+45,Group Assignment,Monday,23,3,1,13.0,0,0,0,0,0,1383,medium,0,0,4
+45,Group Assignment,Monday,15,32,1,21.0,0,0,1,0,0,932,medium,0,0,1
+45,Group Assignment,Monday,15,39,1,26.0,0,0,1,0,0,939,medium,0,0,2
+45,Group Assignment,Monday,15,38,1,27.0,0,0,1,0,0,938,medium,0,0,3
+45,Forum,Sunday,11,26,7,8.0,1,1,0,0,0,686,short,0,1,1
+45,Forum,Sunday,11,29,7,24.0,1,1,0,0,0,689,medium,0,1,2
+45,Forum,Sunday,11,28,7,23.0,1,1,0,0,0,688,medium,0,1,3
+45,Individual Assignment,Wednesday,5,31,3,29.0,0,0,0,0,0,331,medium,1,0,1
+45,Individual Assignment,Wednesday,5,39,3,30.0,0,0,0,0,0,339,medium,1,0,2
+45,Individual Assignment,Wednesday,5,37,3,23.0,0,0,0,0,0,337,medium,1,0,3
+45,Group Assignment,Sunday,2,35,7,29.0,1,0,0,0,0,155,medium,1,1,2
+45,Forum,Friday,16,1,5,11.0,0,0,1,0,0,961,medium,0,0,1
+45,Forum,Friday,16,7,5,28.0,0,0,1,0,0,967,medium,0,0,2
+45,Individual Assignment,Tuesday,0,44,2,14.0,0,0,0,0,0,44,medium,1,0,1
+45,Individual Assignment,Tuesday,0,49,2,30.0,0,0,0,0,0,49,medium,1,0,2
+45,Individual Assignment,Tuesday,0,47,2,5.0,0,0,0,0,0,47,short,1,0,3
+45,Group Assignment,Thursday,19,4,4,10.0,0,0,0,1,1,1144,short,0,1,2
+45,Group Assignment,Thursday,19,5,4,14.0,0,0,0,1,1,1145,medium,0,1,3
+45,Group Assignment,Friday,18,53,5,13.0,0,0,0,1,0,1133,medium,0,0,1
+45,Individual Assignment,Friday,23,45,5,6.0,0,0,0,0,0,1425,short,0,0,1
+45,Individual Assignment,Friday,23,39,5,17.0,0,0,0,0,0,1419,medium,0,0,2
+45,Individual Assignment,Friday,23,41,5,21.0,0,0,0,0,0,1421,medium,0,0,3
+46,Individual Assignment,Thursday,21,28,4,28.0,0,0,0,1,1,1288,medium,0,1,1
+46,Individual Assignment,Thursday,21,32,4,10.0,0,0,0,1,1,1292,short,0,1,2
+46,Individual Assignment,Sunday,7,20,7,15.0,1,1,0,0,0,440,medium,0,1,1
+46,Individual Assignment,Sunday,7,21,7,22.0,1,1,0,0,0,441,medium,0,1,2
+46,Individual Assignment,Sunday,7,24,7,21.0,1,1,0,0,0,444,medium,0,1,3
+46,Group Assignment,Wednesday,6,30,3,23.0,0,1,0,0,0,390,medium,0,0,1
+46,Group Assignment,Wednesday,6,28,3,21.0,0,1,0,0,0,388,medium,0,0,2
+46,Group Assignment,Wednesday,6,29,3,11.0,0,1,0,0,0,389,medium,0,0,3
+46,Quiz,Monday,15,26,1,28.0,0,0,1,0,0,926,medium,0,0,1
+46,Forum,Saturday,20,35,6,23.0,1,0,0,1,1,1235,medium,0,1,1
+46,Forum,Saturday,20,38,6,7.0,1,0,0,1,1,1238,short,0,1,2
+46,Forum,Saturday,20,37,6,25.0,1,0,0,1,1,1237,medium,0,1,3
+46,Group Assignment,Monday,23,3,1,26.0,0,0,0,0,0,1383,medium,0,0,2
+46,Group Assignment,Monday,15,35,1,13.0,0,0,1,0,0,935,medium,0,0,1
+46,Group Assignment,Monday,15,33,1,19.0,0,0,1,0,0,933,medium,0,0,2
+46,Forum,Sunday,11,28,7,18.0,1,1,0,0,0,688,medium,0,1,1
+46,Forum,Sunday,11,33,7,9.0,1,1,0,0,0,693,short,0,1,2
+46,Forum,Sunday,11,26,7,24.0,1,1,0,0,0,686,medium,0,1,3
+46,Individual Assignment,Wednesday,5,34,3,27.0,0,0,0,0,0,334,medium,1,0,1
+46,Individual Assignment,Wednesday,5,40,3,17.0,0,0,0,0,0,340,medium,1,0,2
+46,Group Assignment,Sunday,2,29,7,28.0,1,0,0,0,0,149,medium,1,1,4
+46,Group Assignment,Sunday,2,32,7,27.0,1,0,0,0,0,152,medium,1,1,5
+46,Forum,Friday,16,6,5,15.0,0,0,1,0,0,966,medium,0,0,1
+46,Individual Assignment,Tuesday,0,52,2,13.0,0,0,0,0,0,52,medium,1,0,1
+46,Individual Assignment,Tuesday,0,51,2,9.0,0,0,0,0,0,51,short,1,0,2
+46,Group Assignment,Thursday,19,6,4,19.0,0,0,0,1,1,1146,medium,0,1,3
+46,Group Assignment,Thursday,19,7,4,20.0,0,0,0,1,1,1147,medium,0,1,4
+46,Group Assignment,Friday,18,49,5,11.0,0,0,0,1,0,1129,medium,0,0,1
+46,Individual Assignment,Friday,23,46,5,25.0,0,0,0,0,0,1426,medium,0,0,1
+46,Individual Assignment,Friday,23,48,5,23.0,0,0,0,0,0,1428,medium,0,0,2
+48,Individual Assignment,Thursday,21,25,4,14.0,0,0,0,1,1,1285,medium,0,1,1
+48,Individual Assignment,Sunday,7,24,7,29.0,1,1,0,0,0,444,medium,0,1,1
+48,Individual Assignment,Sunday,7,19,7,23.0,1,1,0,0,0,439,medium,0,1,2
+48,Group Assignment,Wednesday,6,31,3,24.0,0,1,0,0,0,391,medium,0,0,1
+48,Group Assignment,Wednesday,6,29,3,29.0,0,1,0,0,0,389,medium,0,0,2
+48,Quiz,Monday,15,30,1,16.0,0,0,1,0,0,930,medium,0,0,1
+48,Forum,Saturday,20,36,6,25.0,1,0,0,1,1,1236,medium,0,1,1
+48,Group Assignment,Monday,23,9,1,24.0,0,0,0,0,0,1389,medium,0,0,2
+48,Group Assignment,Monday,15,31,1,17.0,0,0,1,0,0,931,medium,0,0,1
+48,Forum,Sunday,11,32,7,22.0,1,1,0,0,0,692,medium,0,1,1
+48,Forum,Sunday,11,29,7,24.0,1,1,0,0,0,689,medium,0,1,2
+48,Individual Assignment,Wednesday,5,35,3,25.0,0,0,0,0,0,335,medium,1,0,1
+48,Individual Assignment,Wednesday,5,31,3,21.0,0,0,0,0,0,331,medium,1,0,2
+48,Group Assignment,Sunday,2,35,7,30.0,1,0,0,0,0,155,medium,1,1,3
+48,Group Assignment,Sunday,2,29,7,29.0,1,0,0,0,0,149,medium,1,1,4
+48,Forum,Friday,16,7,5,17.0,0,0,1,0,0,967,medium,0,0,1
+48,Forum,Friday,16,1,5,5.0,0,0,1,0,0,961,short,0,0,2
+48,Individual Assignment,Tuesday,0,45,2,20.0,0,0,0,0,0,45,medium,1,0,1
+48,Individual Assignment,Tuesday,0,44,2,6.0,0,0,0,0,0,44,short,1,0,2
+48,Group Assignment,Thursday,19,7,4,12.0,0,0,0,1,1,1147,medium,0,1,2
+48,Group Assignment,Friday,18,55,5,16.0,0,0,0,1,0,1135,medium,0,0,1
+48,Individual Assignment,Friday,23,38,5,29.0,0,0,0,0,0,1418,medium,0,0,1
+48,Individual Assignment,Friday,23,41,5,10.0,0,0,0,0,0,1421,short,0,0,2
+48,Individual Assignment,Friday,23,46,5,9.0,0,0,0,0,0,1426,short,0,0,3
+49,Individual Assignment,Thursday,21,34,4,25.0,0,0,0,1,1,1294,medium,0,1,1
+49,Individual Assignment,Sunday,7,25,7,20.0,1,1,0,0,0,445,medium,0,1,1
+49,Individual Assignment,Sunday,7,18,7,6.0,1,1,0,0,0,438,short,0,1,2
+49,Group Assignment,Wednesday,6,35,3,7.0,0,1,0,0,0,395,short,0,0,1
+49,Quiz,Monday,15,33,1,28.0,0,0,1,0,0,933,medium,0,0,1
+49,Forum,Saturday,20,32,6,15.0,1,0,0,1,1,1232,medium,0,1,1
+49,Forum,Saturday,20,31,6,5.0,1,0,0,1,1,1231,short,0,1,2
+49,Forum,Saturday,20,38,6,24.0,1,0,0,1,1,1238,medium,0,1,3
+49,Group Assignment,Monday,23,4,1,14.0,0,0,0,0,0,1384,medium,0,0,2
+49,Group Assignment,Monday,15,39,1,6.0,0,0,1,0,0,939,short,0,0,1
+49,Forum,Sunday,11,30,7,19.0,1,1,0,0,0,690,medium,0,1,1
+49,Individual Assignment,Wednesday,5,30,3,26.0,0,0,0,0,0,330,medium,1,0,1
+49,Group Assignment,Sunday,2,30,7,30.0,1,0,0,0,0,150,medium,1,1,3
+49,Group Assignment,Sunday,2,31,7,7.0,1,0,0,0,0,151,short,1,1,4
+49,Forum,Friday,16,3,5,10.0,0,0,1,0,0,963,short,0,0,1
+49,Individual Assignment,Tuesday,0,52,2,19.0,0,0,0,0,0,52,medium,1,0,1
+49,Group Assignment,Thursday,19,13,4,25.0,0,0,0,1,1,1153,medium,0,1,2
+49,Group Assignment,Thursday,19,9,4,19.0,0,0,0,1,1,1149,medium,0,1,3
+49,Group Assignment,Friday,18,50,5,8.0,0,0,0,1,0,1130,short,0,0,1
+49,Group Assignment,Friday,18,53,5,24.0,0,0,0,1,0,1133,medium,0,0,2
+49,Group Assignment,Friday,18,49,5,30.0,0,0,0,1,0,1129,medium,0,0,3
+49,Individual Assignment,Friday,23,47,5,5.0,0,0,0,0,0,1427,short,0,0,1
+49,Individual Assignment,Friday,23,39,5,14.0,0,0,0,0,0,1419,medium,0,0,2
+49,Individual Assignment,Friday,23,41,5,8.0,0,0,0,0,0,1421,short,0,0,3
+52,Individual Assignment,Thursday,21,31,4,26.0,0,0,0,1,1,1291,medium,0,1,1
+52,Individual Assignment,Thursday,21,30,4,12.0,0,0,0,1,1,1290,medium,0,1,2
+52,Individual Assignment,Thursday,21,24,4,14.0,0,0,0,1,1,1284,medium,0,1,3
+52,Individual Assignment,Sunday,7,23,7,28.0,1,1,0,0,0,443,medium,0,1,1
+52,Individual Assignment,Sunday,7,18,7,29.0,1,1,0,0,0,438,medium,0,1,2
+52,Individual Assignment,Sunday,7,22,7,6.0,1,1,0,0,0,442,short,0,1,3
+52,Group Assignment,Wednesday,6,29,3,22.0,0,1,0,0,0,389,medium,0,0,1
+52,Group Assignment,Wednesday,6,35,3,26.0,0,1,0,0,0,395,medium,0,0,2
+52,Group Assignment,Wednesday,6,25,3,23.0,0,1,0,0,0,385,medium,0,0,3
+52,Quiz,Monday,15,33,1,8.0,0,0,1,0,0,933,short,0,0,1
+52,Forum,Saturday,20,41,6,19.0,1,0,0,1,1,1241,medium,0,1,1
+52,Forum,Saturday,20,33,6,12.0,1,0,0,1,1,1233,medium,0,1,2
+52,Group Assignment,Monday,23,8,1,20.0,0,0,0,0,0,1388,medium,0,0,2
+52,Group Assignment,Monday,23,10,1,7.0,0,0,0,0,0,1390,short,0,0,3
+52,Group Assignment,Monday,15,32,1,23.0,0,0,1,0,0,932,medium,0,0,1
+52,Forum,Sunday,11,31,7,20.0,1,1,0,0,0,691,medium,0,1,1
+52,Individual Assignment,Wednesday,5,32,3,28.0,0,0,0,0,0,332,medium,1,0,1
+52,Individual Assignment,Wednesday,5,33,3,27.0,0,0,0,0,0,333,medium,1,0,2
+52,Individual Assignment,Wednesday,5,39,3,7.0,0,0,0,0,0,339,short,1,0,3
+52,Group Assignment,Sunday,2,32,7,19.0,1,0,0,0,0,152,medium,1,1,4
+52,Forum,Friday,16,2,5,30.0,0,0,1,0,0,962,medium,0,0,1
+52,Forum,Friday,16,6,5,24.0,0,0,1,0,0,966,medium,0,0,2
+52,Individual Assignment,Tuesday,0,49,2,23.0,0,0,0,0,0,49,medium,1,0,1
+52,Individual Assignment,Tuesday,0,45,2,29.0,0,0,0,0,0,45,medium,1,0,2
+52,Individual Assignment,Tuesday,0,50,2,23.0,0,0,0,0,0,50,medium,1,0,3
+52,Group Assignment,Thursday,19,6,4,11.0,0,0,0,1,1,1146,medium,0,1,4
+52,Group Assignment,Friday,18,49,5,21.0,0,0,0,1,0,1129,medium,0,0,1
+52,Group Assignment,Friday,18,47,5,7.0,0,0,0,1,0,1127,short,0,0,2
+52,Group Assignment,Friday,18,45,5,26.0,0,0,0,1,0,1125,medium,0,0,3
+52,Individual Assignment,Friday,23,46,5,16.0,0,0,0,0,0,1426,medium,0,0,1
+52,Individual Assignment,Friday,23,42,5,9.0,0,0,0,0,0,1422,short,0,0,2
+53,Individual Assignment,Thursday,21,33,4,24.0,0,0,0,1,1,1293,medium,0,1,1
+53,Individual Assignment,Thursday,21,27,4,23.0,0,0,0,1,1,1287,medium,0,1,2
+53,Individual Assignment,Sunday,7,19,7,6.0,1,1,0,0,0,439,short,0,1,1
+53,Group Assignment,Wednesday,6,25,3,23.0,0,1,0,0,0,385,medium,0,0,1
+53,Quiz,Monday,15,26,1,11.0,0,0,1,0,0,926,medium,0,0,1
+53,Quiz,Monday,15,28,1,26.0,0,0,1,0,0,928,medium,0,0,2
+53,Forum,Saturday,20,35,6,5.0,1,0,0,1,1,1235,short,0,1,1
+53,Forum,Saturday,20,34,6,11.0,1,0,0,1,1,1234,medium,0,1,2
+53,Group Assignment,Monday,23,1,1,13.0,0,0,0,0,0,1381,medium,0,0,3
+53,Group Assignment,Monday,23,6,1,16.0,0,0,0,0,0,1386,medium,0,0,4
+53,Group Assignment,Monday,15,41,1,18.0,0,0,1,0,0,941,medium,0,0,1
+53,Group Assignment,Monday,15,36,1,7.0,0,0,1,0,0,936,short,0,0,2
+53,Forum,Sunday,11,25,7,18.0,1,1,0,0,0,685,medium,0,1,1
+53,Individual Assignment,Wednesday,5,30,3,15.0,0,0,0,0,0,330,medium,1,0,1
+53,Individual Assignment,Wednesday,5,34,3,16.0,0,0,0,0,0,334,medium,1,0,2
+53,Group Assignment,Sunday,2,29,7,21.0,1,0,0,0,0,149,medium,1,1,2
+53,Group Assignment,Sunday,2,36,7,17.0,1,0,0,0,0,156,medium,1,1,3
+53,Forum,Friday,16,3,5,16.0,0,0,1,0,0,963,medium,0,0,1
+53,Forum,Friday,16,5,5,18.0,0,0,1,0,0,965,medium,0,0,2
+53,Forum,Friday,16,4,5,6.0,0,0,1,0,0,964,short,0,0,3
+53,Individual Assignment,Tuesday,0,44,2,5.0,0,0,0,0,0,44,short,1,0,1
+53,Individual Assignment,Tuesday,0,52,2,27.0,0,0,0,0,0,52,medium,1,0,2
+53,Group Assignment,Thursday,19,4,4,16.0,0,0,0,1,1,1144,medium,0,1,3
+53,Group Assignment,Thursday,19,5,4,17.0,0,0,0,1,1,1145,medium,0,1,4
+53,Group Assignment,Friday,18,52,5,11.0,0,0,0,1,0,1132,medium,0,0,1
+53,Group Assignment,Friday,18,55,5,26.0,0,0,0,1,0,1135,medium,0,0,2
+53,Individual Assignment,Friday,23,48,5,21.0,0,0,0,0,0,1428,medium,0,0,1
+53,Individual Assignment,Friday,23,38,5,10.0,0,0,0,0,0,1418,short,0,0,2
+53,Individual Assignment,Friday,23,44,5,6.0,0,0,0,0,0,1424,short,0,0,3
+54,Individual Assignment,Thursday,21,29,4,14.0,0,0,0,1,1,1289,medium,0,1,1
+54,Individual Assignment,Thursday,21,25,4,11.0,0,0,0,1,1,1285,medium,0,1,2
+54,Individual Assignment,Thursday,21,27,4,25.0,0,0,0,1,1,1287,medium,0,1,3
+54,Individual Assignment,Sunday,7,21,7,27.0,1,1,0,0,0,441,medium,0,1,1
+54,Individual Assignment,Sunday,7,23,7,9.0,1,1,0,0,0,443,short,0,1,2
+54,Group Assignment,Wednesday,6,31,3,9.0,0,1,0,0,0,391,short,0,0,1
+54,Quiz,Monday,15,34,1,17.0,0,0,1,0,0,934,medium,0,0,1
+54,Forum,Saturday,20,41,6,27.0,1,0,0,1,1,1241,medium,0,1,1
+54,Group Assignment,Monday,23,0,1,9.0,0,0,0,0,0,1380,short,0,0,2
+54,Group Assignment,Monday,23,6,1,7.0,0,0,0,0,0,1386,short,0,0,3
+54,Group Assignment,Monday,23,2,1,26.0,0,0,0,0,0,1382,medium,0,0,4
+54,Group Assignment,Monday,15,31,1,7.0,0,0,1,0,0,931,short,0,0,1
+54,Group Assignment,Monday,15,32,1,8.0,0,0,1,0,0,932,short,0,0,2
+54,Forum,Sunday,11,27,7,20.0,1,1,0,0,0,687,medium,0,1,1
+54,Forum,Sunday,11,31,7,5.0,1,1,0,0,0,691,short,0,1,2
+54,Forum,Sunday,11,30,7,22.0,1,1,0,0,0,690,medium,0,1,3
+54,Individual Assignment,Wednesday,5,31,3,19.0,0,0,0,0,0,331,medium,1,0,1
+54,Individual Assignment,Wednesday,5,40,3,16.0,0,0,0,0,0,340,medium,1,0,2
+54,Group Assignment,Sunday,2,33,7,5.0,1,0,0,0,0,153,short,1,1,3
+54,Group Assignment,Sunday,2,31,7,7.0,1,0,0,0,0,151,short,1,1,4
+54,Forum,Friday,16,6,5,13.0,0,0,1,0,0,966,medium,0,0,1
+54,Individual Assignment,Tuesday,0,46,2,21.0,0,0,0,0,0,46,medium,1,0,1
+54,Individual Assignment,Tuesday,0,44,2,30.0,0,0,0,0,0,44,medium,1,0,2
+54,Group Assignment,Thursday,19,5,4,20.0,0,0,0,1,1,1145,medium,0,1,4
+54,Group Assignment,Thursday,19,11,4,24.0,0,0,0,1,1,1151,medium,0,1,5
+54,Group Assignment,Friday,18,46,5,9.0,0,0,0,1,0,1126,short,0,0,1
+54,Individual Assignment,Friday,23,38,5,22.0,0,0,0,0,0,1418,medium,0,0,1
+55,Individual Assignment,Thursday,21,27,4,5.0,0,0,0,1,1,1287,short,0,1,1
+55,Individual Assignment,Thursday,21,24,4,10.0,0,0,0,1,1,1284,short,0,1,2
+55,Individual Assignment,Sunday,7,18,7,8.0,1,1,0,0,0,438,short,0,1,1
+55,Individual Assignment,Sunday,7,23,7,21.0,1,1,0,0,0,443,medium,0,1,2
+55,Individual Assignment,Sunday,7,20,7,5.0,1,1,0,0,0,440,short,0,1,3
+55,Group Assignment,Wednesday,6,33,3,11.0,0,1,0,0,0,393,medium,0,0,1
+55,Group Assignment,Wednesday,6,28,3,14.0,0,1,0,0,0,388,medium,0,0,2
+55,Quiz,Monday,15,32,1,25.0,0,0,1,0,0,932,medium,0,0,1
+55,Forum,Saturday,20,41,6,12.0,1,0,0,1,1,1241,medium,0,1,1
+55,Forum,Saturday,20,38,6,23.0,1,0,0,1,1,1238,medium,0,1,2
+55,Group Assignment,Monday,23,6,1,5.0,0,0,0,0,0,1386,short,0,0,2
+55,Group Assignment,Monday,23,8,1,5.0,0,0,0,0,0,1388,short,0,0,3
+55,Group Assignment,Monday,15,37,1,14.0,0,0,1,0,0,937,medium,0,0,1
+55,Forum,Sunday,11,32,7,30.0,1,1,0,0,0,692,medium,0,1,1
+55,Forum,Sunday,11,27,7,22.0,1,1,0,0,0,687,medium,0,1,2
+55,Individual Assignment,Wednesday,5,37,3,15.0,0,0,0,0,0,337,medium,1,0,1
+55,Group Assignment,Sunday,2,31,7,24.0,1,0,0,0,0,151,medium,1,1,4
+55,Group Assignment,Sunday,2,35,7,30.0,1,0,0,0,0,155,medium,1,1,5
+55,Forum,Friday,16,4,5,26.0,0,0,1,0,0,964,medium,0,0,1
+55,Forum,Friday,16,9,5,19.0,0,0,1,0,0,969,medium,0,0,2
+55,Individual Assignment,Tuesday,0,52,2,28.0,0,0,0,0,0,52,medium,1,0,1
+55,Group Assignment,Thursday,19,5,4,15.0,0,0,0,1,1,1145,medium,0,1,3
+55,Group Assignment,Friday,18,53,5,13.0,0,0,0,1,0,1133,medium,0,0,1
+55,Individual Assignment,Friday,23,47,5,30.0,0,0,0,0,0,1427,medium,0,0,1
+55,Individual Assignment,Friday,23,45,5,6.0,0,0,0,0,0,1425,short,0,0,2
+55,Individual Assignment,Friday,23,38,5,22.0,0,0,0,0,0,1418,medium,0,0,3
+56,Individual Assignment,Thursday,21,28,4,14.0,0,0,0,1,1,1288,medium,0,1,1
+56,Individual Assignment,Sunday,7,24,7,25.0,1,1,0,0,0,444,medium,0,1,1
+56,Group Assignment,Wednesday,6,30,3,6.0,0,1,0,0,0,390,short,0,0,1
+56,Group Assignment,Wednesday,6,32,3,10.0,0,1,0,0,0,392,short,0,0,2
+56,Quiz,Monday,15,34,1,13.0,0,0,1,0,0,934,medium,0,0,1
+56,Forum,Saturday,20,35,6,23.0,1,0,0,1,1,1235,medium,0,1,1
+56,Forum,Saturday,20,33,6,5.0,1,0,0,1,1,1233,short,0,1,2
+56,Group Assignment,Monday,23,8,1,22.0,0,0,0,0,0,1388,medium,0,0,2
+56,Group Assignment,Monday,23,5,1,10.0,0,0,0,0,0,1385,short,0,0,3
+56,Group Assignment,Monday,23,7,1,16.0,0,0,0,0,0,1387,medium,0,0,4
+56,Group Assignment,Monday,15,38,1,24.0,0,0,1,0,0,938,medium,0,0,1
+56,Group Assignment,Monday,15,39,1,23.0,0,0,1,0,0,939,medium,0,0,2
+56,Forum,Sunday,11,33,7,22.0,1,1,0,0,0,693,medium,0,1,1
+56,Forum,Sunday,11,23,7,26.0,1,1,0,0,0,683,medium,0,1,2
+56,Forum,Sunday,11,29,7,29.0,1,1,0,0,0,689,medium,0,1,3
+56,Individual Assignment,Wednesday,5,40,3,28.0,0,0,0,0,0,340,medium,1,0,1
+56,Individual Assignment,Wednesday,5,31,3,18.0,0,0,0,0,0,331,medium,1,0,2
+56,Group Assignment,Sunday,2,32,7,18.0,1,0,0,0,0,152,medium,1,1,2
+56,Forum,Friday,16,10,5,9.0,0,0,1,0,0,970,short,0,0,1
+56,Individual Assignment,Tuesday,0,46,2,16.0,0,0,0,0,0,46,medium,1,0,1
+56,Individual Assignment,Tuesday,0,48,2,8.0,0,0,0,0,0,48,short,1,0,2
+56,Group Assignment,Thursday,19,5,4,29.0,0,0,0,1,1,1145,medium,0,1,2
+56,Group Assignment,Thursday,19,3,4,19.0,0,0,0,1,1,1143,medium,0,1,3
+56,Group Assignment,Thursday,19,9,4,24.0,0,0,0,1,1,1149,medium,0,1,4
+56,Group Assignment,Friday,18,51,5,9.0,0,0,0,1,0,1131,short,0,0,1
+56,Group Assignment,Friday,18,55,5,21.0,0,0,0,1,0,1135,medium,0,0,2
+56,Individual Assignment,Friday,23,44,5,28.0,0,0,0,0,0,1424,medium,0,0,1
+57,Individual Assignment,Thursday,21,30,4,17.0,0,0,0,1,1,1290,medium,0,1,1
+57,Individual Assignment,Thursday,21,31,4,6.0,0,0,0,1,1,1291,short,0,1,2
+57,Individual Assignment,Thursday,21,26,4,19.0,0,0,0,1,1,1286,medium,0,1,3
+57,Individual Assignment,Sunday,7,23,7,17.0,1,1,0,0,0,443,medium,0,1,1
+57,Individual Assignment,Sunday,7,20,7,28.0,1,1,0,0,0,440,medium,0,1,2
+57,Group Assignment,Wednesday,6,34,3,25.0,0,1,0,0,0,394,medium,0,0,1
+57,Quiz,Monday,15,32,1,22.0,0,0,1,0,0,932,medium,0,0,1
+57,Forum,Saturday,20,40,6,29.0,1,0,0,1,1,1240,medium,0,1,1
+57,Forum,Saturday,20,39,6,12.0,1,0,0,1,1,1239,medium,0,1,2
+57,Group Assignment,Monday,23,5,1,19.0,0,0,0,0,0,1385,medium,0,0,2
+57,Group Assignment,Monday,23,4,1,12.0,0,0,0,0,0,1384,medium,0,0,3
+57,Group Assignment,Monday,23,0,1,18.0,0,0,0,0,0,1380,medium,0,0,4
+57,Group Assignment,Monday,15,39,1,24.0,0,0,1,0,0,939,medium,0,0,1
+57,Forum,Sunday,11,28,7,11.0,1,1,0,0,0,688,medium,0,1,1
+57,Individual Assignment,Wednesday,5,32,3,11.0,0,0,0,0,0,332,medium,1,0,1
+57,Individual Assignment,Wednesday,5,31,3,10.0,0,0,0,0,0,331,short,1,0,2
+57,Group Assignment,Sunday,2,38,7,15.0,1,0,0,0,0,158,medium,1,1,3
+57,Forum,Friday,16,6,5,15.0,0,0,1,0,0,966,medium,0,0,1
+57,Individual Assignment,Tuesday,0,50,2,23.0,0,0,0,0,0,50,medium,1,0,1
+57,Individual Assignment,Tuesday,0,46,2,24.0,0,0,0,0,0,46,medium,1,0,2
+57,Group Assignment,Thursday,19,3,4,18.0,0,0,0,1,1,1143,medium,0,1,4
+57,Group Assignment,Thursday,19,4,4,16.0,0,0,0,1,1,1144,medium,0,1,5
+57,Group Assignment,Friday,18,46,5,13.0,0,0,0,1,0,1126,medium,0,0,1
+57,Individual Assignment,Friday,23,46,5,5.0,0,0,0,0,0,1426,short,0,0,1
+57,Individual Assignment,Friday,23,45,5,29.0,0,0,0,0,0,1425,medium,0,0,2
+58,Individual Assignment,Thursday,21,28,4,24.0,0,0,0,1,1,1288,medium,0,1,1
+58,Individual Assignment,Thursday,21,31,4,24.0,0,0,0,1,1,1291,medium,0,1,2
+58,Individual Assignment,Thursday,21,33,4,22.0,0,0,0,1,1,1293,medium,0,1,3
+58,Individual Assignment,Sunday,7,20,7,14.0,1,1,0,0,0,440,medium,0,1,1
+58,Individual Assignment,Sunday,7,15,7,22.0,1,1,0,0,0,435,medium,0,1,2
+58,Group Assignment,Wednesday,6,25,3,15.0,0,1,0,0,0,385,medium,0,0,1
+58,Quiz,Monday,15,30,1,12.0,0,0,1,0,0,930,medium,0,0,1
+58,Forum,Saturday,20,31,6,17.0,1,0,0,1,1,1231,medium,0,1,1
+58,Group Assignment,Monday,23,4,1,16.0,0,0,0,0,0,1384,medium,0,0,2
+58,Group Assignment,Monday,23,7,1,28.0,0,0,0,0,0,1387,medium,0,0,3
+58,Group Assignment,Monday,23,5,1,12.0,0,0,0,0,0,1385,medium,0,0,4
+58,Group Assignment,Monday,15,35,1,25.0,0,0,1,0,0,935,medium,0,0,1
+58,Group Assignment,Monday,15,37,1,28.0,0,0,1,0,0,937,medium,0,0,2
+58,Forum,Sunday,11,28,7,10.0,1,1,0,0,0,688,short,0,1,1
+58,Forum,Sunday,11,26,7,18.0,1,1,0,0,0,686,medium,0,1,2
+58,Individual Assignment,Wednesday,5,34,3,8.0,0,0,0,0,0,334,short,1,0,1
+58,Individual Assignment,Wednesday,5,30,3,27.0,0,0,0,0,0,330,medium,1,0,2
+58,Group Assignment,Sunday,2,38,7,30.0,1,0,0,0,0,158,medium,1,1,3
+58,Group Assignment,Sunday,2,29,7,21.0,1,0,0,0,0,149,medium,1,1,4
+58,Forum,Friday,16,3,5,5.0,0,0,1,0,0,963,short,0,0,1
+58,Individual Assignment,Tuesday,0,45,2,8.0,0,0,0,0,0,45,short,1,0,1
+58,Individual Assignment,Tuesday,0,51,2,25.0,0,0,0,0,0,51,medium,1,0,2
+58,Individual Assignment,Tuesday,0,49,2,21.0,0,0,0,0,0,49,medium,1,0,3
+58,Group Assignment,Thursday,19,12,4,11.0,0,0,0,1,1,1152,medium,0,1,4
+58,Group Assignment,Friday,18,50,5,11.0,0,0,0,1,0,1130,medium,0,0,1
+58,Group Assignment,Friday,18,51,5,29.0,0,0,0,1,0,1131,medium,0,0,2
+58,Individual Assignment,Friday,23,39,5,15.0,0,0,0,0,0,1419,medium,0,0,1
+59,Individual Assignment,Thursday,21,34,4,27.0,0,0,0,1,1,1294,medium,0,1,1
+59,Individual Assignment,Sunday,7,23,7,18.0,1,1,0,0,0,443,medium,0,1,1
+59,Group Assignment,Wednesday,6,28,3,9.0,0,1,0,0,0,388,short,0,0,1
+59,Group Assignment,Wednesday,6,33,3,5.0,0,1,0,0,0,393,short,0,0,2
+59,Quiz,Monday,15,30,1,22.0,0,0,1,0,0,930,medium,0,0,1
+59,Forum,Saturday,20,39,6,20.0,1,0,0,1,1,1239,medium,0,1,1
+59,Forum,Saturday,20,41,6,27.0,1,0,0,1,1,1241,medium,0,1,2
+59,Forum,Saturday,20,36,6,8.0,1,0,0,1,1,1236,short,0,1,3
+59,Group Assignment,Monday,23,8,1,13.0,0,0,0,0,0,1388,medium,0,0,2
+59,Group Assignment,Monday,23,5,1,8.0,0,0,0,0,0,1385,short,0,0,3
+59,Group Assignment,Monday,15,37,1,22.0,0,0,1,0,0,937,medium,0,0,1
+59,Group Assignment,Monday,15,38,1,26.0,0,0,1,0,0,938,medium,0,0,2
+59,Group Assignment,Monday,15,39,1,23.0,0,0,1,0,0,939,medium,0,0,3
+59,Forum,Sunday,11,28,7,11.0,1,1,0,0,0,688,medium,0,1,1
+59,Forum,Sunday,11,23,7,26.0,1,1,0,0,0,683,medium,0,1,2
+59,Forum,Sunday,11,33,7,9.0,1,1,0,0,0,693,short,0,1,3
+59,Individual Assignment,Wednesday,5,39,3,13.0,0,0,0,0,0,339,medium,1,0,1
+59,Individual Assignment,Wednesday,5,38,3,6.0,0,0,0,0,0,338,short,1,0,2
+59,Individual Assignment,Wednesday,5,33,3,7.0,0,0,0,0,0,333,short,1,0,3
+59,Group Assignment,Sunday,2,37,7,13.0,1,0,0,0,0,157,medium,1,1,2
+59,Group Assignment,Sunday,2,33,7,30.0,1,0,0,0,0,153,medium,1,1,3
+59,Forum,Friday,16,1,5,20.0,0,0,1,0,0,961,medium,0,0,1
+59,Individual Assignment,Tuesday,0,42,2,19.0,0,0,0,0,0,42,medium,1,0,1
+59,Group Assignment,Thursday,19,6,4,22.0,0,0,0,1,1,1146,medium,0,1,2
+59,Group Assignment,Thursday,19,8,4,18.0,0,0,0,1,1,1148,medium,0,1,3
+59,Group Assignment,Friday,18,46,5,19.0,0,0,0,1,0,1126,medium,0,0,1
+59,Group Assignment,Friday,18,55,5,23.0,0,0,0,1,0,1135,medium,0,0,2
+59,Group Assignment,Friday,18,50,5,20.0,0,0,0,1,0,1130,medium,0,0,3
+59,Individual Assignment,Friday,23,44,5,27.0,0,0,0,0,0,1424,medium,0,0,1
+60,Individual Assignment,Thursday,21,34,4,12.0,0,0,0,1,1,1294,medium,0,1,1
+60,Individual Assignment,Sunday,7,23,7,13.0,1,1,0,0,0,443,medium,0,1,1
+60,Group Assignment,Wednesday,6,27,3,12.0,0,1,0,0,0,387,medium,0,0,1
+60,Group Assignment,Wednesday,6,35,3,14.0,0,1,0,0,0,395,medium,0,0,2
+60,Quiz,Monday,15,26,1,12.0,0,0,1,0,0,926,medium,0,0,1
+60,Quiz,Monday,15,31,1,7.0,0,0,1,0,0,931,short,0,0,2
+60,Forum,Saturday,20,36,6,25.0,1,0,0,1,1,1236,medium,0,1,1
+60,Group Assignment,Monday,23,5,1,30.0,0,0,0,0,0,1385,medium,0,0,3
+60,Group Assignment,Monday,23,3,1,14.0,0,0,0,0,0,1383,medium,0,0,4
+60,Group Assignment,Monday,23,8,1,27.0,0,0,0,0,0,1388,medium,0,0,5
+60,Group Assignment,Monday,15,35,1,26.0,0,0,1,0,0,935,medium,0,0,1
+60,Group Assignment,Monday,15,41,1,28.0,0,0,1,0,0,941,medium,0,0,2
+60,Group Assignment,Monday,15,40,1,17.0,0,0,1,0,0,940,medium,0,0,3
+60,Forum,Sunday,11,29,7,21.0,1,1,0,0,0,689,medium,0,1,1
+60,Forum,Sunday,11,23,7,21.0,1,1,0,0,0,683,medium,0,1,2
+60,Forum,Sunday,11,25,7,8.0,1,1,0,0,0,685,short,0,1,3
+60,Individual Assignment,Wednesday,5,40,3,10.0,0,0,0,0,0,340,short,1,0,1
+60,Group Assignment,Sunday,2,37,7,24.0,1,0,0,0,0,157,medium,1,1,2
+60,Group Assignment,Sunday,2,30,7,19.0,1,0,0,0,0,150,medium,1,1,3
+60,Group Assignment,Sunday,2,38,7,23.0,1,0,0,0,0,158,medium,1,1,4
+60,Forum,Friday,16,2,5,17.0,0,0,1,0,0,962,medium,0,0,1
+60,Forum,Friday,16,7,5,11.0,0,0,1,0,0,967,medium,0,0,2
+60,Forum,Friday,16,6,5,30.0,0,0,1,0,0,966,medium,0,0,3
+60,Individual Assignment,Tuesday,0,52,2,28.0,0,0,0,0,0,52,medium,1,0,1
+60,Individual Assignment,Tuesday,0,42,2,26.0,0,0,0,0,0,42,medium,1,0,2
+60,Individual Assignment,Tuesday,0,43,2,25.0,0,0,0,0,0,43,medium,1,0,3
+60,Group Assignment,Thursday,19,8,4,19.0,0,0,0,1,1,1148,medium,0,1,2
+60,Group Assignment,Thursday,19,3,4,10.0,0,0,0,1,1,1143,short,0,1,3
+60,Group Assignment,Thursday,19,7,4,10.0,0,0,0,1,1,1147,short,0,1,4
+60,Group Assignment,Friday,18,52,5,25.0,0,0,0,1,0,1132,medium,0,0,1
+60,Individual Assignment,Friday,23,48,5,15.0,0,0,0,0,0,1428,medium,0,0,1
+61,Individual Assignment,Thursday,21,33,4,7.0,0,0,0,1,1,1293,short,0,1,1
+61,Individual Assignment,Thursday,21,28,4,7.0,0,0,0,1,1,1288,short,0,1,2
+61,Individual Assignment,Sunday,7,18,7,8.0,1,1,0,0,0,438,short,0,1,1
+61,Individual Assignment,Sunday,7,23,7,10.0,1,1,0,0,0,443,short,0,1,2
+61,Group Assignment,Wednesday,6,26,3,27.0,0,1,0,0,0,386,medium,0,0,1
+61,Group Assignment,Wednesday,6,32,3,7.0,0,1,0,0,0,392,short,0,0,2
+61,Group Assignment,Wednesday,6,28,3,9.0,0,1,0,0,0,388,short,0,0,3
+61,Quiz,Monday,15,29,1,22.0,0,0,1,0,0,929,medium,0,0,1
+61,Quiz,Monday,15,36,1,16.0,0,0,1,0,0,936,medium,0,0,2
+61,Quiz,Monday,15,28,1,12.0,0,0,1,0,0,928,medium,0,0,3
+61,Forum,Saturday,20,31,6,14.0,1,0,0,1,1,1231,medium,0,1,1
+61,Group Assignment,Monday,23,1,1,30.0,0,0,0,0,0,1381,medium,0,0,4
+61,Group Assignment,Monday,15,39,1,23.0,0,0,1,0,0,939,medium,0,0,1
+61,Group Assignment,Monday,15,35,1,21.0,0,0,1,0,0,935,medium,0,0,2
+61,Group Assignment,Monday,15,41,1,16.0,0,0,1,0,0,941,medium,0,0,3
+61,Forum,Sunday,11,27,7,17.0,1,1,0,0,0,687,medium,0,1,1
+61,Individual Assignment,Wednesday,5,33,3,21.0,0,0,0,0,0,333,medium,1,0,1
+61,Individual Assignment,Wednesday,5,38,3,29.0,0,0,0,0,0,338,medium,1,0,2
+61,Group Assignment,Sunday,2,39,7,13.0,1,0,0,0,0,159,medium,1,1,3
+61,Group Assignment,Sunday,2,29,7,9.0,1,0,0,0,0,149,short,1,1,4
+61,Forum,Friday,16,1,5,13.0,0,0,1,0,0,961,medium,0,0,1
+61,Forum,Friday,16,10,5,26.0,0,0,1,0,0,970,medium,0,0,2
+61,Forum,Friday,16,5,5,19.0,0,0,1,0,0,965,medium,0,0,3
+61,Individual Assignment,Tuesday,0,42,2,16.0,0,0,0,0,0,42,medium,1,0,1
+61,Individual Assignment,Tuesday,0,52,2,14.0,0,0,0,0,0,52,medium,1,0,2
+61,Group Assignment,Thursday,19,5,4,25.0,0,0,0,1,1,1145,medium,0,1,3
+61,Group Assignment,Thursday,19,12,4,21.0,0,0,0,1,1,1152,medium,0,1,4
+61,Group Assignment,Friday,18,48,5,25.0,0,0,0,1,0,1128,medium,0,0,1
+61,Group Assignment,Friday,18,50,5,26.0,0,0,0,1,0,1130,medium,0,0,2
+61,Individual Assignment,Friday,23,40,5,14.0,0,0,0,0,0,1420,medium,0,0,1
+63,Individual Assignment,Thursday,21,31,4,10.0,0,0,0,1,1,1291,short,0,1,1
+63,Individual Assignment,Thursday,21,33,4,8.0,0,0,0,1,1,1293,short,0,1,2
+63,Individual Assignment,Sunday,7,21,7,8.0,1,1,0,0,0,441,short,0,1,1
+63,Individual Assignment,Sunday,7,23,7,12.0,1,1,0,0,0,443,medium,0,1,2
+63,Individual Assignment,Sunday,7,18,7,26.0,1,1,0,0,0,438,medium,0,1,3
+63,Group Assignment,Wednesday,6,32,3,21.0,0,1,0,0,0,392,medium,0,0,1
+63,Quiz,Monday,15,35,1,19.0,0,0,1,0,0,935,medium,0,0,1
+63,Quiz,Monday,15,31,1,27.0,0,0,1,0,0,931,medium,0,0,2
+63,Forum,Saturday,20,36,6,14.0,1,0,0,1,1,1236,medium,0,1,1
+63,Forum,Saturday,20,32,6,26.0,1,0,0,1,1,1232,medium,0,1,2
+63,Forum,Saturday,20,31,6,25.0,1,0,0,1,1,1231,medium,0,1,3
+63,Group Assignment,Monday,23,6,1,5.0,0,0,0,0,0,1386,short,0,0,3
+63,Group Assignment,Monday,23,3,1,16.0,0,0,0,0,0,1383,medium,0,0,4
+63,Group Assignment,Monday,15,31,1,17.0,0,0,1,0,0,931,medium,0,0,1
+63,Forum,Sunday,11,31,7,5.0,1,1,0,0,0,691,short,0,1,1
+63,Forum,Sunday,11,32,7,26.0,1,1,0,0,0,692,medium,0,1,2
+63,Forum,Sunday,11,33,7,26.0,1,1,0,0,0,693,medium,0,1,3
+63,Individual Assignment,Wednesday,5,36,3,17.0,0,0,0,0,0,336,medium,1,0,1
+63,Individual Assignment,Wednesday,5,40,3,5.0,0,0,0,0,0,340,short,1,0,2
+63,Individual Assignment,Wednesday,5,35,3,20.0,0,0,0,0,0,335,medium,1,0,3
+63,Group Assignment,Sunday,2,38,7,26.0,1,0,0,0,0,158,medium,1,1,4
+63,Forum,Friday,16,1,5,11.0,0,0,1,0,0,961,medium,0,0,1
+63,Forum,Friday,16,10,5,23.0,0,0,1,0,0,970,medium,0,0,2
+63,Individual Assignment,Tuesday,0,51,2,19.0,0,0,0,0,0,51,medium,1,0,1
+63,Group Assignment,Thursday,19,8,4,13.0,0,0,0,1,1,1148,medium,0,1,3
+63,Group Assignment,Friday,18,52,5,14.0,0,0,0,1,0,1132,medium,0,0,1
+63,Individual Assignment,Friday,23,38,5,24.0,0,0,0,0,0,1418,medium,0,0,1
+64,Individual Assignment,Thursday,21,24,4,7.0,0,0,0,1,1,1284,short,0,1,1
+64,Individual Assignment,Thursday,21,31,4,14.0,0,0,0,1,1,1291,medium,0,1,2
+64,Individual Assignment,Sunday,7,24,7,18.0,1,1,0,0,0,444,medium,0,1,1
+64,Individual Assignment,Sunday,7,25,7,19.0,1,1,0,0,0,445,medium,0,1,2
+64,Group Assignment,Wednesday,6,29,3,20.0,0,1,0,0,0,389,medium,0,0,1
+64,Group Assignment,Wednesday,6,30,3,14.0,0,1,0,0,0,390,medium,0,0,2
+64,Quiz,Monday,15,33,1,12.0,0,0,1,0,0,933,medium,0,0,1
+64,Quiz,Monday,15,28,1,5.0,0,0,1,0,0,928,short,0,0,2
+64,Forum,Saturday,20,40,6,25.0,1,0,0,1,1,1240,medium,0,1,1
+64,Forum,Saturday,20,39,6,18.0,1,0,0,1,1,1239,medium,0,1,2
+64,Forum,Saturday,20,36,6,26.0,1,0,0,1,1,1236,medium,0,1,3
+64,Group Assignment,Monday,23,0,1,9.0,0,0,0,0,0,1380,short,0,0,3
+64,Group Assignment,Monday,23,7,1,13.0,0,0,0,0,0,1387,medium,0,0,4
+64,Group Assignment,Monday,23,4,1,11.0,0,0,0,0,0,1384,medium,0,0,5
+64,Group Assignment,Monday,15,35,1,8.0,0,0,1,0,0,935,short,0,0,1
+64,Forum,Sunday,11,24,7,24.0,1,1,0,0,0,684,medium,0,1,1
+64,Forum,Sunday,11,26,7,12.0,1,1,0,0,0,686,medium,0,1,2
+64,Forum,Sunday,11,28,7,24.0,1,1,0,0,0,688,medium,0,1,3
+64,Individual Assignment,Wednesday,5,38,3,12.0,0,0,0,0,0,338,medium,1,0,1
+64,Individual Assignment,Wednesday,5,33,3,23.0,0,0,0,0,0,333,medium,1,0,2
+64,Individual Assignment,Wednesday,5,39,3,28.0,0,0,0,0,0,339,medium,1,0,3
+64,Group Assignment,Sunday,2,36,7,10.0,1,0,0,0,0,156,short,1,1,3
+64,Group Assignment,Sunday,2,30,7,25.0,1,0,0,0,0,150,medium,1,1,4
+64,Forum,Friday,16,6,5,20.0,0,0,1,0,0,966,medium,0,0,1
+64,Individual Assignment,Tuesday,0,43,2,28.0,0,0,0,0,0,43,medium,1,0,1
+64,Group Assignment,Thursday,19,13,4,5.0,0,0,0,1,1,1153,short,0,1,3
+64,Group Assignment,Thursday,19,7,4,11.0,0,0,0,1,1,1147,medium,0,1,4
+64,Group Assignment,Friday,18,54,5,24.0,0,0,0,1,0,1134,medium,0,0,1
+64,Group Assignment,Friday,18,46,5,25.0,0,0,0,1,0,1126,medium,0,0,2
+64,Individual Assignment,Friday,23,39,5,28.0,0,0,0,0,0,1419,medium,0,0,1
+65,Individual Assignment,Thursday,21,34,4,12.0,0,0,0,1,1,1294,medium,0,1,1
+65,Individual Assignment,Sunday,7,18,7,9.0,1,1,0,0,0,438,short,0,1,1
+65,Individual Assignment,Sunday,7,17,7,29.0,1,1,0,0,0,437,medium,0,1,2
+65,Group Assignment,Wednesday,6,25,3,26.0,0,1,0,0,0,385,medium,0,0,1
+65,Group Assignment,Wednesday,6,33,3,19.0,0,1,0,0,0,393,medium,0,0,2
+65,Quiz,Monday,15,36,1,10.0,0,0,1,0,0,936,short,0,0,1
+65,Quiz,Monday,15,26,1,21.0,0,0,1,0,0,926,medium,0,0,2
+65,Forum,Saturday,20,31,6,6.0,1,0,0,1,1,1231,short,0,1,1
+65,Group Assignment,Monday,23,9,1,13.0,0,0,0,0,0,1389,medium,0,0,3
+65,Group Assignment,Monday,23,3,1,30.0,0,0,0,0,0,1383,medium,0,0,4
+65,Group Assignment,Monday,23,10,1,7.0,0,0,0,0,0,1390,short,0,0,5
+65,Group Assignment,Monday,15,39,1,11.0,0,0,1,0,0,939,medium,0,0,1
+65,Group Assignment,Monday,15,31,1,18.0,0,0,1,0,0,931,medium,0,0,2
+65,Group Assignment,Monday,15,38,1,20.0,0,0,1,0,0,938,medium,0,0,3
+65,Forum,Sunday,11,30,7,27.0,1,1,0,0,0,690,medium,0,1,1
+65,Individual Assignment,Wednesday,5,39,3,19.0,0,0,0,0,0,339,medium,1,0,1
+65,Individual Assignment,Wednesday,5,33,3,19.0,0,0,0,0,0,333,medium,1,0,2
+65,Individual Assignment,Wednesday,5,37,3,9.0,0,0,0,0,0,337,short,1,0,3
+65,Group Assignment,Sunday,2,29,7,18.0,1,0,0,0,0,149,medium,1,1,3
+65,Forum,Friday,16,0,5,23.0,0,0,1,0,0,960,medium,0,0,1
+65,Individual Assignment,Tuesday,0,43,2,6.0,0,0,0,0,0,43,short,1,0,1
+65,Individual Assignment,Tuesday,0,49,2,9.0,0,0,0,0,0,49,short,1,0,2
+65,Group Assignment,Thursday,19,12,4,30.0,0,0,0,1,1,1152,medium,0,1,2
+65,Group Assignment,Thursday,19,13,4,27.0,0,0,0,1,1,1153,medium,0,1,3
+65,Group Assignment,Thursday,19,10,4,7.0,0,0,0,1,1,1150,short,0,1,4
+65,Group Assignment,Friday,18,53,5,29.0,0,0,0,1,0,1133,medium,0,0,1
+65,Group Assignment,Friday,18,45,5,9.0,0,0,0,1,0,1125,short,0,0,2
+65,Individual Assignment,Friday,23,47,5,15.0,0,0,0,0,0,1427,medium,0,0,1
+66,Individual Assignment,Thursday,21,25,4,28.0,0,0,0,1,1,1285,medium,0,1,1
+66,Individual Assignment,Sunday,7,21,7,20.0,1,1,0,0,0,441,medium,0,1,1
+66,Group Assignment,Wednesday,6,27,3,29.0,0,1,0,0,0,387,medium,0,0,1
+66,Group Assignment,Wednesday,6,33,3,6.0,0,1,0,0,0,393,short,0,0,2
+66,Group Assignment,Wednesday,6,26,3,6.0,0,1,0,0,0,386,short,0,0,3
+66,Quiz,Monday,15,26,1,26.0,0,0,1,0,0,926,medium,0,0,1
+66,Forum,Saturday,20,35,6,18.0,1,0,0,1,1,1235,medium,0,1,1
+66,Forum,Saturday,20,38,6,21.0,1,0,0,1,1,1238,medium,0,1,2
+66,Group Assignment,Monday,23,9,1,24.0,0,0,0,0,0,1389,medium,0,0,2
+66,Group Assignment,Monday,23,5,1,30.0,0,0,0,0,0,1385,medium,0,0,3
+66,Group Assignment,Monday,15,32,1,9.0,0,0,1,0,0,932,short,0,0,1
+66,Group Assignment,Monday,15,41,1,29.0,0,0,1,0,0,941,medium,0,0,2
+66,Forum,Sunday,11,33,7,14.0,1,1,0,0,0,693,medium,0,1,1
+66,Forum,Sunday,11,28,7,28.0,1,1,0,0,0,688,medium,0,1,2
+66,Individual Assignment,Wednesday,5,31,3,25.0,0,0,0,0,0,331,medium,1,0,1
+66,Individual Assignment,Wednesday,5,32,3,7.0,0,0,0,0,0,332,short,1,0,2
+66,Group Assignment,Sunday,2,32,7,18.0,1,0,0,0,0,152,medium,1,1,2
+66,Group Assignment,Sunday,2,36,7,24.0,1,0,0,0,0,156,medium,1,1,3
+66,Forum,Friday,16,2,5,29.0,0,0,1,0,0,962,medium,0,0,1
+66,Forum,Friday,16,10,5,19.0,0,0,1,0,0,970,medium,0,0,2
+66,Individual Assignment,Tuesday,0,49,2,28.0,0,0,0,0,0,49,medium,1,0,1
+66,Individual Assignment,Tuesday,0,46,2,24.0,0,0,0,0,0,46,medium,1,0,2
+66,Group Assignment,Thursday,19,8,4,13.0,0,0,0,1,1,1148,medium,0,1,2
+66,Group Assignment,Friday,18,47,5,15.0,0,0,0,1,0,1127,medium,0,0,1
+66,Individual Assignment,Friday,23,39,5,19.0,0,0,0,0,0,1419,medium,0,0,1
+67,Individual Assignment,Thursday,21,31,4,25.0,0,0,0,1,1,1291,medium,0,1,1
+67,Individual Assignment,Thursday,21,33,4,16.0,0,0,0,1,1,1293,medium,0,1,2
+67,Individual Assignment,Thursday,21,32,4,28.0,0,0,0,1,1,1292,medium,0,1,3
+67,Individual Assignment,Sunday,7,17,7,23.0,1,1,0,0,0,437,medium,0,1,1
+67,Group Assignment,Wednesday,6,25,3,7.0,0,1,0,0,0,385,short,0,0,1
+67,Group Assignment,Wednesday,6,30,3,27.0,0,1,0,0,0,390,medium,0,0,2
+67,Group Assignment,Wednesday,6,34,3,23.0,0,1,0,0,0,394,medium,0,0,3
+67,Quiz,Monday,15,27,1,21.0,0,0,1,0,0,927,medium,0,0,1
+67,Forum,Saturday,20,31,6,11.0,1,0,0,1,1,1231,medium,0,1,1
+67,Forum,Saturday,20,40,6,7.0,1,0,0,1,1,1240,short,0,1,2
+67,Group Assignment,Monday,23,5,1,21.0,0,0,0,0,0,1385,medium,0,0,2
+67,Group Assignment,Monday,23,9,1,17.0,0,0,0,0,0,1389,medium,0,0,3
+67,Group Assignment,Monday,15,37,1,11.0,0,0,1,0,0,937,medium,0,0,1
+67,Group Assignment,Monday,15,40,1,8.0,0,0,1,0,0,940,short,0,0,2
+67,Forum,Sunday,11,26,7,9.0,1,1,0,0,0,686,short,0,1,1
+67,Forum,Sunday,11,23,7,21.0,1,1,0,0,0,683,medium,0,1,2
+67,Individual Assignment,Wednesday,5,31,3,18.0,0,0,0,0,0,331,medium,1,0,1
+67,Group Assignment,Sunday,2,37,7,13.0,1,0,0,0,0,157,medium,1,1,2
+67,Group Assignment,Sunday,2,38,7,6.0,1,0,0,0,0,158,short,1,1,3
+67,Forum,Friday,16,4,5,11.0,0,0,1,0,0,964,medium,0,0,1
+67,Individual Assignment,Tuesday,0,48,2,21.0,0,0,0,0,0,48,medium,1,0,1
+67,Group Assignment,Thursday,19,5,4,16.0,0,0,0,1,1,1145,medium,0,1,4
+67,Group Assignment,Friday,18,52,5,12.0,0,0,0,1,0,1132,medium,0,0,1
+67,Group Assignment,Friday,18,50,5,5.0,0,0,0,1,0,1130,short,0,0,2
+67,Individual Assignment,Friday,23,39,5,18.0,0,0,0,0,0,1419,medium,0,0,1
+68,Individual Assignment,Thursday,21,28,4,18.0,0,0,0,1,1,1288,medium,0,1,1
+68,Individual Assignment,Thursday,21,34,4,23.0,0,0,0,1,1,1294,medium,0,1,2
+68,Individual Assignment,Sunday,7,16,7,22.0,1,1,0,0,0,436,medium,0,1,1
+68,Individual Assignment,Sunday,7,22,7,20.0,1,1,0,0,0,442,medium,0,1,2
+68,Group Assignment,Wednesday,6,27,3,7.0,0,1,0,0,0,387,short,0,0,1
+68,Group Assignment,Wednesday,6,35,3,29.0,0,1,0,0,0,395,medium,0,0,2
+68,Group Assignment,Wednesday,6,34,3,15.0,0,1,0,0,0,394,medium,0,0,3
+68,Quiz,Monday,15,29,1,14.0,0,0,1,0,0,929,medium,0,0,1
+68,Quiz,Monday,15,26,1,19.0,0,0,1,0,0,926,medium,0,0,2
+68,Forum,Saturday,20,35,6,27.0,1,0,0,1,1,1235,medium,0,1,1
+68,Forum,Saturday,20,31,6,19.0,1,0,0,1,1,1231,medium,0,1,2
+68,Group Assignment,Monday,23,0,1,25.0,0,0,0,0,0,1380,medium,0,0,3
+68,Group Assignment,Monday,23,5,1,23.0,0,0,0,0,0,1385,medium,0,0,4
+68,Group Assignment,Monday,23,3,1,26.0,0,0,0,0,0,1383,medium,0,0,5
+68,Group Assignment,Monday,15,32,1,16.0,0,0,1,0,0,932,medium,0,0,1
+68,Forum,Sunday,11,30,7,27.0,1,1,0,0,0,690,medium,0,1,1
+68,Individual Assignment,Wednesday,5,34,3,25.0,0,0,0,0,0,334,medium,1,0,1
+68,Individual Assignment,Wednesday,5,31,3,14.0,0,0,0,0,0,331,medium,1,0,2
+68,Group Assignment,Sunday,2,39,7,13.0,1,0,0,0,0,159,medium,1,1,3
+68,Group Assignment,Sunday,2,33,7,30.0,1,0,0,0,0,153,medium,1,1,4
+68,Forum,Friday,16,2,5,30.0,0,0,1,0,0,962,medium,0,0,1
+68,Individual Assignment,Tuesday,0,44,2,5.0,0,0,0,0,0,44,short,1,0,1
+68,Individual Assignment,Tuesday,0,45,2,20.0,0,0,0,0,0,45,medium,1,0,2
+68,Individual Assignment,Tuesday,0,50,2,14.0,0,0,0,0,0,50,medium,1,0,3
+68,Group Assignment,Thursday,19,11,4,26.0,0,0,0,1,1,1151,medium,0,1,3
+68,Group Assignment,Thursday,19,8,4,13.0,0,0,0,1,1,1148,medium,0,1,4
+68,Group Assignment,Friday,18,55,5,9.0,0,0,0,1,0,1135,short,0,0,1
+68,Group Assignment,Friday,18,45,5,8.0,0,0,0,1,0,1125,short,0,0,2
+68,Individual Assignment,Friday,23,41,5,12.0,0,0,0,0,0,1421,medium,0,0,1
+68,Individual Assignment,Friday,23,46,5,5.0,0,0,0,0,0,1426,short,0,0,2
+69,Individual Assignment,Thursday,21,24,4,7.0,0,0,0,1,1,1284,short,0,1,1
+69,Individual Assignment,Thursday,21,32,4,5.0,0,0,0,1,1,1292,short,0,1,2
+69,Individual Assignment,Sunday,7,15,7,20.0,1,1,0,0,0,435,medium,0,1,1
+69,Individual Assignment,Sunday,7,25,7,6.0,1,1,0,0,0,445,short,0,1,2
+69,Individual Assignment,Sunday,7,24,7,18.0,1,1,0,0,0,444,medium,0,1,3
+69,Group Assignment,Wednesday,6,33,3,26.0,0,1,0,0,0,393,medium,0,0,1
+69,Quiz,Monday,15,30,1,12.0,0,0,1,0,0,930,medium,0,0,1
+69,Quiz,Monday,15,27,1,16.0,0,0,1,0,0,927,medium,0,0,2
+69,Quiz,Monday,15,36,1,16.0,0,0,1,0,0,936,medium,0,0,3
+69,Forum,Saturday,20,39,6,7.0,1,0,0,1,1,1239,short,0,1,1
+69,Forum,Saturday,20,33,6,5.0,1,0,0,1,1,1233,short,0,1,2
+69,Forum,Saturday,20,38,6,20.0,1,0,0,1,1,1238,medium,0,1,3
+69,Group Assignment,Monday,23,6,1,18.0,0,0,0,0,0,1386,medium,0,0,4
+69,Group Assignment,Monday,23,7,1,15.0,0,0,0,0,0,1387,medium,0,0,5
+69,Group Assignment,Monday,15,39,1,30.0,0,0,1,0,0,939,medium,0,0,1
+69,Group Assignment,Monday,15,38,1,26.0,0,0,1,0,0,938,medium,0,0,2
+69,Group Assignment,Monday,15,34,1,22.0,0,0,1,0,0,934,medium,0,0,3
+69,Forum,Sunday,11,33,7,28.0,1,1,0,0,0,693,medium,0,1,1
+69,Forum,Sunday,11,30,7,24.0,1,1,0,0,0,690,medium,0,1,2
+69,Individual Assignment,Wednesday,5,36,3,8.0,0,0,0,0,0,336,short,1,0,1
+69,Group Assignment,Sunday,2,30,7,15.0,1,0,0,0,0,150,medium,1,1,4
+69,Group Assignment,Sunday,2,33,7,11.0,1,0,0,0,0,153,medium,1,1,5
+69,Forum,Friday,16,9,5,18.0,0,0,1,0,0,969,medium,0,0,1
+69,Forum,Friday,16,10,5,16.0,0,0,1,0,0,970,medium,0,0,2
+69,Individual Assignment,Tuesday,0,43,2,6.0,0,0,0,0,0,43,short,1,0,1
+69,Individual Assignment,Tuesday,0,49,2,20.0,0,0,0,0,0,49,medium,1,0,2
+69,Individual Assignment,Tuesday,0,47,2,14.0,0,0,0,0,0,47,medium,1,0,3
+69,Group Assignment,Thursday,19,5,4,21.0,0,0,0,1,1,1145,medium,0,1,3
+69,Group Assignment,Friday,18,53,5,20.0,0,0,0,1,0,1133,medium,0,0,1
+69,Group Assignment,Friday,18,50,5,22.0,0,0,0,1,0,1130,medium,0,0,2
+69,Group Assignment,Friday,18,49,5,18.0,0,0,0,1,0,1129,medium,0,0,3
+69,Individual Assignment,Friday,23,48,5,18.0,0,0,0,0,0,1428,medium,0,0,1
+71,Individual Assignment,Thursday,21,28,4,12.0,0,0,0,1,1,1288,medium,0,1,1
+71,Individual Assignment,Sunday,7,24,7,16.0,1,1,0,0,0,444,medium,0,1,1
+71,Group Assignment,Wednesday,6,35,3,13.0,0,1,0,0,0,395,medium,0,0,1
+71,Group Assignment,Wednesday,6,32,3,15.0,0,1,0,0,0,392,medium,0,0,2
+71,Quiz,Monday,15,33,1,12.0,0,0,1,0,0,933,medium,0,0,1
+71,Forum,Saturday,20,40,6,12.0,1,0,0,1,1,1240,medium,0,1,1
+71,Group Assignment,Monday,23,9,1,22.0,0,0,0,0,0,1389,medium,0,0,2
+71,Group Assignment,Monday,23,6,1,25.0,0,0,0,0,0,1386,medium,0,0,3
+71,Group Assignment,Monday,15,31,1,21.0,0,0,1,0,0,931,medium,0,0,1
+71,Group Assignment,Monday,15,38,1,10.0,0,0,1,0,0,938,short,0,0,2
+71,Forum,Sunday,11,30,7,22.0,1,1,0,0,0,690,medium,0,1,1
+71,Individual Assignment,Wednesday,5,37,3,6.0,0,0,0,0,0,337,short,1,0,1
+71,Group Assignment,Sunday,2,35,7,11.0,1,0,0,0,0,155,medium,1,1,2
+71,Forum,Friday,16,8,5,23.0,0,0,1,0,0,968,medium,0,0,1
+71,Forum,Friday,16,3,5,7.0,0,0,1,0,0,963,short,0,0,2
+71,Individual Assignment,Tuesday,0,50,2,15.0,0,0,0,0,0,50,medium,1,0,1
+71,Group Assignment,Thursday,19,13,4,22.0,0,0,0,1,1,1153,medium,0,1,2
+71,Group Assignment,Thursday,19,10,4,15.0,0,0,0,1,1,1150,medium,0,1,3
+71,Group Assignment,Thursday,19,5,4,9.0,0,0,0,1,1,1145,short,0,1,4
+71,Group Assignment,Friday,18,48,5,28.0,0,0,0,1,0,1128,medium,0,0,1
+71,Group Assignment,Friday,18,50,5,30.0,0,0,0,1,0,1130,medium,0,0,2
+71,Group Assignment,Friday,18,53,5,28.0,0,0,0,1,0,1133,medium,0,0,3
+71,Individual Assignment,Friday,23,48,5,10.0,0,0,0,0,0,1428,short,0,0,1
+71,Individual Assignment,Friday,23,40,5,9.0,0,0,0,0,0,1420,short,0,0,2
+72,Individual Assignment,Thursday,21,24,4,30.0,0,0,0,1,1,1284,medium,0,1,1
+72,Individual Assignment,Thursday,21,27,4,17.0,0,0,0,1,1,1287,medium,0,1,2
+72,Individual Assignment,Sunday,7,23,7,22.0,1,1,0,0,0,443,medium,0,1,1
+72,Individual Assignment,Sunday,7,17,7,25.0,1,1,0,0,0,437,medium,0,1,2
+72,Individual Assignment,Sunday,7,18,7,26.0,1,1,0,0,0,438,medium,0,1,3
+72,Group Assignment,Wednesday,6,29,3,29.0,0,1,0,0,0,389,medium,0,0,1
+72,Group Assignment,Wednesday,6,35,3,22.0,0,1,0,0,0,395,medium,0,0,2
+72,Quiz,Monday,15,35,1,19.0,0,0,1,0,0,935,medium,0,0,1
+72,Quiz,Monday,15,33,1,22.0,0,0,1,0,0,933,medium,0,0,2
+72,Quiz,Monday,15,30,1,8.0,0,0,1,0,0,930,short,0,0,3
+72,Forum,Saturday,20,37,6,28.0,1,0,0,1,1,1237,medium,0,1,1
+72,Forum,Saturday,20,32,6,28.0,1,0,0,1,1,1232,medium,0,1,2
+72,Forum,Saturday,20,40,6,17.0,1,0,0,1,1,1240,medium,0,1,3
+72,Group Assignment,Monday,23,8,1,11.0,0,0,0,0,0,1388,medium,0,0,4
+72,Group Assignment,Monday,15,36,1,21.0,0,0,1,0,0,936,medium,0,0,1
+72,Group Assignment,Monday,15,32,1,22.0,0,0,1,0,0,932,medium,0,0,2
+72,Forum,Sunday,11,26,7,10.0,1,1,0,0,0,686,short,0,1,1
+72,Forum,Sunday,11,25,7,19.0,1,1,0,0,0,685,medium,0,1,2
+72,Individual Assignment,Wednesday,5,37,3,24.0,0,0,0,0,0,337,medium,1,0,1
+72,Individual Assignment,Wednesday,5,35,3,7.0,0,0,0,0,0,335,short,1,0,2
+72,Group Assignment,Sunday,2,37,7,28.0,1,0,0,0,0,157,medium,1,1,4
+72,Group Assignment,Sunday,2,31,7,27.0,1,0,0,0,0,151,medium,1,1,5
+72,Group Assignment,Sunday,2,29,7,17.0,1,0,0,0,0,149,medium,1,1,6
+72,Forum,Friday,16,5,5,9.0,0,0,1,0,0,965,short,0,0,1
+72,Forum,Friday,16,9,5,18.0,0,0,1,0,0,969,medium,0,0,2
+72,Forum,Friday,16,7,5,13.0,0,0,1,0,0,967,medium,0,0,3
+72,Individual Assignment,Tuesday,0,44,2,29.0,0,0,0,0,0,44,medium,1,0,1
+72,Individual Assignment,Tuesday,0,46,2,11.0,0,0,0,0,0,46,medium,1,0,2
+72,Individual Assignment,Tuesday,0,42,2,8.0,0,0,0,0,0,42,short,1,0,3
+72,Group Assignment,Thursday,19,8,4,24.0,0,0,0,1,1,1148,medium,0,1,3
+72,Group Assignment,Thursday,19,3,4,15.0,0,0,0,1,1,1143,medium,0,1,4
+72,Group Assignment,Friday,18,49,5,15.0,0,0,0,1,0,1129,medium,0,0,1
+72,Individual Assignment,Friday,23,39,5,16.0,0,0,0,0,0,1419,medium,0,0,1
+72,Individual Assignment,Friday,23,46,5,26.0,0,0,0,0,0,1426,medium,0,0,2
+73,Individual Assignment,Thursday,21,29,4,17.0,0,0,0,1,1,1289,medium,0,1,1
+73,Individual Assignment,Thursday,21,28,4,15.0,0,0,0,1,1,1288,medium,0,1,2
+73,Individual Assignment,Thursday,21,30,4,13.0,0,0,0,1,1,1290,medium,0,1,3
+73,Individual Assignment,Sunday,7,21,7,24.0,1,1,0,0,0,441,medium,0,1,1
+73,Group Assignment,Wednesday,6,33,3,15.0,0,1,0,0,0,393,medium,0,0,1
+73,Group Assignment,Wednesday,6,29,3,23.0,0,1,0,0,0,389,medium,0,0,2
+73,Group Assignment,Wednesday,6,32,3,19.0,0,1,0,0,0,392,medium,0,0,3
+73,Quiz,Monday,15,32,1,28.0,0,0,1,0,0,932,medium,0,0,1
+73,Forum,Saturday,20,38,6,26.0,1,0,0,1,1,1238,medium,0,1,1
+73,Group Assignment,Monday,23,5,1,20.0,0,0,0,0,0,1385,medium,0,0,2
+73,Group Assignment,Monday,23,1,1,19.0,0,0,0,0,0,1381,medium,0,0,3
+73,Group Assignment,Monday,23,10,1,13.0,0,0,0,0,0,1390,medium,0,0,4
+73,Group Assignment,Monday,15,41,1,7.0,0,0,1,0,0,941,short,0,0,1
+73,Forum,Sunday,11,29,7,29.0,1,1,0,0,0,689,medium,0,1,1
+73,Individual Assignment,Wednesday,5,34,3,12.0,0,0,0,0,0,334,medium,1,0,1
+73,Individual Assignment,Wednesday,5,39,3,12.0,0,0,0,0,0,339,medium,1,0,2
+73,Group Assignment,Sunday,2,30,7,15.0,1,0,0,0,0,150,medium,1,1,2
+73,Group Assignment,Sunday,2,39,7,30.0,1,0,0,0,0,159,medium,1,1,3
+73,Group Assignment,Sunday,2,34,7,16.0,1,0,0,0,0,154,medium,1,1,4
+73,Forum,Friday,16,9,5,20.0,0,0,1,0,0,969,medium,0,0,1
+73,Forum,Friday,16,7,5,9.0,0,0,1,0,0,967,short,0,0,2
+73,Forum,Friday,16,6,5,24.0,0,0,1,0,0,966,medium,0,0,3
+73,Individual Assignment,Tuesday,0,48,2,18.0,0,0,0,0,0,48,medium,1,0,1
+73,Group Assignment,Thursday,19,4,4,30.0,0,0,0,1,1,1144,medium,0,1,4
+73,Group Assignment,Friday,18,49,5,27.0,0,0,0,1,0,1129,medium,0,0,1
+73,Group Assignment,Friday,18,48,5,6.0,0,0,0,1,0,1128,short,0,0,2
+73,Group Assignment,Friday,18,47,5,10.0,0,0,0,1,0,1127,short,0,0,3
+73,Individual Assignment,Friday,23,40,5,5.0,0,0,0,0,0,1420,short,0,0,1
+73,Individual Assignment,Friday,23,38,5,10.0,0,0,0,0,0,1418,short,0,0,2
+73,Individual Assignment,Friday,23,47,5,7.0,0,0,0,0,0,1427,short,0,0,3
+74,Individual Assignment,Thursday,21,32,4,29.0,0,0,0,1,1,1292,medium,0,1,1
+74,Individual Assignment,Thursday,21,31,4,20.0,0,0,0,1,1,1291,medium,0,1,2
+74,Individual Assignment,Thursday,21,25,4,10.0,0,0,0,1,1,1285,short,0,1,3
+74,Individual Assignment,Sunday,7,20,7,8.0,1,1,0,0,0,440,short,0,1,1
+74,Group Assignment,Wednesday,6,29,3,22.0,0,1,0,0,0,389,medium,0,0,1
+74,Group Assignment,Wednesday,6,25,3,13.0,0,1,0,0,0,385,medium,0,0,2
+74,Quiz,Monday,15,35,1,28.0,0,0,1,0,0,935,medium,0,0,1
+74,Quiz,Monday,15,33,1,12.0,0,0,1,0,0,933,medium,0,0,2
+74,Quiz,Monday,15,29,1,11.0,0,0,1,0,0,929,medium,0,0,3
+74,Forum,Saturday,20,40,6,5.0,1,0,0,1,1,1240,short,0,1,1
+74,Group Assignment,Monday,23,10,1,17.0,0,0,0,0,0,1390,medium,0,0,4
+74,Group Assignment,Monday,15,36,1,15.0,0,0,1,0,0,936,medium,0,0,1
+74,Forum,Sunday,11,23,7,17.0,1,1,0,0,0,683,medium,0,1,1
+74,Forum,Sunday,11,26,7,5.0,1,1,0,0,0,686,short,0,1,2
+74,Individual Assignment,Wednesday,5,30,3,20.0,0,0,0,0,0,330,medium,1,0,1
+74,Group Assignment,Sunday,2,29,7,14.0,1,0,0,0,0,149,medium,1,1,2
+74,Forum,Friday,16,8,5,13.0,0,0,1,0,0,968,medium,0,0,1
+74,Forum,Friday,16,4,5,18.0,0,0,1,0,0,964,medium,0,0,2
+74,Forum,Friday,16,3,5,8.0,0,0,1,0,0,963,short,0,0,3
+74,Individual Assignment,Tuesday,0,42,2,21.0,0,0,0,0,0,42,medium,1,0,1
+74,Individual Assignment,Tuesday,0,50,2,6.0,0,0,0,0,0,50,short,1,0,2
+74,Individual Assignment,Tuesday,0,49,2,5.0,0,0,0,0,0,49,short,1,0,3
+74,Group Assignment,Thursday,19,11,4,5.0,0,0,0,1,1,1151,short,0,1,4
+74,Group Assignment,Thursday,19,10,4,11.0,0,0,0,1,1,1150,medium,0,1,5
+74,Group Assignment,Thursday,19,4,4,16.0,0,0,0,1,1,1144,medium,0,1,6
+74,Group Assignment,Friday,18,51,5,11.0,0,0,0,1,0,1131,medium,0,0,1
+74,Individual Assignment,Friday,23,39,5,17.0,0,0,0,0,0,1419,medium,0,0,1
+74,Individual Assignment,Friday,23,48,5,25.0,0,0,0,0,0,1428,medium,0,0,2
+75,Individual Assignment,Thursday,21,31,4,12.0,0,0,0,1,1,1291,medium,0,1,1
+75,Individual Assignment,Thursday,21,32,4,10.0,0,0,0,1,1,1292,short,0,1,2
+75,Individual Assignment,Sunday,7,18,7,23.0,1,1,0,0,0,438,medium,0,1,1
+75,Individual Assignment,Sunday,7,20,7,24.0,1,1,0,0,0,440,medium,0,1,2
+75,Individual Assignment,Sunday,7,17,7,7.0,1,1,0,0,0,437,short,0,1,3
+75,Group Assignment,Wednesday,6,26,3,26.0,0,1,0,0,0,386,medium,0,0,1
+75,Quiz,Monday,15,29,1,16.0,0,0,1,0,0,929,medium,0,0,1
+75,Forum,Saturday,20,38,6,11.0,1,0,0,1,1,1238,medium,0,1,1
+75,Forum,Saturday,20,32,6,9.0,1,0,0,1,1,1232,short,0,1,2
+75,Group Assignment,Monday,23,0,1,18.0,0,0,0,0,0,1380,medium,0,0,2
+75,Group Assignment,Monday,23,1,1,17.0,0,0,0,0,0,1381,medium,0,0,3
+75,Group Assignment,Monday,23,7,1,18.0,0,0,0,0,0,1387,medium,0,0,4
+75,Group Assignment,Monday,15,41,1,5.0,0,0,1,0,0,941,short,0,0,1
+75,Forum,Sunday,11,28,7,10.0,1,1,0,0,0,688,short,0,1,1
+75,Forum,Sunday,11,32,7,12.0,1,1,0,0,0,692,medium,0,1,2
+75,Individual Assignment,Wednesday,5,40,3,20.0,0,0,0,0,0,340,medium,1,0,1
+75,Individual Assignment,Wednesday,5,36,3,20.0,0,0,0,0,0,336,medium,1,0,2
+75,Individual Assignment,Wednesday,5,34,3,16.0,0,0,0,0,0,334,medium,1,0,3
+75,Group Assignment,Sunday,2,38,7,20.0,1,0,0,0,0,158,medium,1,1,4
+75,Forum,Friday,16,7,5,10.0,0,0,1,0,0,967,short,0,0,1
+75,Forum,Friday,16,1,5,12.0,0,0,1,0,0,961,medium,0,0,2
+75,Individual Assignment,Tuesday,0,48,2,28.0,0,0,0,0,0,48,medium,1,0,1
+75,Group Assignment,Thursday,19,10,4,20.0,0,0,0,1,1,1150,medium,0,1,3
+75,Group Assignment,Thursday,19,11,4,15.0,0,0,0,1,1,1151,medium,0,1,4
+75,Group Assignment,Thursday,19,6,4,22.0,0,0,0,1,1,1146,medium,0,1,5
+75,Group Assignment,Friday,18,46,5,14.0,0,0,0,1,0,1126,medium,0,0,1
+75,Group Assignment,Friday,18,49,5,12.0,0,0,0,1,0,1129,medium,0,0,2
+75,Individual Assignment,Friday,23,46,5,21.0,0,0,0,0,0,1426,medium,0,0,1
+75,Individual Assignment,Friday,23,41,5,25.0,0,0,0,0,0,1421,medium,0,0,2
+75,Individual Assignment,Friday,23,44,5,7.0,0,0,0,0,0,1424,short,0,0,3
+76,Individual Assignment,Thursday,21,28,4,8.0,0,0,0,1,1,1288,short,0,1,1
+76,Individual Assignment,Thursday,21,29,4,13.0,0,0,0,1,1,1289,medium,0,1,2
+76,Individual Assignment,Thursday,21,34,4,12.0,0,0,0,1,1,1294,medium,0,1,3
+76,Individual Assignment,Sunday,7,15,7,10.0,1,1,0,0,0,435,short,0,1,1
+76,Individual Assignment,Sunday,7,25,7,16.0,1,1,0,0,0,445,medium,0,1,2
+76,Group Assignment,Wednesday,6,28,3,15.0,0,1,0,0,0,388,medium,0,0,1
+76,Quiz,Monday,15,35,1,17.0,0,0,1,0,0,935,medium,0,0,1
+76,Quiz,Monday,15,28,1,12.0,0,0,1,0,0,928,medium,0,0,2
+76,Forum,Saturday,20,32,6,29.0,1,0,0,1,1,1232,medium,0,1,1
+76,Forum,Saturday,20,35,6,21.0,1,0,0,1,1,1235,medium,0,1,2
+76,Group Assignment,Monday,23,5,1,19.0,0,0,0,0,0,1385,medium,0,0,3
+76,Group Assignment,Monday,23,0,1,19.0,0,0,0,0,0,1380,medium,0,0,4
+76,Group Assignment,Monday,15,41,1,10.0,0,0,1,0,0,941,short,0,0,1
+76,Group Assignment,Monday,15,31,1,8.0,0,0,1,0,0,931,short,0,0,2
+76,Forum,Sunday,11,27,7,19.0,1,1,0,0,0,687,medium,0,1,1
+76,Forum,Sunday,11,29,7,17.0,1,1,0,0,0,689,medium,0,1,2
+76,Individual Assignment,Wednesday,5,33,3,6.0,0,0,0,0,0,333,short,1,0,1
+76,Individual Assignment,Wednesday,5,32,3,30.0,0,0,0,0,0,332,medium,1,0,2
+76,Group Assignment,Sunday,2,29,7,17.0,1,0,0,0,0,149,medium,1,1,3
+76,Forum,Friday,16,8,5,5.0,0,0,1,0,0,968,short,0,0,1
+76,Forum,Friday,16,10,5,25.0,0,0,1,0,0,970,medium,0,0,2
+76,Individual Assignment,Tuesday,0,50,2,5.0,0,0,0,0,0,50,short,1,0,1
+76,Individual Assignment,Tuesday,0,46,2,24.0,0,0,0,0,0,46,medium,1,0,2
+76,Group Assignment,Thursday,19,13,4,16.0,0,0,0,1,1,1153,medium,0,1,4
+76,Group Assignment,Thursday,19,12,4,12.0,0,0,0,1,1,1152,medium,0,1,5
+76,Group Assignment,Thursday,19,3,4,23.0,0,0,0,1,1,1143,medium,0,1,6
+76,Group Assignment,Friday,18,54,5,19.0,0,0,0,1,0,1134,medium,0,0,1
+76,Group Assignment,Friday,18,52,5,9.0,0,0,0,1,0,1132,short,0,0,2
+76,Group Assignment,Friday,18,55,5,23.0,0,0,0,1,0,1135,medium,0,0,3
+76,Individual Assignment,Friday,23,47,5,22.0,0,0,0,0,0,1427,medium,0,0,1
+76,Individual Assignment,Friday,23,46,5,5.0,0,0,0,0,0,1426,short,0,0,2
+77,Individual Assignment,Thursday,21,31,4,16.0,0,0,0,1,1,1291,medium,0,1,1
+77,Individual Assignment,Thursday,21,25,4,27.0,0,0,0,1,1,1285,medium,0,1,2
+77,Individual Assignment,Sunday,7,24,7,8.0,1,1,0,0,0,444,short,0,1,1
+77,Individual Assignment,Sunday,7,20,7,23.0,1,1,0,0,0,440,medium,0,1,2
+77,Group Assignment,Wednesday,6,30,3,10.0,0,1,0,0,0,390,short,0,0,1
+77,Quiz,Monday,15,35,1,28.0,0,0,1,0,0,935,medium,0,0,1
+77,Quiz,Monday,15,31,1,19.0,0,0,1,0,0,931,medium,0,0,2
+77,Quiz,Monday,15,30,1,15.0,0,0,1,0,0,930,medium,0,0,3
+77,Forum,Saturday,20,39,6,20.0,1,0,0,1,1,1239,medium,0,1,1
+77,Forum,Saturday,20,33,6,26.0,1,0,0,1,1,1233,medium,0,1,2
+77,Group Assignment,Monday,23,4,1,24.0,0,0,0,0,0,1384,medium,0,0,4
+77,Group Assignment,Monday,23,0,1,27.0,0,0,0,0,0,1380,medium,0,0,5
+77,Group Assignment,Monday,15,32,1,17.0,0,0,1,0,0,932,medium,0,0,1
+77,Group Assignment,Monday,15,33,1,27.0,0,0,1,0,0,933,medium,0,0,2
+77,Forum,Sunday,11,24,7,12.0,1,1,0,0,0,684,medium,0,1,1
+77,Forum,Sunday,11,30,7,21.0,1,1,0,0,0,690,medium,0,1,2
+77,Individual Assignment,Wednesday,5,40,3,11.0,0,0,0,0,0,340,medium,1,0,1
+77,Individual Assignment,Wednesday,5,36,3,13.0,0,0,0,0,0,336,medium,1,0,2
+77,Individual Assignment,Wednesday,5,30,3,17.0,0,0,0,0,0,330,medium,1,0,3
+77,Group Assignment,Sunday,2,38,7,5.0,1,0,0,0,0,158,short,1,1,3
+77,Forum,Friday,16,2,5,13.0,0,0,1,0,0,962,medium,0,0,1
+77,Forum,Friday,16,10,5,22.0,0,0,1,0,0,970,medium,0,0,2
+77,Individual Assignment,Tuesday,0,49,2,12.0,0,0,0,0,0,49,medium,1,0,1
+77,Individual Assignment,Tuesday,0,50,2,13.0,0,0,0,0,0,50,medium,1,0,2
+77,Group Assignment,Thursday,19,4,4,12.0,0,0,0,1,1,1144,medium,0,1,3
+77,Group Assignment,Friday,18,46,5,23.0,0,0,0,1,0,1126,medium,0,0,1
+77,Individual Assignment,Friday,23,40,5,20.0,0,0,0,0,0,1420,medium,0,0,1
+77,Individual Assignment,Friday,23,45,5,30.0,0,0,0,0,0,1425,medium,0,0,2
+78,Individual Assignment,Thursday,21,25,4,6.0,0,0,0,1,1,1285,short,0,1,1
+78,Individual Assignment,Thursday,21,28,4,11.0,0,0,0,1,1,1288,medium,0,1,2
+78,Individual Assignment,Sunday,7,19,7,20.0,1,1,0,0,0,439,medium,0,1,1
+78,Individual Assignment,Sunday,7,16,7,14.0,1,1,0,0,0,436,medium,0,1,2
+78,Group Assignment,Wednesday,6,30,3,9.0,0,1,0,0,0,390,short,0,0,1
+78,Quiz,Monday,15,35,1,20.0,0,0,1,0,0,935,medium,0,0,1
+78,Quiz,Monday,15,36,1,12.0,0,0,1,0,0,936,medium,0,0,2
+78,Forum,Saturday,20,31,6,6.0,1,0,0,1,1,1231,short,0,1,1
+78,Group Assignment,Monday,23,7,1,27.0,0,0,0,0,0,1387,medium,0,0,3
+78,Group Assignment,Monday,15,33,1,17.0,0,0,1,0,0,933,medium,0,0,1
+78,Group Assignment,Monday,15,34,1,14.0,0,0,1,0,0,934,medium,0,0,2
+78,Group Assignment,Monday,15,31,1,19.0,0,0,1,0,0,931,medium,0,0,3
+78,Forum,Sunday,11,33,7,26.0,1,1,0,0,0,693,medium,0,1,1
+78,Individual Assignment,Wednesday,5,35,3,15.0,0,0,0,0,0,335,medium,1,0,1
+78,Individual Assignment,Wednesday,5,40,3,18.0,0,0,0,0,0,340,medium,1,0,2
+78,Individual Assignment,Wednesday,5,33,3,7.0,0,0,0,0,0,333,short,1,0,3
+78,Group Assignment,Sunday,2,31,7,19.0,1,0,0,0,0,151,medium,1,1,3
+78,Forum,Friday,16,6,5,5.0,0,0,1,0,0,966,short,0,0,1
+78,Forum,Friday,16,0,5,28.0,0,0,1,0,0,960,medium,0,0,2
+78,Forum,Friday,16,10,5,12.0,0,0,1,0,0,970,medium,0,0,3
+78,Individual Assignment,Tuesday,0,44,2,8.0,0,0,0,0,0,44,short,1,0,1
+78,Group Assignment,Thursday,19,12,4,16.0,0,0,0,1,1,1152,medium,0,1,3
+78,Group Assignment,Thursday,19,8,4,23.0,0,0,0,1,1,1148,medium,0,1,4
+78,Group Assignment,Friday,18,49,5,19.0,0,0,0,1,0,1129,medium,0,0,1
+78,Individual Assignment,Friday,23,40,5,5.0,0,0,0,0,0,1420,short,0,0,1
+79,Individual Assignment,Thursday,21,25,4,15.0,0,0,0,1,1,1285,medium,0,1,1
+79,Individual Assignment,Sunday,7,23,7,5.0,1,1,0,0,0,443,short,0,1,1
+79,Individual Assignment,Sunday,7,15,7,15.0,1,1,0,0,0,435,medium,0,1,2
+79,Group Assignment,Wednesday,6,28,3,27.0,0,1,0,0,0,388,medium,0,0,1
+79,Quiz,Monday,15,29,1,23.0,0,0,1,0,0,929,medium,0,0,1
+79,Quiz,Monday,15,27,1,19.0,0,0,1,0,0,927,medium,0,0,2
+79,Quiz,Monday,15,34,1,18.0,0,0,1,0,0,934,medium,0,0,3
+79,Forum,Saturday,20,33,6,8.0,1,0,0,1,1,1233,short,0,1,1
+79,Forum,Saturday,20,41,6,9.0,1,0,0,1,1,1241,short,0,1,2
+79,Forum,Saturday,20,39,6,7.0,1,0,0,1,1,1239,short,0,1,3
+79,Group Assignment,Monday,23,2,1,19.0,0,0,0,0,0,1382,medium,0,0,4
+79,Group Assignment,Monday,15,36,1,27.0,0,0,1,0,0,936,medium,0,0,1
+79,Group Assignment,Monday,15,35,1,28.0,0,0,1,0,0,935,medium,0,0,2
+79,Forum,Sunday,11,31,7,19.0,1,1,0,0,0,691,medium,0,1,1
+79,Forum,Sunday,11,28,7,6.0,1,1,0,0,0,688,short,0,1,2
+79,Individual Assignment,Wednesday,5,39,3,17.0,0,0,0,0,0,339,medium,1,0,1
+79,Individual Assignment,Wednesday,5,35,3,18.0,0,0,0,0,0,335,medium,1,0,2
+79,Individual Assignment,Wednesday,5,36,3,25.0,0,0,0,0,0,336,medium,1,0,3
+79,Group Assignment,Sunday,2,30,7,29.0,1,0,0,0,0,150,medium,1,1,3
+79,Group Assignment,Sunday,2,37,7,7.0,1,0,0,0,0,157,short,1,1,4
+79,Forum,Friday,16,5,5,10.0,0,0,1,0,0,965,short,0,0,1
+79,Forum,Friday,16,4,5,28.0,0,0,1,0,0,964,medium,0,0,2
+79,Individual Assignment,Tuesday,0,49,2,14.0,0,0,0,0,0,49,medium,1,0,1
+79,Group Assignment,Thursday,19,3,4,16.0,0,0,0,1,1,1143,medium,0,1,2
+79,Group Assignment,Thursday,19,9,4,29.0,0,0,0,1,1,1149,medium,0,1,3
+79,Group Assignment,Friday,18,51,5,16.0,0,0,0,1,0,1131,medium,0,0,1
+79,Group Assignment,Friday,18,53,5,25.0,0,0,0,1,0,1133,medium,0,0,2
+79,Individual Assignment,Friday,23,45,5,10.0,0,0,0,0,0,1425,short,0,0,1
+79,Individual Assignment,Friday,23,40,5,5.0,0,0,0,0,0,1420,short,0,0,2
+79,Individual Assignment,Friday,23,44,5,30.0,0,0,0,0,0,1424,medium,0,0,3
+81,Individual Assignment,Thursday,21,25,4,23.0,0,0,0,1,1,1285,medium,0,1,1
+81,Individual Assignment,Thursday,21,31,4,16.0,0,0,0,1,1,1291,medium,0,1,2
+81,Individual Assignment,Thursday,21,33,4,19.0,0,0,0,1,1,1293,medium,0,1,3
+81,Individual Assignment,Sunday,7,20,7,14.0,1,1,0,0,0,440,medium,0,1,1
+81,Group Assignment,Wednesday,6,26,3,23.0,0,1,0,0,0,386,medium,0,0,1
+81,Quiz,Monday,15,28,1,7.0,0,0,1,0,0,928,short,0,0,1
+81,Quiz,Monday,15,27,1,27.0,0,0,1,0,0,927,medium,0,0,2
+81,Forum,Saturday,20,35,6,13.0,1,0,0,1,1,1235,medium,0,1,1
+81,Forum,Saturday,20,32,6,17.0,1,0,0,1,1,1232,medium,0,1,2
+81,Group Assignment,Monday,23,5,1,8.0,0,0,0,0,0,1385,short,0,0,3
+81,Group Assignment,Monday,15,31,1,24.0,0,0,1,0,0,931,medium,0,0,1
+81,Group Assignment,Monday,15,40,1,18.0,0,0,1,0,0,940,medium,0,0,2
+81,Forum,Sunday,11,33,7,24.0,1,1,0,0,0,693,medium,0,1,1
+81,Forum,Sunday,11,30,7,5.0,1,1,0,0,0,690,short,0,1,2
+81,Individual Assignment,Wednesday,5,38,3,21.0,0,0,0,0,0,338,medium,1,0,1
+81,Individual Assignment,Wednesday,5,31,3,17.0,0,0,0,0,0,331,medium,1,0,2
+81,Group Assignment,Sunday,2,33,7,17.0,1,0,0,0,0,153,medium,1,1,2
+81,Forum,Friday,16,2,5,11.0,0,0,1,0,0,962,medium,0,0,1
+81,Forum,Friday,16,5,5,11.0,0,0,1,0,0,965,medium,0,0,2
+81,Forum,Friday,16,9,5,22.0,0,0,1,0,0,969,medium,0,0,3
+81,Individual Assignment,Tuesday,0,47,2,22.0,0,0,0,0,0,47,medium,1,0,1
+81,Individual Assignment,Tuesday,0,48,2,16.0,0,0,0,0,0,48,medium,1,0,2
+81,Group Assignment,Thursday,19,5,4,20.0,0,0,0,1,1,1145,medium,0,1,4
+81,Group Assignment,Thursday,19,13,4,10.0,0,0,0,1,1,1153,short,0,1,5
+81,Group Assignment,Thursday,19,8,4,20.0,0,0,0,1,1,1148,medium,0,1,6
+81,Group Assignment,Friday,18,47,5,22.0,0,0,0,1,0,1127,medium,0,0,1
+81,Individual Assignment,Friday,23,47,5,14.0,0,0,0,0,0,1427,medium,0,0,1
+81,Individual Assignment,Friday,23,41,5,13.0,0,0,0,0,0,1421,medium,0,0,2
+84,Individual Assignment,Thursday,21,31,4,8.0,0,0,0,1,1,1291,short,0,1,1
+84,Individual Assignment,Thursday,21,26,4,13.0,0,0,0,1,1,1286,medium,0,1,2
+84,Individual Assignment,Sunday,7,22,7,9.0,1,1,0,0,0,442,short,0,1,1
+84,Group Assignment,Wednesday,6,34,3,19.0,0,1,0,0,0,394,medium,0,0,1
+84,Group Assignment,Wednesday,6,30,3,20.0,0,1,0,0,0,390,medium,0,0,2
+84,Group Assignment,Wednesday,6,32,3,10.0,0,1,0,0,0,392,short,0,0,3
+84,Quiz,Monday,15,26,1,9.0,0,0,1,0,0,926,short,0,0,1
+84,Quiz,Monday,15,36,1,23.0,0,0,1,0,0,936,medium,0,0,2
+84,Quiz,Monday,15,30,1,26.0,0,0,1,0,0,930,medium,0,0,3
+84,Forum,Saturday,20,40,6,25.0,1,0,0,1,1,1240,medium,0,1,1
+84,Group Assignment,Monday,23,0,1,20.0,0,0,0,0,0,1380,medium,0,0,4
+84,Group Assignment,Monday,23,2,1,19.0,0,0,0,0,0,1382,medium,0,0,5
+84,Group Assignment,Monday,15,39,1,12.0,0,0,1,0,0,939,medium,0,0,1
+84,Forum,Sunday,11,26,7,24.0,1,1,0,0,0,686,medium,0,1,1
+84,Forum,Sunday,11,27,7,20.0,1,1,0,0,0,687,medium,0,1,2
+84,Forum,Sunday,11,24,7,19.0,1,1,0,0,0,684,medium,0,1,3
+84,Individual Assignment,Wednesday,5,39,3,20.0,0,0,0,0,0,339,medium,1,0,1
+84,Individual Assignment,Wednesday,5,32,3,27.0,0,0,0,0,0,332,medium,1,0,2
+84,Group Assignment,Sunday,2,37,7,23.0,1,0,0,0,0,157,medium,1,1,2
+84,Group Assignment,Sunday,2,38,7,9.0,1,0,0,0,0,158,short,1,1,3
+84,Group Assignment,Sunday,2,31,7,19.0,1,0,0,0,0,151,medium,1,1,4
+84,Forum,Friday,16,9,5,30.0,0,0,1,0,0,969,medium,0,0,1
+84,Forum,Friday,16,4,5,12.0,0,0,1,0,0,964,medium,0,0,2
+84,Individual Assignment,Tuesday,0,47,2,17.0,0,0,0,0,0,47,medium,1,0,1
+84,Individual Assignment,Tuesday,0,46,2,18.0,0,0,0,0,0,46,medium,1,0,2
+84,Group Assignment,Thursday,19,12,4,18.0,0,0,0,1,1,1152,medium,0,1,3
+84,Group Assignment,Thursday,19,11,4,10.0,0,0,0,1,1,1151,short,0,1,4
+84,Group Assignment,Thursday,19,5,4,29.0,0,0,0,1,1,1145,medium,0,1,5
+84,Group Assignment,Friday,18,51,5,5.0,0,0,0,1,0,1131,short,0,0,1
+84,Group Assignment,Friday,18,46,5,22.0,0,0,0,1,0,1126,medium,0,0,2
+84,Individual Assignment,Friday,23,39,5,28.0,0,0,0,0,0,1419,medium,0,0,1
+85,Individual Assignment,Thursday,21,28,4,17.0,0,0,0,1,1,1288,medium,0,1,1
+85,Individual Assignment,Sunday,7,21,7,6.0,1,1,0,0,0,441,short,0,1,1
+85,Group Assignment,Wednesday,6,31,3,13.0,0,1,0,0,0,391,medium,0,0,1
+85,Quiz,Monday,15,36,1,8.0,0,0,1,0,0,936,short,0,0,1
+85,Quiz,Monday,15,35,1,27.0,0,0,1,0,0,935,medium,0,0,2
+85,Quiz,Monday,15,28,1,14.0,0,0,1,0,0,928,medium,0,0,3
+85,Forum,Saturday,20,38,6,7.0,1,0,0,1,1,1238,short,0,1,1
+85,Group Assignment,Monday,23,2,1,28.0,0,0,0,0,0,1382,medium,0,0,4
+85,Group Assignment,Monday,23,0,1,24.0,0,0,0,0,0,1380,medium,0,0,5
+85,Group Assignment,Monday,23,7,1,5.0,0,0,0,0,0,1387,short,0,0,6
+85,Group Assignment,Monday,15,40,1,21.0,0,0,1,0,0,940,medium,0,0,1
+85,Group Assignment,Monday,15,39,1,29.0,0,0,1,0,0,939,medium,0,0,2
+85,Forum,Sunday,11,26,7,23.0,1,1,0,0,0,686,medium,0,1,1
+85,Forum,Sunday,11,30,7,9.0,1,1,0,0,0,690,short,0,1,2
+85,Individual Assignment,Wednesday,5,34,3,26.0,0,0,0,0,0,334,medium,1,0,1
+85,Individual Assignment,Wednesday,5,39,3,17.0,0,0,0,0,0,339,medium,1,0,2
+85,Group Assignment,Sunday,2,30,7,9.0,1,0,0,0,0,150,short,1,1,2
+85,Group Assignment,Sunday,2,33,7,23.0,1,0,0,0,0,153,medium,1,1,3
+85,Forum,Friday,16,1,5,7.0,0,0,1,0,0,961,short,0,0,1
+85,Forum,Friday,16,6,5,16.0,0,0,1,0,0,966,medium,0,0,2
+85,Individual Assignment,Tuesday,0,50,2,17.0,0,0,0,0,0,50,medium,1,0,1
+85,Individual Assignment,Tuesday,0,49,2,12.0,0,0,0,0,0,49,medium,1,0,2
+85,Group Assignment,Thursday,19,11,4,15.0,0,0,0,1,1,1151,medium,0,1,2
+85,Group Assignment,Thursday,19,10,4,17.0,0,0,0,1,1,1150,medium,0,1,3
+85,Group Assignment,Friday,18,47,5,25.0,0,0,0,1,0,1127,medium,0,0,1
+85,Individual Assignment,Friday,23,38,5,15.0,0,0,0,0,0,1418,medium,0,0,1
+86,Individual Assignment,Thursday,21,24,4,6.0,0,0,0,1,1,1284,short,0,1,1
+86,Individual Assignment,Thursday,21,32,4,23.0,0,0,0,1,1,1292,medium,0,1,2
+86,Individual Assignment,Thursday,21,30,4,15.0,0,0,0,1,1,1290,medium,0,1,3
+86,Individual Assignment,Sunday,7,17,7,11.0,1,1,0,0,0,437,medium,0,1,1
+86,Individual Assignment,Sunday,7,18,7,29.0,1,1,0,0,0,438,medium,0,1,2
+86,Individual Assignment,Sunday,7,15,7,26.0,1,1,0,0,0,435,medium,0,1,3
+86,Group Assignment,Wednesday,6,34,3,14.0,0,1,0,0,0,394,medium,0,0,1
+86,Group Assignment,Wednesday,6,31,3,23.0,0,1,0,0,0,391,medium,0,0,2
+86,Quiz,Monday,15,26,1,17.0,0,0,1,0,0,926,medium,0,0,1
+86,Forum,Saturday,20,39,6,21.0,1,0,0,1,1,1239,medium,0,1,1
+86,Forum,Saturday,20,35,6,28.0,1,0,0,1,1,1235,medium,0,1,2
+86,Group Assignment,Monday,23,5,1,9.0,0,0,0,0,0,1385,short,0,0,2
+86,Group Assignment,Monday,15,36,1,16.0,0,0,1,0,0,936,medium,0,0,1
+86,Group Assignment,Monday,15,31,1,20.0,0,0,1,0,0,931,medium,0,0,2
+86,Forum,Sunday,11,24,7,12.0,1,1,0,0,0,684,medium,0,1,1
+86,Individual Assignment,Wednesday,5,39,3,12.0,0,0,0,0,0,339,medium,1,0,1
+86,Group Assignment,Sunday,2,29,7,14.0,1,0,0,0,0,149,medium,1,1,4
+86,Group Assignment,Sunday,2,33,7,28.0,1,0,0,0,0,153,medium,1,1,5
+86,Forum,Friday,16,10,5,26.0,0,0,1,0,0,970,medium,0,0,1
+86,Forum,Friday,16,5,5,16.0,0,0,1,0,0,965,medium,0,0,2
+86,Individual Assignment,Tuesday,0,52,2,18.0,0,0,0,0,0,52,medium,1,0,1
+86,Group Assignment,Thursday,19,11,4,5.0,0,0,0,1,1,1151,short,0,1,4
+86,Group Assignment,Thursday,19,3,4,8.0,0,0,0,1,1,1143,short,0,1,5
+86,Group Assignment,Friday,18,46,5,15.0,0,0,0,1,0,1126,medium,0,0,1
+86,Group Assignment,Friday,18,49,5,14.0,0,0,0,1,0,1129,medium,0,0,2
+86,Individual Assignment,Friday,23,46,5,12.0,0,0,0,0,0,1426,medium,0,0,1
+86,Individual Assignment,Friday,23,48,5,5.0,0,0,0,0,0,1428,short,0,0,2
+87,Individual Assignment,Thursday,21,29,4,25.0,0,0,0,1,1,1289,medium,0,1,1
+87,Individual Assignment,Thursday,21,26,4,20.0,0,0,0,1,1,1286,medium,0,1,2
+87,Individual Assignment,Thursday,21,33,4,25.0,0,0,0,1,1,1293,medium,0,1,3
+87,Individual Assignment,Sunday,7,20,7,12.0,1,1,0,0,0,440,medium,0,1,1
+87,Individual Assignment,Sunday,7,15,7,13.0,1,1,0,0,0,435,medium,0,1,2
+87,Group Assignment,Wednesday,6,28,3,14.0,0,1,0,0,0,388,medium,0,0,1
+87,Quiz,Monday,15,26,1,15.0,0,0,1,0,0,926,medium,0,0,1
+87,Quiz,Monday,15,33,1,17.0,0,0,1,0,0,933,medium,0,0,2
+87,Forum,Saturday,20,32,6,8.0,1,0,0,1,1,1232,short,0,1,1
+87,Group Assignment,Monday,23,10,1,17.0,0,0,0,0,0,1390,medium,0,0,3
+87,Group Assignment,Monday,23,6,1,27.0,0,0,0,0,0,1386,medium,0,0,4
+87,Group Assignment,Monday,15,31,1,30.0,0,0,1,0,0,931,medium,0,0,1
+87,Group Assignment,Monday,15,39,1,9.0,0,0,1,0,0,939,short,0,0,2
+87,Forum,Sunday,11,27,7,17.0,1,1,0,0,0,687,medium,0,1,1
+87,Forum,Sunday,11,29,7,28.0,1,1,0,0,0,689,medium,0,1,2
+87,Individual Assignment,Wednesday,5,36,3,5.0,0,0,0,0,0,336,short,1,0,1
+87,Individual Assignment,Wednesday,5,34,3,7.0,0,0,0,0,0,334,short,1,0,2
+87,Individual Assignment,Wednesday,5,32,3,12.0,0,0,0,0,0,332,medium,1,0,3
+87,Group Assignment,Sunday,2,32,7,18.0,1,0,0,0,0,152,medium,1,1,3
+87,Group Assignment,Sunday,2,34,7,29.0,1,0,0,0,0,154,medium,1,1,4
+87,Forum,Friday,16,1,5,23.0,0,0,1,0,0,961,medium,0,0,1
+87,Individual Assignment,Tuesday,0,52,2,24.0,0,0,0,0,0,52,medium,1,0,1
+87,Individual Assignment,Tuesday,0,44,2,24.0,0,0,0,0,0,44,medium,1,0,2
+87,Individual Assignment,Tuesday,0,51,2,10.0,0,0,0,0,0,51,short,1,0,3
+87,Group Assignment,Thursday,19,13,4,7.0,0,0,0,1,1,1153,short,0,1,4
+87,Group Assignment,Friday,18,49,5,15.0,0,0,0,1,0,1129,medium,0,0,1
+87,Group Assignment,Friday,18,50,5,24.0,0,0,0,1,0,1130,medium,0,0,2
+87,Group Assignment,Friday,18,51,5,28.0,0,0,0,1,0,1131,medium,0,0,3
+87,Individual Assignment,Friday,23,41,5,26.0,0,0,0,0,0,1421,medium,0,0,1
+88,Individual Assignment,Thursday,21,28,4,21.0,0,0,0,1,1,1288,medium,0,1,1
+88,Individual Assignment,Sunday,7,16,7,20.0,1,1,0,0,0,436,medium,0,1,1
+88,Group Assignment,Wednesday,6,33,3,28.0,0,1,0,0,0,393,medium,0,0,1
+88,Quiz,Monday,15,27,1,30.0,0,0,1,0,0,927,medium,0,0,1
+88,Quiz,Monday,15,28,1,11.0,0,0,1,0,0,928,medium,0,0,2
+88,Forum,Saturday,20,41,6,17.0,1,0,0,1,1,1241,medium,0,1,1
+88,Group Assignment,Monday,23,3,1,25.0,0,0,0,0,0,1383,medium,0,0,3
+88,Group Assignment,Monday,23,10,1,26.0,0,0,0,0,0,1390,medium,0,0,4
+88,Group Assignment,Monday,23,9,1,17.0,0,0,0,0,0,1389,medium,0,0,5
+88,Group Assignment,Monday,15,32,1,29.0,0,0,1,0,0,932,medium,0,0,1
+88,Forum,Sunday,11,24,7,28.0,1,1,0,0,0,684,medium,0,1,1
+88,Forum,Sunday,11,27,7,14.0,1,1,0,0,0,687,medium,0,1,2
+88,Forum,Sunday,11,33,7,13.0,1,1,0,0,0,693,medium,0,1,3
+88,Individual Assignment,Wednesday,5,36,3,21.0,0,0,0,0,0,336,medium,1,0,1
+88,Group Assignment,Sunday,2,29,7,5.0,1,0,0,0,0,149,short,1,1,2
+88,Forum,Friday,16,1,5,15.0,0,0,1,0,0,961,medium,0,0,1
+88,Forum,Friday,16,5,5,6.0,0,0,1,0,0,965,short,0,0,2
+88,Individual Assignment,Tuesday,0,51,2,8.0,0,0,0,0,0,51,short,1,0,1
+88,Individual Assignment,Tuesday,0,43,2,17.0,0,0,0,0,0,43,medium,1,0,2
+88,Individual Assignment,Tuesday,0,47,2,11.0,0,0,0,0,0,47,medium,1,0,3
+88,Group Assignment,Thursday,19,6,4,28.0,0,0,0,1,1,1146,medium,0,1,2
+88,Group Assignment,Thursday,19,12,4,22.0,0,0,0,1,1,1152,medium,0,1,3
+88,Group Assignment,Thursday,19,5,4,16.0,0,0,0,1,1,1145,medium,0,1,4
+88,Group Assignment,Friday,18,50,5,19.0,0,0,0,1,0,1130,medium,0,0,1
+88,Group Assignment,Friday,18,48,5,5.0,0,0,0,1,0,1128,short,0,0,2
+88,Individual Assignment,Friday,23,47,5,12.0,0,0,0,0,0,1427,medium,0,0,1
+88,Individual Assignment,Friday,23,45,5,6.0,0,0,0,0,0,1425,short,0,0,2
+89,Individual Assignment,Thursday,21,27,4,15.0,0,0,0,1,1,1287,medium,0,1,1
+89,Individual Assignment,Thursday,21,25,4,5.0,0,0,0,1,1,1285,short,0,1,2
+89,Individual Assignment,Thursday,21,28,4,24.0,0,0,0,1,1,1288,medium,0,1,3
+89,Individual Assignment,Sunday,7,15,7,14.0,1,1,0,0,0,435,medium,0,1,1
+89,Individual Assignment,Sunday,7,25,7,5.0,1,1,0,0,0,445,short,0,1,2
+89,Individual Assignment,Sunday,7,16,7,18.0,1,1,0,0,0,436,medium,0,1,3
+89,Group Assignment,Wednesday,6,32,3,22.0,0,1,0,0,0,392,medium,0,0,1
+89,Group Assignment,Wednesday,6,30,3,19.0,0,1,0,0,0,390,medium,0,0,2
+89,Group Assignment,Wednesday,6,27,3,5.0,0,1,0,0,0,387,short,0,0,3
+89,Quiz,Monday,15,30,1,18.0,0,0,1,0,0,930,medium,0,0,1
+89,Quiz,Monday,15,35,1,18.0,0,0,1,0,0,935,medium,0,0,2
+89,Forum,Saturday,20,40,6,5.0,1,0,0,1,1,1240,short,0,1,1
+89,Forum,Saturday,20,37,6,27.0,1,0,0,1,1,1237,medium,0,1,2
+89,Group Assignment,Monday,23,0,1,27.0,0,0,0,0,0,1380,medium,0,0,3
+89,Group Assignment,Monday,23,1,1,6.0,0,0,0,0,0,1381,short,0,0,4
+89,Group Assignment,Monday,23,8,1,28.0,0,0,0,0,0,1388,medium,0,0,5
+89,Group Assignment,Monday,15,31,1,10.0,0,0,1,0,0,931,short,0,0,1
+89,Group Assignment,Monday,15,37,1,17.0,0,0,1,0,0,937,medium,0,0,2
+89,Group Assignment,Monday,15,34,1,6.0,0,0,1,0,0,934,short,0,0,3
+89,Forum,Sunday,11,33,7,23.0,1,1,0,0,0,693,medium,0,1,1
+89,Individual Assignment,Wednesday,5,35,3,7.0,0,0,0,0,0,335,short,1,0,1
+89,Individual Assignment,Wednesday,5,32,3,26.0,0,0,0,0,0,332,medium,1,0,2
+89,Individual Assignment,Wednesday,5,36,3,10.0,0,0,0,0,0,336,short,1,0,3
+89,Group Assignment,Sunday,2,32,7,14.0,1,0,0,0,0,152,medium,1,1,4
+89,Forum,Friday,16,0,5,25.0,0,0,1,0,0,960,medium,0,0,1
+89,Forum,Friday,16,4,5,11.0,0,0,1,0,0,964,medium,0,0,2
+89,Individual Assignment,Tuesday,0,49,2,15.0,0,0,0,0,0,49,medium,1,0,1
+89,Group Assignment,Thursday,19,6,4,24.0,0,0,0,1,1,1146,medium,0,1,4
+89,Group Assignment,Friday,18,53,5,25.0,0,0,0,1,0,1133,medium,0,0,1
+89,Group Assignment,Friday,18,55,5,27.0,0,0,0,1,0,1135,medium,0,0,2
+89,Group Assignment,Friday,18,54,5,5.0,0,0,0,1,0,1134,short,0,0,3
+89,Individual Assignment,Friday,23,44,5,22.0,0,0,0,0,0,1424,medium,0,0,1
+89,Individual Assignment,Friday,23,39,5,16.0,0,0,0,0,0,1419,medium,0,0,2
+89,Individual Assignment,Friday,23,40,5,13.0,0,0,0,0,0,1420,medium,0,0,3
+93,Individual Assignment,Thursday,21,32,4,17.0,0,0,0,1,1,1292,medium,0,1,1
+93,Individual Assignment,Thursday,21,31,4,28.0,0,0,0,1,1,1291,medium,0,1,2
+93,Individual Assignment,Thursday,21,27,4,11.0,0,0,0,1,1,1287,medium,0,1,3
+93,Individual Assignment,Sunday,7,23,7,8.0,1,1,0,0,0,443,short,0,1,1
+93,Group Assignment,Wednesday,6,30,3,30.0,0,1,0,0,0,390,medium,0,0,1
+93,Group Assignment,Wednesday,6,26,3,25.0,0,1,0,0,0,386,medium,0,0,2
+93,Group Assignment,Wednesday,6,31,3,9.0,0,1,0,0,0,391,short,0,0,3
+93,Quiz,Monday,15,30,1,18.0,0,0,1,0,0,930,medium,0,0,1
+93,Quiz,Monday,15,27,1,8.0,0,0,1,0,0,927,short,0,0,2
+93,Quiz,Monday,15,36,1,19.0,0,0,1,0,0,936,medium,0,0,3
+93,Forum,Saturday,20,40,6,29.0,1,0,0,1,1,1240,medium,0,1,1
+93,Forum,Saturday,20,41,6,11.0,1,0,0,1,1,1241,medium,0,1,2
+93,Group Assignment,Monday,23,9,1,7.0,0,0,0,0,0,1389,short,0,0,4
+93,Group Assignment,Monday,15,31,1,17.0,0,0,1,0,0,931,medium,0,0,1
+93,Forum,Sunday,11,24,7,16.0,1,1,0,0,0,684,medium,0,1,1
+93,Individual Assignment,Wednesday,5,40,3,20.0,0,0,0,0,0,340,medium,1,0,1
+93,Individual Assignment,Wednesday,5,32,3,19.0,0,0,0,0,0,332,medium,1,0,2
+93,Group Assignment,Sunday,2,36,7,20.0,1,0,0,0,0,156,medium,1,1,2
+93,Group Assignment,Sunday,2,35,7,5.0,1,0,0,0,0,155,short,1,1,3
+93,Forum,Friday,16,1,5,27.0,0,0,1,0,0,961,medium,0,0,1
+93,Forum,Friday,16,3,5,22.0,0,0,1,0,0,963,medium,0,0,2
+93,Individual Assignment,Tuesday,0,51,2,26.0,0,0,0,0,0,51,medium,1,0,1
+93,Individual Assignment,Tuesday,0,46,2,8.0,0,0,0,0,0,46,short,1,0,2
+93,Individual Assignment,Tuesday,0,43,2,14.0,0,0,0,0,0,43,medium,1,0,3
+93,Group Assignment,Thursday,19,11,4,20.0,0,0,0,1,1,1151,medium,0,1,4
+93,Group Assignment,Friday,18,52,5,7.0,0,0,0,1,0,1132,short,0,0,1
+93,Individual Assignment,Friday,23,43,5,24.0,0,0,0,0,0,1423,medium,0,0,1
+94,Individual Assignment,Thursday,21,33,4,16.0,0,0,0,1,1,1293,medium,0,1,1
+94,Individual Assignment,Sunday,7,25,7,26.0,1,1,0,0,0,445,medium,0,1,1
+94,Group Assignment,Wednesday,6,33,3,18.0,0,1,0,0,0,393,medium,0,0,1
+94,Quiz,Monday,15,31,1,21.0,0,0,1,0,0,931,medium,0,0,1
+94,Quiz,Monday,15,26,1,9.0,0,0,1,0,0,926,short,0,0,2
+94,Quiz,Monday,15,32,1,16.0,0,0,1,0,0,932,medium,0,0,3
+94,Forum,Saturday,20,32,6,13.0,1,0,0,1,1,1232,medium,0,1,1
+94,Forum,Saturday,20,40,6,17.0,1,0,0,1,1,1240,medium,0,1,2
+94,Forum,Saturday,20,35,6,19.0,1,0,0,1,1,1235,medium,0,1,3
+94,Group Assignment,Monday,23,10,1,11.0,0,0,0,0,0,1390,medium,0,0,4
+94,Group Assignment,Monday,15,38,1,28.0,0,0,1,0,0,938,medium,0,0,1
+94,Group Assignment,Monday,15,32,1,11.0,0,0,1,0,0,932,medium,0,0,2
+94,Forum,Sunday,11,31,7,10.0,1,1,0,0,0,691,short,0,1,1
+94,Forum,Sunday,11,26,7,21.0,1,1,0,0,0,686,medium,0,1,2
+94,Individual Assignment,Wednesday,5,40,3,28.0,0,0,0,0,0,340,medium,1,0,1
+94,Individual Assignment,Wednesday,5,36,3,23.0,0,0,0,0,0,336,medium,1,0,2
+94,Individual Assignment,Wednesday,5,32,3,30.0,0,0,0,0,0,332,medium,1,0,3
+94,Group Assignment,Sunday,2,30,7,23.0,1,0,0,0,0,150,medium,1,1,2
+94,Forum,Friday,16,3,5,21.0,0,0,1,0,0,963,medium,0,0,1
+94,Forum,Friday,16,7,5,17.0,0,0,1,0,0,967,medium,0,0,2
+94,Individual Assignment,Tuesday,0,45,2,8.0,0,0,0,0,0,45,short,1,0,1
+94,Individual Assignment,Tuesday,0,42,2,9.0,0,0,0,0,0,42,short,1,0,2
+94,Group Assignment,Thursday,19,12,4,8.0,0,0,0,1,1,1152,short,0,1,2
+94,Group Assignment,Friday,18,53,5,15.0,0,0,0,1,0,1133,medium,0,0,1
+94,Group Assignment,Friday,18,50,5,29.0,0,0,0,1,0,1130,medium,0,0,2
+94,Group Assignment,Friday,18,55,5,20.0,0,0,0,1,0,1135,medium,0,0,3
+94,Individual Assignment,Friday,23,38,5,26.0,0,0,0,0,0,1418,medium,0,0,1
+94,Individual Assignment,Friday,23,46,5,6.0,0,0,0,0,0,1426,short,0,0,2
+95,Individual Assignment,Thursday,21,26,4,8.0,0,0,0,1,1,1286,short,0,1,1
+95,Individual Assignment,Thursday,21,31,4,20.0,0,0,0,1,1,1291,medium,0,1,2
+95,Individual Assignment,Sunday,7,15,7,16.0,1,1,0,0,0,435,medium,0,1,1
+95,Group Assignment,Wednesday,6,26,3,24.0,0,1,0,0,0,386,medium,0,0,1
+95,Group Assignment,Wednesday,6,31,3,15.0,0,1,0,0,0,391,medium,0,0,2
+95,Quiz,Monday,15,30,1,5.0,0,0,1,0,0,930,short,0,0,1
+95,Quiz,Monday,15,27,1,25.0,0,0,1,0,0,927,medium,0,0,2
+95,Quiz,Monday,15,28,1,25.0,0,0,1,0,0,928,medium,0,0,3
+95,Forum,Saturday,20,38,6,21.0,1,0,0,1,1,1238,medium,0,1,1
+95,Forum,Saturday,20,40,6,17.0,1,0,0,1,1,1240,medium,0,1,2
+95,Group Assignment,Monday,23,0,1,18.0,0,0,0,0,0,1380,medium,0,0,4
+95,Group Assignment,Monday,23,8,1,24.0,0,0,0,0,0,1388,medium,0,0,5
+95,Group Assignment,Monday,23,10,1,13.0,0,0,0,0,0,1390,medium,0,0,6
+95,Group Assignment,Monday,15,41,1,19.0,0,0,1,0,0,941,medium,0,0,1
+95,Forum,Sunday,11,32,7,13.0,1,1,0,0,0,692,medium,0,1,1
+95,Individual Assignment,Wednesday,5,30,3,12.0,0,0,0,0,0,330,medium,1,0,1
+95,Group Assignment,Sunday,2,34,7,10.0,1,0,0,0,0,154,short,1,1,2
+95,Group Assignment,Sunday,2,39,7,5.0,1,0,0,0,0,159,short,1,1,3
+95,Forum,Friday,16,0,5,27.0,0,0,1,0,0,960,medium,0,0,1
+95,Forum,Friday,16,5,5,24.0,0,0,1,0,0,965,medium,0,0,2
+95,Forum,Friday,16,8,5,22.0,0,0,1,0,0,968,medium,0,0,3
+95,Individual Assignment,Tuesday,0,45,2,21.0,0,0,0,0,0,45,medium,1,0,1
+95,Group Assignment,Thursday,19,9,4,16.0,0,0,0,1,1,1149,medium,0,1,3
+95,Group Assignment,Thursday,19,11,4,24.0,0,0,0,1,1,1151,medium,0,1,4
+95,Group Assignment,Friday,18,46,5,11.0,0,0,0,1,0,1126,medium,0,0,1
+95,Individual Assignment,Friday,23,47,5,9.0,0,0,0,0,0,1427,short,0,0,1
+95,Individual Assignment,Friday,23,42,5,5.0,0,0,0,0,0,1422,short,0,0,2
+95,Individual Assignment,Friday,23,46,5,22.0,0,0,0,0,0,1426,medium,0,0,3
+96,Individual Assignment,Thursday,21,34,4,10.0,0,0,0,1,1,1294,short,0,1,1
+96,Individual Assignment,Sunday,7,25,7,25.0,1,1,0,0,0,445,medium,0,1,1
+96,Individual Assignment,Sunday,7,21,7,29.0,1,1,0,0,0,441,medium,0,1,2
+96,Group Assignment,Wednesday,6,26,3,28.0,0,1,0,0,0,386,medium,0,0,1
+96,Group Assignment,Wednesday,6,25,3,15.0,0,1,0,0,0,385,medium,0,0,2
+96,Group Assignment,Wednesday,6,29,3,28.0,0,1,0,0,0,389,medium,0,0,3
+96,Quiz,Monday,15,27,1,26.0,0,0,1,0,0,927,medium,0,0,1
+96,Quiz,Monday,15,26,1,27.0,0,0,1,0,0,926,medium,0,0,2
+96,Quiz,Monday,15,28,1,21.0,0,0,1,0,0,928,medium,0,0,3
+96,Forum,Saturday,20,38,6,25.0,1,0,0,1,1,1238,medium,0,1,1
+96,Forum,Saturday,20,36,6,18.0,1,0,0,1,1,1236,medium,0,1,2
+96,Forum,Saturday,20,40,6,25.0,1,0,0,1,1,1240,medium,0,1,3
+96,Group Assignment,Monday,23,4,1,17.0,0,0,0,0,0,1384,medium,0,0,4
+96,Group Assignment,Monday,15,31,1,14.0,0,0,1,0,0,931,medium,0,0,1
+96,Group Assignment,Monday,15,38,1,28.0,0,0,1,0,0,938,medium,0,0,2
+96,Group Assignment,Monday,15,37,1,6.0,0,0,1,0,0,937,short,0,0,3
+96,Forum,Sunday,11,33,7,15.0,1,1,0,0,0,693,medium,0,1,1
+96,Forum,Sunday,11,23,7,23.0,1,1,0,0,0,683,medium,0,1,2
+96,Forum,Sunday,11,31,7,20.0,1,1,0,0,0,691,medium,0,1,3
+96,Individual Assignment,Wednesday,5,37,3,29.0,0,0,0,0,0,337,medium,1,0,1
+96,Group Assignment,Sunday,2,35,7,30.0,1,0,0,0,0,155,medium,1,1,3
+96,Forum,Friday,16,2,5,21.0,0,0,1,0,0,962,medium,0,0,1
+96,Individual Assignment,Tuesday,0,51,2,13.0,0,0,0,0,0,51,medium,1,0,1
+96,Group Assignment,Thursday,19,11,4,12.0,0,0,0,1,1,1151,medium,0,1,2
+96,Group Assignment,Thursday,19,3,4,29.0,0,0,0,1,1,1143,medium,0,1,3
+96,Group Assignment,Friday,18,55,5,15.0,0,0,0,1,0,1135,medium,0,0,1
+96,Group Assignment,Friday,18,46,5,16.0,0,0,0,1,0,1126,medium,0,0,2
+96,Individual Assignment,Friday,23,45,5,29.0,0,0,0,0,0,1425,medium,0,0,1
+96,Individual Assignment,Friday,23,47,5,19.0,0,0,0,0,0,1427,medium,0,0,2
+96,Individual Assignment,Friday,23,43,5,23.0,0,0,0,0,0,1423,medium,0,0,3
+97,Individual Assignment,Thursday,21,34,4,15.0,0,0,0,1,1,1294,medium,0,1,1
+97,Individual Assignment,Thursday,21,26,4,21.0,0,0,0,1,1,1286,medium,0,1,2
+97,Individual Assignment,Sunday,7,16,7,5.0,1,1,0,0,0,436,short,0,1,1
+97,Individual Assignment,Sunday,7,21,7,10.0,1,1,0,0,0,441,short,0,1,2
+97,Group Assignment,Wednesday,6,29,3,27.0,0,1,0,0,0,389,medium,0,0,1
+97,Group Assignment,Wednesday,6,25,3,8.0,0,1,0,0,0,385,short,0,0,2
+97,Quiz,Monday,15,28,1,10.0,0,0,1,0,0,928,short,0,0,1
+97,Quiz,Monday,15,27,1,9.0,0,0,1,0,0,927,short,0,0,2
+97,Forum,Saturday,20,32,6,8.0,1,0,0,1,1,1232,short,0,1,1
+97,Forum,Saturday,20,35,6,18.0,1,0,0,1,1,1235,medium,0,1,2
+97,Group Assignment,Monday,23,3,1,11.0,0,0,0,0,0,1383,medium,0,0,3
+97,Group Assignment,Monday,23,6,1,8.0,0,0,0,0,0,1386,short,0,0,4
+97,Group Assignment,Monday,23,4,1,22.0,0,0,0,0,0,1384,medium,0,0,5
+97,Group Assignment,Monday,15,41,1,25.0,0,0,1,0,0,941,medium,0,0,1
+97,Forum,Sunday,11,25,7,14.0,1,1,0,0,0,685,medium,0,1,1
+97,Forum,Sunday,11,33,7,28.0,1,1,0,0,0,693,medium,0,1,2
+97,Individual Assignment,Wednesday,5,40,3,15.0,0,0,0,0,0,340,medium,1,0,1
+97,Group Assignment,Sunday,2,33,7,30.0,1,0,0,0,0,153,medium,1,1,3
+97,Group Assignment,Sunday,2,32,7,27.0,1,0,0,0,0,152,medium,1,1,4
+97,Forum,Friday,16,5,5,22.0,0,0,1,0,0,965,medium,0,0,1
+97,Forum,Friday,16,7,5,20.0,0,0,1,0,0,967,medium,0,0,2
+97,Individual Assignment,Tuesday,0,47,2,30.0,0,0,0,0,0,47,medium,1,0,1
+97,Group Assignment,Thursday,19,7,4,30.0,0,0,0,1,1,1147,medium,0,1,3
+97,Group Assignment,Thursday,19,4,4,29.0,0,0,0,1,1,1144,medium,0,1,4
+97,Group Assignment,Thursday,19,6,4,19.0,0,0,0,1,1,1146,medium,0,1,5
+97,Group Assignment,Friday,18,48,5,30.0,0,0,0,1,0,1128,medium,0,0,1
+97,Group Assignment,Friday,18,52,5,21.0,0,0,0,1,0,1132,medium,0,0,2
+97,Group Assignment,Friday,18,49,5,5.0,0,0,0,1,0,1129,short,0,0,3
+97,Individual Assignment,Friday,23,48,5,26.0,0,0,0,0,0,1428,medium,0,0,1
+98,Individual Assignment,Thursday,21,33,4,26.0,0,0,0,1,1,1293,medium,0,1,1
+98,Individual Assignment,Sunday,7,22,7,16.0,1,1,0,0,0,442,medium,0,1,1
+98,Group Assignment,Wednesday,6,34,3,18.0,0,1,0,0,0,394,medium,0,0,1
+98,Group Assignment,Wednesday,6,29,3,15.0,0,1,0,0,0,389,medium,0,0,2
+98,Quiz,Monday,15,31,1,21.0,0,0,1,0,0,931,medium,0,0,1
+98,Forum,Saturday,20,34,6,18.0,1,0,0,1,1,1234,medium,0,1,1
+98,Forum,Saturday,20,31,6,24.0,1,0,0,1,1,1231,medium,0,1,2
+98,Group Assignment,Monday,23,1,1,6.0,0,0,0,0,0,1381,short,0,0,2
+98,Group Assignment,Monday,23,2,1,28.0,0,0,0,0,0,1382,medium,0,0,3
+98,Group Assignment,Monday,15,36,1,24.0,0,0,1,0,0,936,medium,0,0,1
+98,Forum,Sunday,11,25,7,15.0,1,1,0,0,0,685,medium,0,1,1
+98,Individual Assignment,Wednesday,5,33,3,15.0,0,0,0,0,0,333,medium,1,0,1
+98,Group Assignment,Sunday,2,36,7,22.0,1,0,0,0,0,156,medium,1,1,2
+98,Group Assignment,Sunday,2,35,7,19.0,1,0,0,0,0,155,medium,1,1,3
+98,Group Assignment,Sunday,2,32,7,9.0,1,0,0,0,0,152,short,1,1,4
+98,Forum,Friday,16,3,5,7.0,0,0,1,0,0,963,short,0,0,1
+98,Forum,Friday,16,10,5,24.0,0,0,1,0,0,970,medium,0,0,2
+98,Individual Assignment,Tuesday,0,51,2,18.0,0,0,0,0,0,51,medium,1,0,1
+98,Individual Assignment,Tuesday,0,47,2,22.0,0,0,0,0,0,47,medium,1,0,2
+98,Group Assignment,Thursday,19,3,4,26.0,0,0,0,1,1,1143,medium,0,1,2
+98,Group Assignment,Thursday,19,5,4,29.0,0,0,0,1,1,1145,medium,0,1,3
+98,Group Assignment,Friday,18,53,5,18.0,0,0,0,1,0,1133,medium,0,0,1
+98,Group Assignment,Friday,18,52,5,5.0,0,0,0,1,0,1132,short,0,0,2
+98,Individual Assignment,Friday,23,46,5,14.0,0,0,0,0,0,1426,medium,0,0,1
+98,Individual Assignment,Friday,23,38,5,6.0,0,0,0,0,0,1418,short,0,0,2
+98,Individual Assignment,Friday,23,47,5,21.0,0,0,0,0,0,1427,medium,0,0,3
+99,Individual Assignment,Thursday,21,28,4,15.0,0,0,0,1,1,1288,medium,0,1,1
+99,Individual Assignment,Thursday,21,25,4,5.0,0,0,0,1,1,1285,short,0,1,2
+99,Individual Assignment,Thursday,21,29,4,10.0,0,0,0,1,1,1289,short,0,1,3
+99,Individual Assignment,Sunday,7,16,7,23.0,1,1,0,0,0,436,medium,0,1,1
+99,Individual Assignment,Sunday,7,24,7,21.0,1,1,0,0,0,444,medium,0,1,2
+99,Group Assignment,Wednesday,6,33,3,26.0,0,1,0,0,0,393,medium,0,0,1
+99,Group Assignment,Wednesday,6,34,3,10.0,0,1,0,0,0,394,short,0,0,2
+99,Quiz,Monday,15,33,1,19.0,0,0,1,0,0,933,medium,0,0,1
+99,Quiz,Monday,15,36,1,23.0,0,0,1,0,0,936,medium,0,0,2
+99,Quiz,Monday,15,26,1,28.0,0,0,1,0,0,926,medium,0,0,3
+99,Forum,Saturday,20,31,6,25.0,1,0,0,1,1,1231,medium,0,1,1
+99,Group Assignment,Monday,23,1,1,23.0,0,0,0,0,0,1381,medium,0,0,4
+99,Group Assignment,Monday,15,37,1,22.0,0,0,1,0,0,937,medium,0,0,1
+99,Group Assignment,Monday,15,39,1,13.0,0,0,1,0,0,939,medium,0,0,2
+99,Group Assignment,Monday,15,38,1,29.0,0,0,1,0,0,938,medium,0,0,3
+99,Forum,Sunday,11,31,7,6.0,1,1,0,0,0,691,short,0,1,1
+99,Forum,Sunday,11,25,7,11.0,1,1,0,0,0,685,medium,0,1,2
+99,Individual Assignment,Wednesday,5,33,3,6.0,0,0,0,0,0,333,short,1,0,1
+99,Group Assignment,Sunday,2,32,7,6.0,1,0,0,0,0,152,short,1,1,3
+99,Forum,Friday,16,1,5,28.0,0,0,1,0,0,961,medium,0,0,1
+99,Forum,Friday,16,2,5,22.0,0,0,1,0,0,962,medium,0,0,2
+99,Individual Assignment,Tuesday,0,47,2,7.0,0,0,0,0,0,47,short,1,0,1
+99,Individual Assignment,Tuesday,0,48,2,19.0,0,0,0,0,0,48,medium,1,0,2
+99,Group Assignment,Thursday,19,11,4,12.0,0,0,0,1,1,1151,medium,0,1,4
+99,Group Assignment,Thursday,19,4,4,22.0,0,0,0,1,1,1144,medium,0,1,5
+99,Group Assignment,Friday,18,54,5,12.0,0,0,0,1,0,1134,medium,0,0,1
+99,Individual Assignment,Friday,23,46,5,27.0,0,0,0,0,0,1426,medium,0,0,1
+99,Individual Assignment,Friday,23,39,5,26.0,0,0,0,0,0,1419,medium,0,0,2
+99,Individual Assignment,Friday,23,41,5,6.0,0,0,0,0,0,1421,short,0,0,3
+100,Individual Assignment,Thursday,21,27,4,18.0,0,0,0,1,1,1287,medium,0,1,1
+100,Individual Assignment,Thursday,21,30,4,18.0,0,0,0,1,1,1290,medium,0,1,2
+100,Individual Assignment,Thursday,21,29,4,8.0,0,0,0,1,1,1289,short,0,1,3
+100,Individual Assignment,Sunday,7,19,7,15.0,1,1,0,0,0,439,medium,0,1,1
+100,Individual Assignment,Sunday,7,16,7,19.0,1,1,0,0,0,436,medium,0,1,2
+100,Individual Assignment,Sunday,7,25,7,28.0,1,1,0,0,0,445,medium,0,1,3
+100,Group Assignment,Wednesday,6,25,3,15.0,0,1,0,0,0,385,medium,0,0,1
+100,Group Assignment,Wednesday,6,33,3,23.0,0,1,0,0,0,393,medium,0,0,2
+100,Group Assignment,Wednesday,6,28,3,28.0,0,1,0,0,0,388,medium,0,0,3
+100,Quiz,Monday,15,35,1,14.0,0,0,1,0,0,935,medium,0,0,1
+100,Quiz,Monday,15,27,1,22.0,0,0,1,0,0,927,medium,0,0,2
+100,Forum,Saturday,20,35,6,12.0,1,0,0,1,1,1235,medium,0,1,1
+100,Group Assignment,Monday,23,1,1,26.0,0,0,0,0,0,1381,medium,0,0,3
+100,Group Assignment,Monday,23,7,1,23.0,0,0,0,0,0,1387,medium,0,0,4
+100,Group Assignment,Monday,15,37,1,8.0,0,0,1,0,0,937,short,0,0,1
+100,Group Assignment,Monday,15,40,1,10.0,0,0,1,0,0,940,short,0,0,2
+100,Forum,Sunday,11,33,7,13.0,1,1,0,0,0,693,medium,0,1,1
+100,Individual Assignment,Wednesday,5,39,3,25.0,0,0,0,0,0,339,medium,1,0,1
+100,Individual Assignment,Wednesday,5,31,3,24.0,0,0,0,0,0,331,medium,1,0,2
+100,Individual Assignment,Wednesday,5,38,3,6.0,0,0,0,0,0,338,short,1,0,3
+100,Group Assignment,Sunday,2,30,7,12.0,1,0,0,0,0,150,medium,1,1,4
+100,Forum,Friday,16,4,5,6.0,0,0,1,0,0,964,short,0,0,1
+100,Forum,Friday,16,7,5,30.0,0,0,1,0,0,967,medium,0,0,2
+100,Forum,Friday,16,5,5,5.0,0,0,1,0,0,965,short,0,0,3
+100,Individual Assignment,Tuesday,0,46,2,23.0,0,0,0,0,0,46,medium,1,0,1
+100,Individual Assignment,Tuesday,0,45,2,15.0,0,0,0,0,0,45,medium,1,0,2
+100,Group Assignment,Thursday,19,9,4,7.0,0,0,0,1,1,1149,short,0,1,4
+100,Group Assignment,Thursday,19,4,4,15.0,0,0,0,1,1,1144,medium,0,1,5
+100,Group Assignment,Thursday,19,7,4,25.0,0,0,0,1,1,1147,medium,0,1,6
+100,Group Assignment,Friday,18,55,5,7.0,0,0,0,1,0,1135,short,0,0,1
+100,Group Assignment,Friday,18,45,5,10.0,0,0,0,1,0,1125,short,0,0,2
+100,Group Assignment,Friday,18,48,5,14.0,0,0,0,1,0,1128,medium,0,0,3
+100,Individual Assignment,Friday,23,42,5,19.0,0,0,0,0,0,1422,medium,0,0,1
+100,Individual Assignment,Friday,23,39,5,26.0,0,0,0,0,0,1419,medium,0,0,2
+1,Forum,Saturday,20,35,6,10.0,1,0,0,1,1,1235,short,0,1,1
+3,Forum,Sunday,11,26,7,8.0,1,1,0,0,0,686,short,0,1,1
+3,Forum,Sunday,11,27,7,29.0,1,1,0,0,0,687,medium,0,1,2
+3,Forum,Saturday,20,37,6,20.0,1,0,0,1,1,1237,medium,0,1,1
+3,Forum,Saturday,20,35,6,29.0,1,0,0,1,1,1235,medium,0,1,2
+3,Individual Assignment,Wednesday,5,40,3,15.0,0,0,0,0,0,340,medium,1,0,1
+3,Group Assignment,Friday,18,47,5,14.0,0,0,0,1,0,1127,medium,0,0,1
+3,Group Assignment,Sunday,2,32,7,11.0,1,0,0,0,0,152,medium,1,1,1
+3,Group Assignment,Sunday,2,34,7,13.0,1,0,0,0,0,154,medium,1,1,2
+3,Individual Assignment,Thursday,21,25,4,7.0,0,0,0,1,1,1285,short,0,1,1
+3,Individual Assignment,Thursday,21,31,4,18.0,0,0,0,1,1,1291,medium,0,1,2
+3,Group Assignment,Wednesday,6,25,3,9.0,0,1,0,0,0,385,short,0,0,1
+3,Group Assignment,Wednesday,6,35,3,27.0,0,1,0,0,0,395,medium,0,0,2
+3,Individual Assignment,Tuesday,0,47,2,13.0,0,0,0,0,0,47,medium,1,0,1
+4,Forum,Saturday,20,35,6,24.0,1,0,0,1,1,1235,medium,0,1,1
+4,Group Assignment,Monday,15,36,1,22.0,0,0,1,0,0,936,medium,0,0,1
+4,Group Assignment,Monday,15,37,1,24.0,0,0,1,0,0,937,medium,0,0,2
+4,Quiz,Monday,15,36,1,6.0,0,0,1,0,0,936,short,0,0,1
+4,Quiz,Monday,15,27,1,18.0,0,0,1,0,0,927,medium,0,0,2
+4,Group Assignment,Wednesday,6,31,3,20.0,0,1,0,0,0,391,medium,0,0,1
+4,Group Assignment,Wednesday,6,34,3,22.0,0,1,0,0,0,394,medium,0,0,2
+4,Forum,Sunday,11,30,7,9.0,1,1,0,0,0,690,short,0,1,1
+4,Individual Assignment,Thursday,21,28,4,15.0,0,0,0,1,1,1288,medium,0,1,1
+4,Group Assignment,Thursday,19,9,4,19.0,0,0,0,1,1,1149,medium,0,1,2
+4,Group Assignment,Thursday,19,3,4,30.0,0,0,0,1,1,1143,medium,0,1,3
+4,Individual Assignment,Wednesday,5,31,3,6.0,0,0,0,0,0,331,short,1,0,1
+4,Individual Assignment,Sunday,7,16,7,20.0,1,1,0,0,0,436,medium,0,1,1
+4,Individual Assignment,Sunday,7,24,7,22.0,1,1,0,0,0,444,medium,0,1,2
+14,Forum,Saturday,20,33,6,20.0,1,0,0,1,1,1233,medium,0,1,1
+14,Group Assignment,Wednesday,6,35,3,24.0,0,1,0,0,0,395,medium,0,0,1
+14,Forum,Sunday,11,26,7,29.0,1,1,0,0,0,686,medium,0,1,1
+14,Forum,Sunday,11,29,7,6.0,1,1,0,0,0,689,short,0,1,2
+14,Group Assignment,Friday,18,49,5,24.0,0,0,0,1,0,1129,medium,0,0,1
+14,Group Assignment,Monday,15,41,1,20.0,0,0,1,0,0,941,medium,0,0,1
+14,Group Assignment,Monday,15,37,1,12.0,0,0,1,0,0,937,medium,0,0,2
+14,Group Assignment,Monday,23,5,1,22.0,0,0,0,0,0,1385,medium,0,0,1
+14,Group Assignment,Monday,23,9,1,15.0,0,0,0,0,0,1389,medium,0,0,2
+14,Individual Assignment,Thursday,21,24,4,27.0,0,0,0,1,1,1284,medium,0,1,1
+14,Group Assignment,Sunday,2,29,7,19.0,1,0,0,0,0,149,medium,1,1,1
+14,Group Assignment,Sunday,2,31,7,22.0,1,0,0,0,0,151,medium,1,1,2
+14,Group Assignment,Thursday,19,7,4,28.0,0,0,0,1,1,1147,medium,0,1,2
+14,Quiz,Monday,15,29,1,30.0,0,0,1,0,0,929,medium,0,0,3
+14,Quiz,Monday,15,26,1,28.0,0,0,1,0,0,926,medium,0,0,4
+25,Individual Assignment,Friday,23,47,5,9.0,0,0,0,0,0,1427,short,0,0,1
+25,Quiz,Monday,15,26,1,8.0,0,0,1,0,0,926,short,0,0,1
+25,Individual Assignment,Thursday,21,25,4,12.0,0,0,0,1,1,1285,medium,0,1,1
+25,Individual Assignment,Thursday,21,31,4,9.0,0,0,0,1,1,1291,short,0,1,2
+29,Individual Assignment,Friday,23,42,5,21.0,0,0,0,0,0,1422,medium,0,0,1
+29,Individual Assignment,Tuesday,0,48,2,30.0,0,0,0,0,0,48,medium,1,0,1
+29,Individual Assignment,Tuesday,0,47,2,22.0,0,0,0,0,0,47,medium,1,0,2
+29,Forum,Sunday,11,33,7,19.0,1,1,0,0,0,693,medium,0,1,1
+29,Group Assignment,Sunday,2,31,7,8.0,1,0,0,0,0,151,short,1,1,1
+29,Group Assignment,Sunday,2,37,7,8.0,1,0,0,0,0,157,short,1,1,2
+29,Individual Assignment,Thursday,21,29,4,27.0,0,0,0,1,1,1289,medium,0,1,1
+29,Group Assignment,Wednesday,6,34,3,11.0,0,1,0,0,0,394,medium,0,0,1
+29,Individual Assignment,Sunday,7,16,7,15.0,1,1,0,0,0,436,medium,0,1,3
+29,Quiz,Monday,15,33,1,17.0,0,0,1,0,0,933,medium,0,0,1
+29,Group Assignment,Monday,23,8,1,14.0,0,0,0,0,0,1388,medium,0,0,2
+29,Group Assignment,Monday,23,2,1,9.0,0,0,0,0,0,1382,short,0,0,3
+40,Individual Assignment,Sunday,7,25,7,12.0,1,1,0,0,0,445,medium,0,1,1
+40,Individual Assignment,Sunday,7,22,7,29.0,1,1,0,0,0,442,medium,0,1,2
+40,Individual Assignment,Thursday,21,27,4,27.0,0,0,0,1,1,1287,medium,0,1,1
+40,Group Assignment,Monday,23,4,1,27.0,0,0,0,0,0,1384,medium,0,0,1
+40,Group Assignment,Monday,23,6,1,30.0,0,0,0,0,0,1386,medium,0,0,2
+40,Group Assignment,Sunday,2,29,7,10.0,1,0,0,0,0,149,short,1,1,3
+40,Forum,Friday,16,5,5,23.0,0,0,1,0,0,965,medium,0,0,1
+40,Individual Assignment,Friday,23,44,5,18.0,0,0,0,0,0,1424,medium,0,0,1
+40,Individual Assignment,Friday,23,39,5,5.0,0,0,0,0,0,1419,short,0,0,2
+40,Forum,Saturday,20,41,6,25.0,1,0,0,1,1,1241,medium,0,1,1
+40,Group Assignment,Monday,15,31,1,16.0,0,0,1,0,0,931,medium,0,0,1
+40,Group Assignment,Monday,15,37,1,9.0,0,0,1,0,0,937,short,0,0,2
+40,Quiz,Monday,15,27,1,30.0,0,0,1,0,0,927,medium,0,0,3
+40,Quiz,Monday,15,35,1,28.0,0,0,1,0,0,935,medium,0,0,4
+40,Group Assignment,Wednesday,6,35,3,8.0,0,1,0,0,0,395,short,0,0,1
+40,Group Assignment,Thursday,19,12,4,9.0,0,0,0,1,1,1152,short,0,1,2
+43,Group Assignment,Wednesday,6,25,3,24.0,0,1,0,0,0,385,medium,0,0,1
+43,Individual Assignment,Friday,23,41,5,20.0,0,0,0,0,0,1421,medium,0,0,1
+44,Quiz,Monday,15,30,1,5.0,0,0,1,0,0,930,short,0,0,1
+44,Quiz,Monday,15,34,1,23.0,0,0,1,0,0,934,medium,0,0,2
+44,Individual Assignment,Friday,23,47,5,14.0,0,0,0,0,0,1427,medium,0,0,1
+44,Individual Assignment,Friday,23,38,5,14.0,0,0,0,0,0,1418,medium,0,0,2
+44,Group Assignment,Monday,23,9,1,27.0,0,0,0,0,0,1389,medium,0,0,3
+44,Individual Assignment,Tuesday,0,42,2,30.0,0,0,0,0,0,42,medium,1,0,1
+44,Group Assignment,Monday,15,35,1,17.0,0,0,1,0,0,935,medium,0,0,1
+44,Group Assignment,Monday,15,38,1,30.0,0,0,1,0,0,938,medium,0,0,2
+44,Forum,Friday,16,10,5,26.0,0,0,1,0,0,970,medium,0,0,1
+44,Group Assignment,Thursday,19,12,4,26.0,0,0,0,1,1,1152,medium,0,1,1
+44,Individual Assignment,Wednesday,5,40,3,23.0,0,0,0,0,0,340,medium,1,0,1
+44,Individual Assignment,Wednesday,5,31,3,17.0,0,0,0,0,0,331,medium,1,0,2
+44,Forum,Sunday,11,32,7,16.0,1,1,0,0,0,692,medium,0,1,1
+44,Forum,Sunday,11,33,7,6.0,1,1,0,0,0,693,short,0,1,2
+47,Group Assignment,Monday,23,6,1,22.0,0,0,0,0,0,1386,medium,0,0,1
+47,Group Assignment,Monday,23,0,1,9.0,0,0,0,0,0,1380,short,0,0,2
+47,Individual Assignment,Sunday,7,23,7,29.0,1,1,0,0,0,443,medium,0,1,1
+47,Individual Assignment,Sunday,7,18,7,16.0,1,1,0,0,0,438,medium,0,1,2
+47,Individual Assignment,Tuesday,0,50,2,10.0,0,0,0,0,0,50,short,1,0,1
+47,Individual Assignment,Tuesday,0,49,2,28.0,0,0,0,0,0,49,medium,1,0,2
+47,Individual Assignment,Thursday,21,26,4,19.0,0,0,0,1,1,1286,medium,0,1,1
+47,Individual Assignment,Thursday,21,24,4,23.0,0,0,0,1,1,1284,medium,0,1,2
+47,Forum,Sunday,11,23,7,11.0,1,1,0,0,0,683,medium,0,1,1
+47,Forum,Sunday,11,27,7,9.0,1,1,0,0,0,687,short,0,1,2
+47,Individual Assignment,Friday,23,43,5,17.0,0,0,0,0,0,1423,medium,0,0,1
+47,Quiz,Monday,15,29,1,12.0,0,0,1,0,0,929,medium,0,0,3
+47,Quiz,Monday,15,26,1,17.0,0,0,1,0,0,926,medium,0,0,4
+47,Forum,Friday,16,1,5,7.0,0,0,1,0,0,961,short,0,0,1
+47,Forum,Friday,16,2,5,27.0,0,0,1,0,0,962,medium,0,0,2
+47,Group Assignment,Wednesday,6,33,3,18.0,0,1,0,0,0,393,medium,0,0,1
+47,Group Assignment,Wednesday,6,25,3,5.0,0,1,0,0,0,385,short,0,0,2
+50,Group Assignment,Monday,15,32,1,16.0,0,0,1,0,0,932,medium,0,0,1
+50,Group Assignment,Monday,15,34,1,5.0,0,0,1,0,0,934,short,0,0,2
+50,Forum,Sunday,11,29,7,14.0,1,1,0,0,0,689,medium,0,1,1
+50,Forum,Friday,16,0,5,13.0,0,0,1,0,0,960,medium,0,0,1
+50,Individual Assignment,Thursday,21,29,4,27.0,0,0,0,1,1,1289,medium,0,1,1
+50,Individual Assignment,Sunday,7,21,7,13.0,1,1,0,0,0,441,medium,0,1,1
+50,Individual Assignment,Sunday,7,23,7,18.0,1,1,0,0,0,443,medium,0,1,2
+50,Individual Assignment,Tuesday,0,49,2,23.0,0,0,0,0,0,49,medium,1,0,1
+50,Individual Assignment,Tuesday,0,43,2,25.0,0,0,0,0,0,43,medium,1,0,2
+51,Group Assignment,Monday,15,38,1,29.0,0,0,1,0,0,938,medium,0,0,1
+51,Individual Assignment,Thursday,21,32,4,17.0,0,0,0,1,1,1292,medium,0,1,1
+51,Individual Assignment,Thursday,21,27,4,6.0,0,0,0,1,1,1287,short,0,1,2
+51,Forum,Sunday,11,25,7,28.0,1,1,0,0,0,685,medium,0,1,1
+51,Forum,Sunday,11,23,7,14.0,1,1,0,0,0,683,medium,0,1,2
+51,Quiz,Monday,15,34,1,22.0,0,0,1,0,0,934,medium,0,0,1
+51,Quiz,Monday,15,28,1,7.0,0,0,1,0,0,928,short,0,0,2
+51,Forum,Friday,16,5,5,28.0,0,0,1,0,0,965,medium,0,0,1
+51,Forum,Friday,16,3,5,19.0,0,0,1,0,0,963,medium,0,0,2
+51,Individual Assignment,Tuesday,0,43,2,17.0,0,0,0,0,0,43,medium,1,0,1
+51,Individual Assignment,Tuesday,0,44,2,16.0,0,0,0,0,0,44,medium,1,0,2
+51,Group Assignment,Friday,18,55,5,16.0,0,0,0,1,0,1135,medium,0,0,1
+51,Group Assignment,Friday,18,53,5,18.0,0,0,0,1,0,1133,medium,0,0,2
+62,Individual Assignment,Friday,23,42,5,7.0,0,0,0,0,0,1422,short,0,0,1
+62,Individual Assignment,Friday,23,43,5,29.0,0,0,0,0,0,1423,medium,0,0,2
+62,Group Assignment,Monday,15,32,1,8.0,0,0,1,0,0,932,short,0,0,1
+62,Group Assignment,Thursday,19,4,4,29.0,0,0,0,1,1,1144,medium,0,1,1
+62,Forum,Saturday,20,40,6,21.0,1,0,0,1,1,1240,medium,0,1,1
+62,Forum,Saturday,20,36,6,25.0,1,0,0,1,1,1236,medium,0,1,2
+62,Individual Assignment,Sunday,7,23,7,18.0,1,1,0,0,0,443,medium,0,1,1
+62,Group Assignment,Friday,18,52,5,19.0,0,0,0,1,0,1132,medium,0,0,1
+62,Forum,Friday,16,7,5,20.0,0,0,1,0,0,967,medium,0,0,1
+62,Forum,Friday,16,3,5,24.0,0,0,1,0,0,963,medium,0,0,2
+62,Individual Assignment,Wednesday,5,39,3,6.0,0,0,0,0,0,339,short,1,0,1
+62,Forum,Sunday,11,28,7,19.0,1,1,0,0,0,688,medium,0,1,1
+62,Group Assignment,Monday,23,4,1,15.0,0,0,0,0,0,1384,medium,0,0,1
+62,Group Assignment,Monday,23,6,1,25.0,0,0,0,0,0,1386,medium,0,0,2
+70,Group Assignment,Thursday,19,9,4,11.0,0,0,0,1,1,1149,medium,0,1,1
+70,Group Assignment,Thursday,19,6,4,18.0,0,0,0,1,1,1146,medium,0,1,2
+70,Group Assignment,Monday,15,33,1,5.0,0,0,1,0,0,933,short,0,0,1
+70,Individual Assignment,Thursday,21,26,4,29.0,0,0,0,1,1,1286,medium,0,1,3
+70,Individual Assignment,Thursday,21,31,4,23.0,0,0,0,1,1,1291,medium,0,1,4
+80,Forum,Saturday,20,40,6,11.0,1,0,0,1,1,1240,medium,0,1,1
+80,Individual Assignment,Friday,23,44,5,24.0,0,0,0,0,0,1424,medium,0,0,1
+82,Group Assignment,Monday,23,3,1,24.0,0,0,0,0,0,1383,medium,0,0,1
+82,Group Assignment,Sunday,2,29,7,14.0,1,0,0,0,0,149,medium,1,1,1
+82,Group Assignment,Sunday,2,39,7,20.0,1,0,0,0,0,159,medium,1,1,2
+82,Individual Assignment,Wednesday,5,40,3,19.0,0,0,0,0,0,340,medium,1,0,1
+82,Individual Assignment,Friday,23,40,5,29.0,0,0,0,0,0,1420,medium,0,0,1
+82,Individual Assignment,Friday,23,41,5,8.0,0,0,0,0,0,1421,short,0,0,2
+82,Forum,Sunday,11,30,7,22.0,1,1,0,0,0,690,medium,0,1,1
+82,Forum,Saturday,20,40,6,29.0,1,0,0,1,1,1240,medium,0,1,1
+83,Group Assignment,Thursday,19,13,4,22.0,0,0,0,1,1,1153,medium,0,1,1
+83,Group Assignment,Monday,15,32,1,27.0,0,0,1,0,0,932,medium,0,0,1
+83,Forum,Saturday,20,35,6,20.0,1,0,0,1,1,1235,medium,0,1,1
+83,Forum,Saturday,20,31,6,5.0,1,0,0,1,1,1231,short,0,1,2
+83,Individual Assignment,Tuesday,0,49,2,26.0,0,0,0,0,0,49,medium,1,0,1
+83,Individual Assignment,Tuesday,0,44,2,9.0,0,0,0,0,0,44,short,1,0,2
+83,Individual Assignment,Wednesday,5,37,3,19.0,0,0,0,0,0,337,medium,1,0,1
+83,Individual Assignment,Sunday,7,24,7,29.0,1,1,0,0,0,444,medium,0,1,1
+83,Quiz,Monday,15,35,1,5.0,0,0,1,0,0,935,short,0,0,1
+83,Quiz,Monday,15,29,1,28.0,0,0,1,0,0,929,medium,0,0,2
+83,Group Assignment,Sunday,2,32,7,12.0,1,0,0,0,0,152,medium,1,1,2
+83,Group Assignment,Sunday,2,30,7,8.0,1,0,0,0,0,150,short,1,1,3
+83,Forum,Friday,16,10,5,18.0,0,0,1,0,0,970,medium,0,0,1
+83,Forum,Friday,16,6,5,18.0,0,0,1,0,0,966,medium,0,0,2
+83,Forum,Sunday,11,25,7,24.0,1,1,0,0,0,685,medium,0,1,1
+83,Forum,Sunday,11,32,7,27.0,1,1,0,0,0,692,medium,0,1,2
+90,Forum,Sunday,11,32,7,8.0,1,1,0,0,0,692,short,0,1,1
+90,Forum,Sunday,11,23,7,22.0,1,1,0,0,0,683,medium,0,1,2
+90,Forum,Friday,16,8,5,5.0,0,0,1,0,0,968,short,0,0,1
+90,Forum,Friday,16,2,5,18.0,0,0,1,0,0,962,medium,0,0,2
+90,Group Assignment,Monday,15,41,1,8.0,0,0,1,0,0,941,short,0,0,1
+90,Group Assignment,Monday,15,39,1,7.0,0,0,1,0,0,939,short,0,0,2
+90,Individual Assignment,Friday,23,42,5,11.0,0,0,0,0,0,1422,medium,0,0,1
+90,Individual Assignment,Friday,23,38,5,28.0,0,0,0,0,0,1418,medium,0,0,2
+90,Individual Assignment,Tuesday,0,44,2,26.0,0,0,0,0,0,44,medium,1,0,1
+90,Group Assignment,Friday,18,47,5,13.0,0,0,0,1,0,1127,medium,0,0,1
+90,Group Assignment,Friday,18,52,5,23.0,0,0,0,1,0,1132,medium,0,0,2
+90,Group Assignment,Monday,23,3,1,24.0,0,0,0,0,0,1383,medium,0,0,1
+90,Group Assignment,Monday,23,2,1,5.0,0,0,0,0,0,1382,short,0,0,2
+91,Group Assignment,Friday,18,53,5,27.0,0,0,0,1,0,1133,medium,0,0,1
+91,Group Assignment,Friday,18,54,5,7.0,0,0,0,1,0,1134,short,0,0,2
+91,Group Assignment,Thursday,19,5,4,11.0,0,0,0,1,1,1145,medium,0,1,1
+91,Group Assignment,Thursday,19,11,4,12.0,0,0,0,1,1,1151,medium,0,1,2
+91,Quiz,Monday,15,29,1,12.0,0,0,1,0,0,929,medium,0,0,1
+91,Individual Assignment,Tuesday,0,49,2,6.0,0,0,0,0,0,49,short,1,0,1
+91,Individual Assignment,Tuesday,0,45,2,16.0,0,0,0,0,0,45,medium,1,0,2
+91,Forum,Sunday,11,24,7,19.0,1,1,0,0,0,684,medium,0,1,1
+91,Individual Assignment,Wednesday,5,40,3,15.0,0,0,0,0,0,340,medium,1,0,1
+91,Forum,Saturday,20,37,6,14.0,1,0,0,1,1,1237,medium,0,1,1
+91,Individual Assignment,Thursday,21,30,4,28.0,0,0,0,1,1,1290,medium,0,1,3
+92,Forum,Saturday,20,32,6,25.0,1,0,0,1,1,1232,medium,0,1,1
+92,Forum,Saturday,20,36,6,25.0,1,0,0,1,1,1236,medium,0,1,2
+92,Individual Assignment,Thursday,21,32,4,18.0,0,0,0,1,1,1292,medium,0,1,1
+92,Individual Assignment,Thursday,21,25,4,11.0,0,0,0,1,1,1285,medium,0,1,2
+92,Forum,Sunday,11,30,7,26.0,1,1,0,0,0,690,medium,0,1,1
+92,Forum,Sunday,11,28,7,10.0,1,1,0,0,0,688,short,0,1,2
+92,Individual Assignment,Wednesday,5,34,3,9.0,0,0,0,0,0,334,short,1,0,1
+92,Individual Assignment,Wednesday,5,33,3,8.0,0,0,0,0,0,333,short,1,0,2
+92,Group Assignment,Monday,23,7,1,7.0,0,0,0,0,0,1387,short,0,0,1
+92,Group Assignment,Monday,23,6,1,20.0,0,0,0,0,0,1386,medium,0,0,2
+92,Individual Assignment,Friday,23,47,5,21.0,0,0,0,0,0,1427,medium,0,0,1
+92,Group Assignment,Thursday,19,11,4,20.0,0,0,0,1,1,1151,medium,0,1,3

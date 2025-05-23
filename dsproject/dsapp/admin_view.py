@@ -20,45 +20,52 @@ def retrain_model_view(request, model_id):
     model_name = model_info.model_name.lower()
 
     try:
-        if model_name in ['logistic regression', 'random forest']:
+        if model_name in ['random forest']:
           
-            df = pd.read_csv('underperform_students.csv')
-            df['average_label'] = (df['average_grade'] >= 75).astype(int)
+            df = pd.read_csv('activity_logs_detailed.csv')
 
-            features = ['course1', 'course2', 'course3', 'course4', 'course5', 'average_grade']
-            X = df[features]
-            y = df['average_label']
+            df['type_name'] = df['type_name'].str.lower().str.replace(" ", "_")
+            df['day'] = df['day'].str.lower().str.replace(" ", "_")
 
-            x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+            df_encoded = pd.get_dummies(df, columns=['type_name', 'day', 'duration_category'])
 
-            # Tentukan model
-            if model_name == 'logistic regression':
-                model = LogisticRegression()
-            elif model_name == 'random forest':
-                model = RandomForestClassifier()
-            else:
-                messages.error(request, f"Unsupported classification model: {model_info.model_name}")
-                return redirect('/admin/dsapp/modelinfo3/')
+            feature_columns = [
+                'hour', 'minute', 'day_of_week', 'minutes_since_midnight',
+                'is_weekend', 'is_morning', 'is_afternoon', 'is_evening',
+                'is_peak', 'is_peak_or_weekend', 'is_early_morning',
+                'daily_activity_count'
+            ] + [col for col in df_encoded.columns if col.startswith('type_name_') or 
+                col.startswith('day_') or col.startswith('duration_category_')]
 
+        
+            df['engaged'] = (df['duration'] > 15).astype(int)
+
+            x = df_encoded[feature_columns]
+            y = df['engaged']
+        
+            x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+        
+            model = RandomForestClassifier(class_weight='balanced', random_state=42)
             model.fit(x_train, y_train)
+        
             y_pred = model.predict(x_test)
+        
             report = classification_report(y_test, y_pred)
-
-            # Simpan model
+            
             model_path = f'{model_name.replace(" ", "_")}_retrained.pkl'
             joblib.dump(model, model_path)
 
-            # Update model info
-            model_info.training_data = 'underperform_students.csv'
+           
+            model_info.training_data = 'activity_logs_detailed.csv'
             model_info.training_date = pd.Timestamp.now(tz='Asia/Jakarta')
             model_info.model_summary = report
             model_info.model_file = model_path
             model_info.creator = 'Rich'
-            model_info.usecase = 'Allows lecturers to contact students to offer guidance, such as mentoring or study plans'
+            model_info.usecase = 'Predict the most effective times to schedule student activities by analyzing time-based patterns and activity types'
             model_info.save()
 
         elif model_name in ['kmeans clustering (2 clusters)']:
-            # === Clustering Model ===
+            
             df = pd.read_csv('grade_dataset.csv')
             features = ['total_study_time', 'avg_study_time', 'activity_count', 'active_days']
             X = df[features]
@@ -72,7 +79,7 @@ def retrain_model_view(request, model_id):
             pca = PCA(n_components=2)
             pca.fit(X_scaled)
 
-            # Simpan model, scaler, dan pca
+           
             model_path = f'{model_name.replace(" ", "_")}_retrained.pkl'
             scaler_path = 'scaler_retrained.pkl'
             pca_path = 'pca_retrained.pkl'
@@ -81,7 +88,7 @@ def retrain_model_view(request, model_id):
             joblib.dump(scaler, scaler_path)
             joblib.dump(pca, pca_path)
 
-            # Update model info
+            
             model_info.training_data = 'grade_dataset.csv'
             model_info.training_date = pd.Timestamp.now(tz='Asia/Jakarta')
             model_info.model_summary = f'KMeans with 2 clusters. PCA explained variance: {pca.explained_variance_ratio_.sum():.2%}'

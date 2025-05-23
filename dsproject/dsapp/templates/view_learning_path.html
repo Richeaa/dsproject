@@ -1,16 +1,10 @@
-{% extends "about.html" %}
+{% extends "home.html" %}
 
 {% block title %}Learning Path Recommendation{% endblock %}
 {% load static %}
 
 {% block content %}
-{% load static %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Learning Path Recommendation</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <style>
@@ -167,8 +161,7 @@
             border-left: 4px solid #0ea5e9;
         }
     </style>
-</head>
-<body>
+
     <h1>Student Learning Path Recommendation</h1>
 
     <!-- Tab Navigation -->
@@ -280,8 +273,6 @@
             document.getElementById('tab-' + tabName).style.display = 'block';
         }
     </script>
-</body>
-</html>
 {% endblock %}
 {% block footer %}
 {% endblock %}

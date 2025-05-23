@@ -242,73 +242,83 @@ def generate_apriori_rules(df, activity_cols, student_activities):
         print(f"Error generating association rules: {str(e)}")
         return []
     
-def underperform(request):
-    df = pd.read_csv('underperform_students.csv')
-    df_html = df.to_html(index=False)
-    return render(request, 'underperform.html', {'df_html': df_html})
+def optimal(request):
+    return render(request, 'optimal.html')
 
 
 
-MODEL_PATHS = {
-    'lr': os.path.join(settings.BASE_DIR, 'final_underperform_students_lr.pkl'),
-    'rf': os.path.join(settings.BASE_DIR, 'final_underperform_students_rf.pkl'),
+DAY_TO_INDEX = {
+    'monday': 0,
+    'tuesday': 1,
+    'wednesday': 2,
+    'thursday': 3,
+    'friday': 4,
+    'saturday': 5,
+    'sunday': 6
 }
 
 @csrf_exempt
-def predict_status(request):
+def predict_schedule(request):
     if request.method == 'POST':
         data = json.loads(request.body)
+        activity_type = data.get('type_name', '').strip().lower().replace(" ", "_")
+        day = data.get('day', '').strip().lower().replace(" ", "_")
+        
 
-        model_name = data.get('model_name')
-        if model_name not in MODEL_PATHS:
-            return JsonResponse({'error': 'Invalid model selected'}, status=400)
-
-        model_path = MODEL_PATHS[model_name]
+        model_path = os.path.join(settings.BASE_DIR, 'final_duration_predictor_rf.pkl')
         model = joblib.load(model_path)
 
-        def safe_float(value):
-            try:
-                if value is None or value == '':
-                    return 0
-                return float(value)
-            except (ValueError, TypeError):
-                return 0
+        if not activity_type or not day:
+            return JsonResponse({'error': 'Missing required fields.'}, status=400)
 
-        course1 = safe_float(data['course1'])
-        course2 = safe_float(data['course2'])
-        course3 = safe_float(data['course3'])
-        course4 = safe_float(data['course4'])
-        course5 = safe_float(data['course5'])
+        day_index = DAY_TO_INDEX[day.lower()]
+        is_weekend = 1 if day.lower() in ['saturday', 'sunday'] else 0
 
-        average_grade =  round((course1 + course2 + course3 + course4 + course5) / 5, 2)
+        rows = []
+        for hour in range(24):
+            row = {
+                'hour': hour,
+                'minute': 0,
+                'day_of_week': day_index,
+                'minutes_since_midnight': hour * 60,
+                'is_weekend': is_weekend,
+                'is_morning': 1 if 6 <= hour <= 11 else 0,
+                'is_afternoon': 1 if 12 <= hour <= 17 else 0,
+                'is_evening': 1 if 18 <= hour <= 22 else 0,
+                'is_peak': 1 if hour in [19, 20, 21] else 0,
+                'is_peak_or_weekend': 1 if hour in [19, 20, 21] or is_weekend else 0,
+                'is_early_morning': 1 if 0 <= hour <= 5 else 0,
+                'daily_activity_count': 0,  
+                f'type_name_{activity_type}': 1,
+                f'day_{day}': 1,
+            }
+            rows.append(row)
 
-        features = np.array([
-            course1,
-            course2,
-            course3,
-            course4,
-            course5,
-            average_grade
-        ]).reshape(1, -1)
+        df = pd.DataFrame(rows).fillna(0)
+        for col in model.feature_names_in_:
+            if col not in df.columns:
+                df[col] = 0  
 
-        dffeatures = pd.DataFrame(features, columns =[
-            'course1',
-            'course2',
-            'course3',
-            'course4',
-            'course5',
-            'average_grade'
-        ])
+        proba = model.predict_proba(df[model.feature_names_in_])[:, 1] 
+        best_hour = int(np.argmax(proba))
+        best_score = float(proba[best_hour])
 
-        prediction = model.predict(dffeatures)[0]
-        probability = model.predict_proba(dffeatures)[0].tolist()
+        top3_indices = np.argsort(proba)[-5:][::-1]  
+        top3_scores = proba[top3_indices]
+
+        top3_score = [
+            {'hour': int(hour), 'score': round(float(score), 3)}
+            for hour, score in zip(top3_indices, top3_scores)
+        ]
 
         return JsonResponse({
-            "prediction": int(prediction),
-            "probability": probability,
-            "avg_grade": average_grade,
-            "advice": "Consider mentoring for better performance" if prediction == 0 else "Keep up the good work!"
+            'predicted_hour': best_hour,
+            'engagement_score': round(best_score, 3),
+            'all_hour_scores': [round(float(s), 3) for s in proba],
+            'top3_score': top3_score
         })
+
+    return JsonResponse({'error': 'Invalid request method.'}, status=405)
     
 kmeans_model = joblib.load("kmeans_model.pkl")
 scaler = joblib.load("scaler.pkl")

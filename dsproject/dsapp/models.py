@@ -58,6 +58,8 @@ class CourseActivity(models.Model):
         managed = False
 
 class StudentActivityLog(models.Model):
+    id = models.AutoField(primary_key=True)
+
     stu_id = models.ForeignKey(Student, db_column='stu_id', on_delete=models.CASCADE)
     activity_id = models.ForeignKey(CourseActivity, db_column='activity_id', on_delete=models.CASCADE)
     activity_start = models.DateTimeField()
@@ -70,7 +72,7 @@ class StudentActivityLog(models.Model):
         
 class ModelInfo3(models.Model):
     model_name = models.CharField(max_length=100)
-    model_file = models.CharField(max_length=255)  # you can use FileField if you're uploading .pkl files
+    model_file = models.CharField(max_length=255) 
     training_data = models.CharField(max_length=255)
     training_date = models.DateTimeField(auto_now_add=True)
     model_summary = models.TextField()
@@ -82,7 +84,6 @@ class ModelInfo3(models.Model):
 
     class Meta:
         managed = True
-
 
 class PredictionResult(models.Model):
     student_id = models.CharField(max_length=20)
