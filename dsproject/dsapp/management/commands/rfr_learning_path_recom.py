@@ -14,7 +14,7 @@ class Command(BaseCommand):
     help = 'Generate learning path recommendations for a student based on their activity data'
 
     def handle(self, *args, **kwargs):
-        df = pd.read_csv('stu_activ_recom.csv').fillna(0)
+        df = pd.read_csv('student_activity_dataset.csv').fillna(0)
 
         # Encode gender
         le = LabelEncoder()
@@ -129,7 +129,7 @@ class Command(BaseCommand):
         model_info = ModelInfo3.objects.create(
             model_name='Random Forest Regressor',
             model_file =model_filename,
-            training_data = 'stu_activ_recom.csv',
+            training_data = 'student_activity_dataset.csv',
             training_date = pd.Timestamp.now(),
             model_summary = f"Model trained with MSE: {mse:.2f}, MAE: {mae:.2f}, and saved to {model_filename}.",
             creator = 'Aqeel',

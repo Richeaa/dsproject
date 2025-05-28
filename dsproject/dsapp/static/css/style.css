@@ -1,4 +1,17 @@
 /* ========== PREDICTION FORM SPECIFIC STYLES ========== */
+html, body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+
+body > main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+
 .prediction-container {
     max-width: 800px;
     margin: 2rem auto;
@@ -12,7 +25,20 @@
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #eaeaea;
+
 }
+.prediction-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.prediction-header p {
+    font-size: 1rem;
+    opacity: 0.9;
+    ;
+}
+
 
 .form-container {
     background: #f9fafb;
@@ -224,15 +250,126 @@
 
 .search-page img {
     max-width: 100%;
+    max-height: 500px; /* Sesuaikan tinggi maksimum sesuai kebutuhan */
+    object-fit: contain;
     margin-top: 20px;
     border-radius: 8px;
 }
 
+
 .search-page .container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 40px 60px;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border-radius: 0;
+}
+
+
+.result-box {
+  background-color: #eef2ff;
+  border: 1px solid #c7d2fe;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+.result-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.result-visuals img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Grid gambar 2x2 */
+.visual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.visual-grid img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Pusatkan form pencarian */
+.search-center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.search-center form {
+  display: inline-block;
+}
+
+/* Table scroll horizontal + batasi tinggi */
+.table-scroll-wrapper {
+  max-height: 400px;
+  overflow: auto;
+  margin-top: 2rem;
+}
+
+.table-scroll-wrapper table {
+  width: 100%;
+  min-width: 600px;
+}
+
+/* Centered & Enlarged Result Title */
+.result-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.result-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.result-title p {
+  font-size: 1.1rem;
+  color: #374151;
+  margin-top: 0.5rem;
+}
+
+/* Stack Images Vertically & Centered */
+.visual-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.visual-stack img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }

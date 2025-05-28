@@ -84,17 +84,3 @@ class ModelInfo3(models.Model):
 
     class Meta:
         managed = True
-
-class PredictionResult(models.Model):
-    student_id = models.CharField(max_length=20)
-    total_study_time = models.FloatField()
-    avg_study_time = models.FloatField()
-    activity_count = models.FloatField()
-    active_days = models.FloatField()
-    cluster = models.IntegerField()
-    pca_x = models.FloatField()
-    pca_y = models.FloatField()
-    created_at = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return f"Cluster {self.cluster} at {self.created_at.strftime('%Y-%m-%d %H:%M')}"

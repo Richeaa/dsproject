@@ -98,7 +98,7 @@ def retrain_model_view(request, model_id):
             model_info.save()
         
         elif model_name in ['xgboost regressor', 'random forest regressor']:
-            df = pd.read_csv('stu_activ_recom.csv').fillna(0)
+            df = pd.read_csv('student_activity_dataset.csv').fillna(0)
 
             le = LabelEncoder()
             df["gender_encoded"] = le.fit_transform(df["gender"])
@@ -130,7 +130,7 @@ def retrain_model_view(request, model_id):
             model_path = f'{model_name.replace(" ", "_")}_retrained.pkl'
             joblib.dump(model, model_path)
 
-            model_info.training_data = 'stu_activ_recom.csv'
+            model_info.training_data = 'student_activity_dataset.csv'
             model_info.training_date = pd.Timestamp.now(tz='Asia/Jakarta')
             model_info.model_summary = f"Model trained with MSE: {mse:.2f}, MAE: {mae:.2f}."
             model_info.model_file = model_path

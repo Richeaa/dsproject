@@ -2,42 +2,71 @@
 {% load static %}
 
 {% block content %}
-<link rel="stylesheet" href="{% static '/css/style.css' %}" />
+<link rel="stylesheet" href="{% static 'style.css' %}">
 <div class="search-page">
   <div class="container">
-  <h2>Search Results</h2>
-  <form method="get" action="{% url 'search_cluster' %}">
-      <input type="text" name="student_id" placeholder="Enter Student ID" required>
-      <button type="submit" class="btn">Search</button>
-  </form>
 
-
-  {% if result %}
-    <div class="profile-box">
-      <p><strong>Student ID:</strong> {{ result.student_id }}</p>
-      <p><strong>Total Study Time:</strong><span id="total-study">{{ result.total_study_time }}</span> hours</p>
-      <p><strong>Average Study Time:</strong> {{ result.avg_study_time }} hours</p>
-      <p><strong>Activity Count:</strong><span id="activity-count">{{ result.activity_count }}</p>
-      <p><strong>Active Days:</strong> {{ result.active_days }}</p>
-      <p><strong>Cluster:</strong> <span id="cluster">{{ result.cluster }}</span></p>
-      <img src="/static/cluster_plot.png" alt="Cluster Visualization" class="img-fluid">
+    <!-- Centered Search Form -->
+    <div class="search-center">
+      <h2>Student Cluster Search</h2>
+      <p>Enter a student ID to find their learning behavior cluster.</p>
+      
+      <form method="get" action="{% url 'search_cluster' %}" class="mb-4">
+        <input type="text" name="student_id" placeholder="Enter Student ID" required>
+        <button type="submit" class="btn">Search</button>
+      </form>
     </div>
 
-    <div class="cluster-description">
-      <h3>Cluster Analysis</h3>
-      <p>
-        {{analysis}}
-      </p>
-      <div id="recommendation-box" class="p-4 border rounded bg-blue-50 mt-6 shadow-md">
-  <h3 class="text-lg font-semibold text-blue-800">Learning Recommendation</h3>
-  <p id="recommendation-text" class="mt-2 text-blue-700">{{recommendation}}</p>
-</div>
+    {% if result %}
+    <!-- Result Info + Visuals -->
+    <div class="result-box">
+      <div class="result-info">
+        <p><strong>Student ID:</strong> {{ result.student_id }}</p>
+        <p><strong>Name:</strong> {{ result.name }}</p>
+        <p><strong>Total Study Time:</strong> {{ result.total_study_time }} hours</p>
+        <p><strong>Average Study Time:</strong> {{ result.avg_study_time }} hours</p>
+        <p><strong>Activity Count:</strong> {{ result.activity_count }}</p>
+        <p><strong>Active Days:</strong> {{ result.active_days }}</p>
+        <p><strong>Cluster:</strong> {{ result.cluster }}</p>
+      </div>
+
+      <div class="visual-grid">
+        <div><img src="{% static 'study_time_scatter.png' %}" alt="Cluster Position"></div>
+        <div><img src="{% static 'cluster_donut.png' %}" alt="Donut Chart"></div>
+        <div><img src="{% static 'plot_activity_count.png' %}" alt="Activity Count Bar"></div>
+        <div><img src="{% static 'plot_active_days.png' %}" alt="Active Days Bar"></div>
+      </div>
     </div>
-  {% elif query %}
+
+    <!-- Table with Scroll -->
+    {% if cluster_members %}
+    <div class="table-scroll-wrapper">
+      <h4>Other Students in Cluster {{ result.cluster }}</h4>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in cluster_members %}
+          <tr>
+            <td>{{ s.student_id }}</td>
+            <td>{{ s.name }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+
+    {% elif query %}
     <div class="alert alert-warning">
       <p>No student found with that ID.</p>
     </div>
     {% endif %}
-    </div>
+
   </div>
+</div>
 {% endblock %}

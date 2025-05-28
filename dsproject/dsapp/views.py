@@ -4,7 +4,6 @@ import joblib
 import os
 from django.shortcuts import render
 from django.core.paginator import Paginator
-from .models import PredictionResult
 from datetime import datetime
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -12,6 +11,10 @@ from django.conf import settings
 from sklearn.preprocessing import LabelEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
 from mlxtend.preprocessing import TransactionEncoder
+from django.db.models import Sum, F, ExpressionWrapper, DurationField
+from sklearn.cluster import KMeans
+from dsapp.models import Student, StudentActivityLog
+from django.http import HttpResponse
 import random
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,7 +64,7 @@ def get_learning_path_data(request):
                 
             model = joblib.load(model_path)
                     
-            df = pd.read_csv(os.path.join(settings.BASE_DIR, 'stu_activ_recom.csv')).fillna(0)
+            df = pd.read_csv(os.path.join(settings.BASE_DIR, 'student_activity_dataset.csv')).fillna(0)
 
             # Rename columns for consistency
             df.rename(columns={
@@ -323,152 +326,175 @@ def predict_schedule(request):
 kmeans_model = joblib.load("kmeans_model.pkl")
 scaler = joblib.load("scaler.pkl")
 pca = joblib.load("pca.pkl")
+def generate_cluster_visualizations(input_study_time, input_avg_time):
+    df = pd.read_csv(os.path.join(settings.BASE_DIR, 'grade_dataset.csv'))
+    features = ['total_study_time', 'avg_study_time', 'activity_count', 'active_days']
+    X = df[features]
+    labels = kmeans_model.predict(scaler.transform(X))
+    df['Cluster'] = labels
+
+    # Donut Chart for Cluster Frequency
+    cluster_counts = df['Cluster'].value_counts().sort_index()
+    colors = sns.color_palette('Set2', len(cluster_counts))
+    plt.figure(figsize=(6, 6))
+    plt.pie(cluster_counts, labels=[f'Cluster {i}' for i in cluster_counts.index], colors=colors,
+            autopct='%1.1f%%', startangle=140, wedgeprops=dict(width=0.4))
+    plt.title('Cluster Distribution')
+    plot_path = os.path.join(settings.BASE_DIR, 'dsapp/static/', 'cluster_donut.png')
+    plt.savefig(plot_path)
+    plt.close()
+
+    # Scatter plot: total study time vs avg study time
+    plt.figure(figsize=(8, 5))
+    sns.scatterplot(data=df, x='total_study_time', y='avg_study_time', hue='Cluster', palette='Set2')
+    plt.scatter(input_study_time, input_avg_time, color='black', s=100, marker='X', label='Input Student')
+    plt.title('Student Clustering Based on Study Behavior')
+    plt.xlabel('Total Study Time')
+    plt.ylabel('Average Study Time')
+    plt.legend()
+    plt.tight_layout()
+    scatter_path = os.path.join(settings.BASE_DIR, 'dsapp/static/', 'study_time_scatter.png')
+    plt.savefig(scatter_path)
+    plt.close()
+
+    # Bar Charts for Activity Count and Active Days
+    summary = df.groupby('Cluster')[['activity_count', 'active_days']].mean().reset_index()
+
+    for feature in ['activity_count', 'active_days']:
+        plt.figure(figsize=(8, 5))
+        sns.barplot(data=summary, x='Cluster', y=feature, palette='Set2')
+        plt.title(f'Average {feature.replace("_", " ").title()} per Cluster')
+        plt.xlabel('Cluster')
+        plt.ylabel(feature.replace("_", " ").title())
+        plt.tight_layout()
+        path = os.path.join(settings.BASE_DIR, 'dsapp/static/', f'plot_{feature}.png')
+        plt.savefig(path)
+        plt.close()
+
 def predict_cluster(request):
     if request.method == 'POST':
-        student_id = request.POST.get('student_id')
         total_study_time = float(request.POST.get('total_study_time'))
         avg_study_time = float(request.POST.get('avg_study_time'))
         activity_count = float(request.POST.get('activity_count'))
         active_days = float(request.POST.get('active_days'))
 
         data = np.array([[total_study_time, avg_study_time, activity_count, active_days]])
+
+        # Latih ulang model dengan k yang dipilih
+        df = pd.read_csv(os.path.join(settings.BASE_DIR, 'grade_dataset.csv'))
+        features = ['total_study_time', 'avg_study_time', 'activity_count', 'active_days']
+        X_scaled = scaler.transform(df[features])
+        kmeans_model = KMeans(n_clusters=2, random_state=42)
+        kmeans_model.fit(X_scaled)
+
+        # Prediksi untuk input user
         scaled_data = scaler.transform(data)
         cluster = kmeans_model.predict(scaled_data)[0]
-        pca_result = pca.transform(scaled_data)[0]
 
+        # Generate ulang visualisasi
+        generate_cluster_visualizations(total_study_time, avg_study_time)
+
+        # Analisis & Rekomendasi
         if cluster == 1:
             analysis = "This student shows minimal engagement with very little LMS usage."
             recommendation = "Encourage the student through personalized support and reminders to access learning materials regularly."
         elif cluster == 0 and total_study_time > 10:
             analysis = "This student is highly engaged with consistent LMS usage."
             recommendation = "Provide advanced tasks or self-paced learning modules to maintain motivation."
-
         else:
             analysis = "This student shows moderate engagement with steady learning patterns."
             recommendation = "Maintain current learning pace and give weekly feedback."
 
 
-        # Simpan plot visualisasi
-        generate_cluster_plot(pca, kmeans_model, scaler, pca_result)
-
-        # Simpan hasil ke DB
-        PredictionResult.objects.create(
-            student_id=student_id,
-            total_study_time=total_study_time,
-            avg_study_time=avg_study_time,
-            activity_count=activity_count,
-            active_days=active_days,
-            cluster=cluster,
-            pca_x=pca_result[0],
-            pca_y=pca_result[1],
-        )
-
-        context = {
+        return render(request, 'result.html', {
             'cluster': cluster,
-            'pca_x': round(pca_result[0], 2),
-            'pca_y': round(pca_result[1], 2),
-            'plot_path': 'static/cluster_plot.png',
-            'student_id': student_id,
             'total_study_time': total_study_time,
             'avg_study_time': avg_study_time,
             'activity_count': activity_count,
             'active_days': active_days,
             'analysis': analysis,
             'recommendation': recommendation,
-
-        }
-
-        return render(request, 'result.html', context)
+        })
 
     return render(request, 'predict_form.html')
 
 
-def generate_cluster_plot(pca, kmeans_model, scaler, user_point_pca):
-    # Load ulang dataset lama
-    df = pd.read_csv(os.path.join(settings.BASE_DIR, 'grade_dataset.csv'))
-    features = ['total_study_time', 'avg_study_time', 'activity_count', 'active_days']
-    X_scaled = scaler.transform(df[features])
-    X_pca = pca.transform(X_scaled)
-    labels = kmeans_model.predict(X_scaled)
-
-    # Buat DataFrame hasil PCA
-    pca_df = pd.DataFrame(X_pca, columns=['PC1', 'PC2'])
-    pca_df['Cluster'] = labels
-
-    # Plot
-    plt.figure(figsize=(8, 6))
-    sns.scatterplot(data=pca_df, x='PC1', y='PC2', hue='Cluster', palette='Set1', s=50)
-    
-    # Titik user
-    plt.scatter(user_point_pca[0], user_point_pca[1], c='black', s=100, marker='X', label='Input Mahasiswa')
-    plt.legend()
-    plt.title("Visualisasi Clustering Mahasiswa (PCA)")
-    
-    # Simpan ke static
-    plot_path = os.path.join(settings.BASE_DIR, 'dsapp/static/', 'cluster_plot.png')
-    plt.savefig(plot_path)
-    plt.close()
-
-def get_cluster_characteristics():
-    from .models import PredictionResult
-    import pandas as pd
-
-    queryset = PredictionResult.objects.all().values()
-    df = pd.DataFrame(queryset)
-
-    if df.empty:
-        return []
-
-    grouped = df.groupby('cluster').agg({
-        'total_study_time': 'mean',
-        'avg_study_time': 'mean',
-        'activity_count': 'mean',
-        'active_days': 'mean',
-        'cluster': 'count'
-    }).rename(columns={'cluster': 'count'})
-
-    characteristics = []
-    for idx, row in grouped.iterrows():
-        characteristics.append({
-            'cluster': idx,
-            'count': int(row['count']),
-            'total_study_time': round(row['total_study_time'], 2),
-            'avg_study_time': round(row['avg_study_time'], 2),
-            'activity_count': round(row['activity_count'], 2),
-            'active_days': round(row['active_days'], 2),
-        })
-
-    return characteristics
-
 def search_cluster(request):
-    query = request.GET.get('student_id')  # ⬅️ make sure form uses this name
+    query = request.GET.get('student_id')
     result = None
-    analysis = None
-    recommendation = None
+    cluster = None
+    features = None
+    cluster_members = []
+
     if query:
-        result = PredictionResult.objects.filter(student_id=query).last()
+        try:
+            student = Student.objects.get(stu_id=query)
+            logs = StudentActivityLog.objects.filter(stu_id=student)
 
-        if result:
-            # regenerate PCA plot for the found student
-            data = np.array([[result.total_study_time, result.avg_study_time, result.activity_count, result.active_days]])
+            logs = logs.annotate(duration=ExpressionWrapper(F('activity_end') - F('activity_start'), output_field=DurationField()))
+            total_study_time = logs.aggregate(total=Sum('duration'))['total']
+            total_hours = round(total_study_time.total_seconds() / 3600, 2) if total_study_time else 0
+            avg_hours = round(total_hours / logs.count(), 2) if logs.count() > 0 else 0
+            activity_count = logs.count()
+            active_days = logs.dates('activity_start', 'day').distinct().count()
+
+            df = pd.read_csv(os.path.join(settings.BASE_DIR, 'grade_dataset.csv'))
+            features_list = ['total_study_time', 'avg_study_time', 'activity_count', 'active_days']
+            X = df[features_list]
+            scaled_all = scaler.transform(X)
+
+            kmeans_model = KMeans(n_clusters=2, random_state=42)
+            kmeans_model.fit(scaled_all)
+
+            data = np.array([[total_hours, avg_hours, activity_count, active_days]])
             scaled = scaler.transform(data)
-            pca_point = pca.transform(scaled)[0]
-            generate_cluster_plot(pca, kmeans_model, scaler, pca_point)
+            cluster = kmeans_model.predict(scaled)[0]
 
-            # ANALYSIS & RECOMMENDATION based on cluster
-            if result.cluster == 1:
-                analysis = "This student shows minimal engagement with very little LMS usage."
-                recommendation = "Encourage the student through personalized support and reminders to access learning materials regularly."
-            elif result.cluster == 0 and result.total_study_time > 10:
-                analysis = "This student is highly engaged with consistent LMS usage."
-                recommendation = "Provide advanced tasks or self-paced learning modules to maintain motivation."
-            else:
-                analysis = "This student shows moderate engagement with steady learning patterns."
-                recommendation = "Maintain current learning pace and give weekly feedback."
+            generate_cluster_visualizations(total_hours, avg_hours)
+
+
+
+
+            features = {
+                'student_id': student.stu_id,
+                'name': student.name,
+                'total_study_time': total_hours,
+                'avg_study_time': avg_hours,
+                'activity_count': activity_count,
+                'active_days': active_days,
+                'cluster': cluster,
+            }
+
+            # Cari student lain dalam cluster yang sama
+            all_students = Student.objects.exclude(stu_id=student.stu_id)
+            for s in all_students:
+                logs = StudentActivityLog.objects.filter(stu_id=s)
+                logs = logs.annotate(duration=ExpressionWrapper(F('activity_end') - F('activity_start'), output_field=DurationField()))
+                total = logs.aggregate(total=Sum('duration'))['total']
+                total_h = round(total.total_seconds() / 3600, 2) if total else 0
+                avg_h = round(total_h / logs.count(), 2) if logs.count() > 0 else 0
+                count = logs.count()
+                days = logs.dates('activity_start', 'day').distinct().count()
+
+                d = np.array([[total_h, avg_h, count, days]])
+                pred = kmeans_model.predict(scaler.transform(d))[0]
+
+                if pred == cluster:
+                    cluster_members.append({
+                        'name': s.name,
+                        'student_id': s.stu_id,
+                        'total_study_time': total_h,
+                        'avg_study_time': avg_h,
+                        'activity_count': count,
+                        'active_days': days
+                    })
+
+        except Student.DoesNotExist:
+            student = None
 
     return render(request, 'search_result.html', {
-        'result': result,
+        'result': features,
+        'cluster': cluster,
+        'cluster_members': cluster_members,
         'plot_path': 'static/cluster_plot.png',
-        'analysis': analysis,
-        'recommendation': recommendation
-})
+    })

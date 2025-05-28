@@ -93,54 +93,95 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createRadarConfig(data) {
-        return {
-            type: 'radar',
-            data: {
-                labels: Object.keys(data),
-                datasets: [{
-                    label: 'Predicted Grade',
-                    data: Object.values(data),
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgb(54, 162, 235)',
-                }]
+    return {
+        type: 'radar',
+        data: {
+            labels: Object.keys(data),
+            datasets: [{
+                label: 'Predicted Grade',
+                data: Object.values(data),
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgb(54, 162, 235)',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            size: 20 // Ukuran font label legend
+                        }
+                    }
+                }
             },
-            options: {
-                scales: {
-                    r: {
-                        beginAtZero: true,
-                        min: 50,
-                        max: 100,
-                        ticks: { stepSize: 10 }
+            scales: {
+                r: {
+                    beginAtZero: true,
+                    min: 50,
+                    max: 100,
+                    ticks: {
+                        stepSize: 10,
+                        font: {
+                            size: 15 // Ukuran font angka di sumbu
+                        }
+                    },
+                    pointLabels: {
+                        font: {
+                            size: 18 // Ukuran font label seperti Quiz, Forum, dll
+                        }
                     }
                 }
             }
-        };
-    }
+        }
+    };
+}
 
     function createBarConfig(data, label, bounds = [0, null]) {
-        return {
-            type: 'bar',
-            data: {
-                labels: Object.keys(data),
-                datasets: [{
-                    label: label,
-                    data: Object.values(data),
-                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 1
-                }]
+    return {
+        type: 'bar',
+        data: {
+            labels: Object.keys(data),
+            datasets: [{
+                label: label,
+                data: Object.values(data),
+                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            size: 20 // Ukuran font legenda
+                        }
+                    }
+                }
             },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: bounds[0] === 0,
-                        min: bounds[0],
-                        max: bounds[1]
+            scales: {
+                x: {
+                    ticks: {
+                        font: {
+                            size: 18 // Ukuran font label sumbu X
+                        }
+                    }
+                },
+                y: {
+                    beginAtZero: bounds[0] === 0,
+                    min: bounds[0],
+                    max: bounds[1],
+                    ticks: {
+                        font: {
+                            size: 18 // Ukuran font label sumbu Y
+                        }
                     }
                 }
             }
-        };
-    }
+        }
+    };
+}
 
     // Default to showing existing student tab
     showTab('existing');

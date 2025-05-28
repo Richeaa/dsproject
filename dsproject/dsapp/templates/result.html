@@ -2,31 +2,54 @@
 {% load static %}
 
 {% block content %}
-<link rel="stylesheet" href="{% static '/css/style.css' %}" />
-<div class="search-page">
-  <div class="container">
-    <center><p><strong>Prediction Results</strong> </p></center>
-    <p><strong>Predicted Cluster:</strong> <span id="cluster">{{ cluster }}</span></p>
-    <p><strong>Student ID:</strong> {{ student_id }}</p>
-    <p><strong>Total Study Time:</strong> <span id="total-study">{{ total_study_time }}</span> hours</p>
-    <p><strong>Average Study Time:</strong> {{ avg_study_time }} hours</p>
-    <p><strong>PCA Coordinates:</strong> ({{ pca_x }}, {{ pca_y }})</p>
-    <img src="/{{ plot_path }}" alt="Cluster Visualization" class="img-fluid mt-3">
-    <div class="action-buttons">
-      
-      <a href="{% url 'predict_cluster' %}" class="btn btn-primary">Make Another Prediction</a>
-    </div>
-    
-    <div class="cluster-description">
-      <h3>Cluster Analysis</h3>
-      <p>
-        {{analysis}}
-      </p>
-      <div id="recommendation-box" class="p-4 border rounded bg-blue-50 mt-6 shadow-md">
-  <h3 class="text-lg font-semibold text-blue-800">Learning Recommendation</h3>
-  <p id="recommendation-text" class="mt-2 text-blue-700">{{recommendation}}</p>
-</div>
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<main>
+  <div class="search-page">
+    <div class="container">
+
+      <!-- Centered & Enlarged Title -->
+      <div class="result-title">
+        <h2>Prediction Result</h2>
+        <p>Below is the result of your student learning cluster prediction</p>
+      </div>
+
+      <!-- Result Box -->
+      <div class="form-container">
+        <div class="profile-box">
+          <p><strong>Predicted Cluster:</strong> {{ cluster }}</p>
+          <p><strong>Total Study Time:</strong> {{ total_study_time }} hours</p>
+          <p><strong>Average Study Time:</strong> {{ avg_study_time }} hours</p>
+          <p><strong>Activity Count:</strong> {{ activity_count }}</p>
+          <p><strong>Active Days:</strong> {{ active_days }}</p>
+        </div>
+
+        <div class="cluster-description">
+          <div id="recommendation-box">
+            <h4>Cluster Analysis</h4>
+            <p>{{ analysis }}</p>
+          </div>
+          <div id="recommendation-box"> 
+            <h4>Recommendation</h4>
+            <p>{{ recommendation }}</p>
+          </div>
+        </div>
+
+        <!-- Visualization Images (One by One, Centered) -->
+        <div class="visual-grid">
+          <img src="{% static 'study_time_scatter.png' %}" alt="Position Scatterplot">
+          <img src="{% static 'cluster_donut.png' %}" alt="Donut Chart">
+          <img src="{% static 'plot_activity_count.png' %}" alt="Activity Count Bar">
+          <img src="{% static 'plot_active_days.png' %}" alt="Active Days Bar">
+        </div>
+
+        <!-- Button -->
+        <div class="form-actions" style="justify-content: center;">
+          <a href="{% url 'predict_cluster' %}" class="btn btn-primary">🔁 Make Another Prediction</a>
+        </div>
+
+      </div>
     </div>
   </div>
-</div>
+</main>
 {% endblock %}

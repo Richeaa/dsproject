@@ -2,69 +2,52 @@
 {% load static %}
 
 {% block content %}
-<link rel="stylesheet" href="{% static '/css/style.css' %}" />
+<main>
+<link rel="stylesheet" href="{% static 'style.css' %}">
 <div class="prediction-container">
   <div class="prediction-header">
+    <strong><h2>Student Cluster Prediction</h2></strong>
+    <strong><p>Enter data to predict their learning behavior cluster</p></strong>
 
-    <h2>Student Cluster Prediction</h2>
-    <p class="subtitle">Enter student data to predict their learning behavior cluster</p>
+    <div class="form-actions" style="justify-content: center;">
+  <a href="{% url 'search_cluster' %}" class="btn btn-primary">Existing Student</a>
+</div>
   </div>
-
-  <div class="form-container">
-    <form method="POST" class="prediction-form">
+    <form method="POST" action="{% url 'predict_cluster' %}" class="prediction-form">
       {% csrf_token %}
-      
-      <div class="form-group">
-        <label for="student_id">Student ID:</label>
-        <input type="text" id="student_id" name="student_id" placeholder="e.g. S12345" required>
-        <small class="form-hint">Unique student identifier</small>
-      </div>
 
       <div class="form-row">
         <div class="form-group">
-          <label for="total_study_time">Total Study Time (hours):</label>
-          <input type="number" step="0.1" id="total_study_time" name="total_study_time" 
-                 placeholder="e.g. 25.5" min="0" required>
-          <small class="form-hint">Sum of all study sessions</small>
+          <label>Total Study Time (hours)</label>
+          <input type="number" step="any" name="total_study_time" required>
         </div>
 
         <div class="form-group">
-          <label for="avg_study_time">Average Study Time (hours):</label>
-          <input type="number" step="0.1" id="avg_study_time" name="avg_study_time" 
-                 placeholder="e.g. 2.5" min="0" required>
-          <small class="form-hint">Per session average</small>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label for="activity_count">Activity Count:</label>
-          <input type="number" id="activity_count" name="activity_count" 
-                 placeholder="e.g. 15" min="0" required>
-          <small class="form-hint">Total LMS interactions</small>
+          <label>Average Study Time (hours)</label>
+          <input type="number" step="any" name="avg_study_time" required>
         </div>
 
         <div class="form-group">
-          <label for="active_days">Active Days:</label>
-          <input type="number" id="active_days" name="active_days" 
-                 placeholder="e.g. 7" min="0" max="30" required>
-          <small class="form-hint">Days with recorded activity</small>
+          <label>Activity Count</label>
+          <input type="number" name="activity_count" required>
+        </div>
+
+        <div class="form-group">
+          <label>Active Days</label>
+          <input type="number" name="active_days" required>
         </div>
       </div>
 
       <div class="form-actions">
-        <button type="submit" class="btn btn-primary">
-          <span class="icon">📊</span> Predict Cluster
-        </button>
+        <button type="submit" class="btn btn-primary">Predict Cluster</button>
         <button type="reset" class="btn btn-secondary">Clear Form</button>
       </div>
     </form>
-  </div>
 
-  <div class="alternative-action">
-    <p>Looking for an existing student? <a href="{% url 'search_cluster' %}" class="search-link">
-      <span class="icon">🔍</span> Search Student Cluster
-    </a></p>
+    <div class="alternative-action">
+      <p>Looking for an existing student? <a class="search-link" href="{% url 'search_cluster' %}">Search Student Cluster</a></p>
+    </div>
   </div>
 </div>
+</main>
 {% endblock %}
