@@ -13,4 +13,4 @@ gunicorn = "*"
 python_version = "3.12"
 
 [scripts]
-start = "gunicorn dsproject.wsgi"
+start = "gunicorn dsproject.dsproject.wsgi"
