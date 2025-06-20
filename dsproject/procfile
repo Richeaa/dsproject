@@ -1,1 +1,1 @@
-web: gunicorn dsproject.wsgi
+web: pipenv run gunicorn dsproject.wsgi
